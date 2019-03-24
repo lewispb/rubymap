@@ -24,6 +24,8 @@ gem "turbolinks", "~> 5"
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem "jbuilder", "~> 2.5"
 
+gem "webpacker"
+
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", ">= 1.1.0", require: false
 
@@ -33,6 +35,7 @@ group :development, :test do
   gem "standard"
   gem "rspec-rails"
   gem "factory_bot"
+  gem "dotenv-rails"
 end
 
 group :development do

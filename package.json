@@ -1,5 +1,12 @@
 {
   "name": "rubymap",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "@rails/webpacker": "^4.0.2",
+    "dotenv-webpack": "^1.7.0",
+    "load-google-maps-api": "^1.3.2"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^3.2.1"
+  }
 }
