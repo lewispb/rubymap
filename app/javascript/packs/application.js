@@ -18,16 +18,25 @@
 require("./stylesheets/application.scss")
 
 const loadGoogleMapsApi = require('load-google-maps-api')
- 
+
 window.onload = function () {
   loadGoogleMapsApi({ key: process.env.GOOGLE_MAPS_API_KEY }).then(function (googleMaps) {
-    new googleMaps.Map(document.querySelector('.map'), {
+    map = new googleMaps.Map(document.querySelector('.map'), {
       center: {
         lat: 40.7484405,
         lng: -73.9944191
       },
       zoom: 12
     })
+    var infowindow = new googleMaps.InfoWindow();
+    map.data.loadGeoJson("locations.json");
+    map.data.addListener("click", function(event) {
+      var myHTML = event.feature.getProperty("description");
+      infowindow.setContent("<div style='width:150px;'>"+myHTML+"</div>");
+      infowindow.setPosition(event.feature.getGeometry().get());
+      infowindow.setOptions({pixelOffset: new google.maps.Size(0,-30)});
+      infowindow.open(map);
+    });
   }).catch(function (error) {
     console.error(error)
   })
