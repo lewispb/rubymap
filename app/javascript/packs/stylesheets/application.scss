@@ -1,4 +1,22 @@
-.map {
-  width: 500px;
-  height: 500px;
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation {
+  height: 50px;
+  width: 100%;
+  display: block;
+  background: #7a3130;
+  img {
+    max-height: 50px;
+  }
+}
+
+.map-container {
+  height: 100%;
+  > div, div .map {
+    height: inherit;
+  }
 }

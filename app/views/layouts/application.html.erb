@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Rubymap</title>
+    <title>Ruby Map</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -10,7 +10,12 @@
   </head>
 
   <body>
+    <div class="navigation">
+      <div class="logo">
+        <%= image_pack_tag "media/packs/images/logo.png" %>
+      </div>
+    </div>
+
     <%= yield %>
-    <div class="map"></div>
   </body>
 </html>

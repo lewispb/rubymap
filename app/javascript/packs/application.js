@@ -28,7 +28,24 @@ window.onload = function () {
       },
       zoom: 12
     })
+
     var infowindow = new googleMaps.InfoWindow();
+    // Try HTML5 geolocation.
+    if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition(function(position) {
+        var pos = {
+          lat: position.coords.latitude,
+          lng: position.coords.longitude
+        };
+        map.setCenter(pos);
+      }, function(e) {
+        console.log(e);
+      });
+    } else {
+      // Browser doesn't support Geolocation
+      console.log('error');
+    }
+
     map.data.loadGeoJson("locations.json");
     map.data.addListener("click", function(event) {
       var myHTML = event.feature.getProperty("description");
@@ -41,4 +58,3 @@ window.onload = function () {
     console.error(error)
   })
 }
-
