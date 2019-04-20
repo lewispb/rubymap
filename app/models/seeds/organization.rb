@@ -4,18 +4,19 @@ module Seeds
 
   	def import
       locations.each do |location|
-        Location.create!(
-          organization: organization,
-          address: location["address"],
-          coords: "POINT(#{geocoded_coords(location["address"]).join(" ")})"
-        )
+        Location.find_or_create_by!(organization: organization, address: location["address"]) do |location|
+          location.coords = "SRID=4326;POINT(#{geocoded_coords(location["address"]).reverse.join(" ")})"
+        end
       end
   	end
 
     private
 
       def organization
-        @_organization ||= ::Organization.create(name: name)
+        @_organization ||= ::Organization.find_or_create_by!(name: name) do |organization|
+          organization.org_type = type
+          organization.url = url
+        end
       end
 
       def geocoded_coords(address)

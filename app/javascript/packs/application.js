@@ -26,10 +26,11 @@ window.onload = function () {
         lat: 40.7484405,
         lng: -73.9944191
       },
-      zoom: 12
+      zoom: 8
     })
 
     var infowindow = new googleMaps.InfoWindow();
+
     // Try HTML5 geolocation.
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition(function(position) {
@@ -43,7 +44,6 @@ window.onload = function () {
       });
     } else {
       // Browser doesn't support Geolocation
-      console.log('error');
     }
 
     map.data.loadGeoJson("locations.json");
