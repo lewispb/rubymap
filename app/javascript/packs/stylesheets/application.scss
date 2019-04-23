@@ -25,12 +25,15 @@ html, body {
     height: 100%;
 
     .location-description {
-      width: 300px;
       min-height: 100px;
+      h1 {
+        line-height: 1.3rem;
+      }
       a {
         color: $dark-red;
         font-weight: normal;
-        font-size: 1em;
+        font-size: 1rem;
+        word-break: break-all;
         &:hover {
           text-decoration-style: dashed;
         }
