@@ -4,6 +4,11 @@
   locations:
     - address: Broad Plain, Bristol
     - address: Ebisu Garden Place Tower, 12/F, 4-20-3 Ebisu, Tokyo, 150-6012, Japan
+- name: SUSE Linux GmbH
+  type: business
+  url: https://www.suse.com/
+  locations:
+    - address: Maxfeldstrasse 5, Nuremberg
 - name: Department for Environment Food & Rural Affairs
   type: business
   url: https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs
