@@ -1,3 +1,4 @@
 class Organization < ApplicationRecord
-    enum org_type: { business: :business }
+  validates :name, presence: true
+  enum org_type: { business: :business }
 end

@@ -1,3 +1,5 @@
+$dark-red: #7a3130;
+
 html, body {
   height: 100%;
   margin: 0;
@@ -8,7 +10,7 @@ html, body {
   height: 50px;
   width: 100%;
   display: block;
-  background: #7a3130;
+  background: $dark-red;
   img {
     max-height: 50px;
   }
@@ -21,5 +23,18 @@ html, body {
   width: 100%;
   .map {
     height: 100%;
+
+    .location-description {
+      width: 300px;
+      min-height: 100px;
+      a {
+        color: $dark-red;
+        font-weight: normal;
+        font-size: 1em;
+        &:hover {
+          text-decoration-style: dashed;
+        }
+      }
+    }
   }
 }

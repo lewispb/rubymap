@@ -16,8 +16,7 @@
 // const imagePath = (name) => images(name, true)
 
 require('./stylesheets/application.scss')
-$ = require('jquery')
-
+const $ = require('jquery')
 const loadGoogleMapsApi = require('load-google-maps-api')
 
 function initializeMap() {
@@ -49,8 +48,8 @@ function initializeMap() {
 
     map.data.loadGeoJson("locations.json");
     map.data.addListener("click", function(event) {
-      var myHTML = event.feature.getProperty("description");
-      infowindow.setContent("<div style='width:200px;'>"+myHTML+"</div>");
+      var descriptionHtml = event.feature.getProperty("description");
+      infowindow.setContent(descriptionHtml);
       infowindow.setPosition(event.feature.getGeometry().get());
       infowindow.setOptions({pixelOffset: new google.maps.Size(0,-30)});
       infowindow.open(map);

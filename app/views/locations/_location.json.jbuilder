@@ -4,5 +4,5 @@ json.geometry do
   json.coordinates location.coords.coordinates
 end
 json.properties do
-  json.description location.organization.name.to_s + "\n" + location.organization.url.to_s + "\n" + location.address.to_s
+  json.description render partial: 'locations/description.html.erb', locals: { location: location }
 end
