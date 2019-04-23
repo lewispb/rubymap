@@ -1,0 +1,53 @@
+@import "variables";
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    color: $dark-red;
+    &:hover {
+      text-decoration-style: dashed;
+    }
+  }
+  
+  .navigation {
+    height: 50px;
+    width: 100%;
+    display: block;
+    background: $dark-red;
+    img {
+      max-height: 50px;
+      padding: 0 10px;
+    }
+    #about {
+      float: right;
+      color: #fff;
+      padding: 1rem;
+      font-family: sans-serif;
+    }
+  }
+  
+  .map-container {
+    position: absolute;
+    top: 50px;
+    bottom: 0;
+    width: 100%;
+    .map {
+      height: 100%;
+  
+      .location-description {
+        min-height: 100px;
+        h1 {
+          line-height: 1.3rem;
+        }
+        a {
+          font-weight: normal;
+          font-size: 1rem;
+          word-break: break-all;
+        }
+      }
+    }
+  }
