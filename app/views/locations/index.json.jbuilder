@@ -7,7 +7,7 @@ json.features @locations.each do |location|
   end
   json.properties do
     json.description do
-      location.organization.name + "\n" + location.organization.url + "\n" + location.address
+      location.organization.name.to_s + "\n" + location.organization.url.to_s + "\n" + location.address.to_s
     end
   end
 end
