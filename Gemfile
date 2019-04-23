@@ -38,6 +38,7 @@ group :test do
   gem "chromedriver-helper"
   gem "launchy"
   gem "rails-controller-testing"
+  gem "rspec_junit_formatter"
   gem "selenium-webdriver"
   gem "utensils"
 end
