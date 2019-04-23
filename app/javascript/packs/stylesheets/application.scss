@@ -1,9 +1,18 @@
 $dark-red: #7a3130;
 
+@import "modal";
+
 html, body {
   height: 100%;
   margin: 0;
   padding: 0;
+}
+
+a {
+  color: $dark-red;
+  &:hover {
+    text-decoration-style: dashed;
+  }
 }
 
 .navigation {
@@ -13,6 +22,13 @@ html, body {
   background: $dark-red;
   img {
     max-height: 50px;
+    padding: 0 10px;
+  }
+  #about {
+    float: right;
+    color: #fff;
+    padding: 1rem;
+    font-family: sans-serif;
   }
 }
 
@@ -30,13 +46,9 @@ html, body {
         line-height: 1.3rem;
       }
       a {
-        color: $dark-red;
         font-weight: normal;
         font-size: 1rem;
         word-break: break-all;
-        &:hover {
-          text-decoration-style: dashed;
-        }
       }
     }
   }

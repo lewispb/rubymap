@@ -14,9 +14,33 @@
     <div class="navigation">
       <div class="logo">
         <%= image_pack_tag "media/packs/images/logo.png" %>
+        <%= link_to "What's this all about?", "#about", id: "about", data: { micromodal_trigger: "modal-1" } %>
       </div>
     </div>
 
     <%= yield %>
+
+    <div class="modal micromodal-slide" id="modal-1" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+        <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+          <header class="modal__header">
+            <h2 class="modal__title" id="modal-1-title">
+              About Ruby Map
+            </h2>
+            <button class="modal__close" aria-label="Close modal" data-micromodal-close></button>
+          </header>
+          <main class="modal__content" id="modal-1-content">
+            <p>Whilst travelling to other cities I've often wondered: "What's going on in the local Ruby community?"</p>
+            <p>To answer this question, hopefully fellow Rubyists will <a href="https://github.com/lewispb/rubymap/blob/master/data/seeds/organizations.yml">share their organization / meetup / events</a> and anyone interested will be able to discover the Ruby world around them!</p>
+            <p>Sometimes folks are interesting in finding a new gig, in a new location. Ruby Map might be useful for that too, if companies share if they are hiring.</p>
+            <p>Any questions? Contact me, <a href="https://github.com/lewispb">Lewis</a>.</p>
+          </main>
+          <footer class="modal__footer">
+            <button class="modal__btn" data-micromodal-close aria-label="Close this dialog window">Close</button>
+          </footer>
+        </div>
+      </div>
+    </div>
+
   </body>
 </html>
