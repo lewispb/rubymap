@@ -1,2 +1,8 @@
-json.extract! location, :id, :address, :organization_id, :coords, :created_at, :updated_at
-json.url location_url(location, format: :json)
+json.type "Feature"
+json.geometry do
+  json.type "Point"
+  json.coordinates location.coords.coordinates
+end
+json.properties do
+  json.description location.organization.name.to_s + "\n" + location.organization.url.to_s + "\n" + location.address.to_s
+end
