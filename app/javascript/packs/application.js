@@ -15,11 +15,12 @@
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
 
-require("./stylesheets/application.scss")
+require('./stylesheets/application.scss')
+$ = require('jquery')
 
 const loadGoogleMapsApi = require('load-google-maps-api')
 
-window.onload = function () {
+function initializeMap() {
   loadGoogleMapsApi({ key: process.env.GOOGLE_MAPS_API_KEY }).then(function (googleMaps) {
     map = new googleMaps.Map(document.querySelector('.map'), {
       center: {
@@ -49,7 +50,7 @@ window.onload = function () {
     map.data.loadGeoJson("locations.json");
     map.data.addListener("click", function(event) {
       var myHTML = event.feature.getProperty("description");
-      infowindow.setContent("<div style='width:150px;'>"+myHTML+"</div>");
+      infowindow.setContent("<div style='width:200px;'>"+myHTML+"</div>");
       infowindow.setPosition(event.feature.getGeometry().get());
       infowindow.setOptions({pixelOffset: new google.maps.Size(0,-30)});
       infowindow.open(map);
@@ -58,3 +59,5 @@ window.onload = function () {
     console.error(error)
   })
 }
+
+$(document).ready(initializeMap);
