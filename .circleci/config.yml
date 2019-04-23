@@ -13,10 +13,12 @@ jobs:
           PGUSER: root
           RAILS_ENV: test
           GOOGLE_MAPS_API_KEY: XXXXXXXXXXXXX
-      - image: circleci/postgres:10.4-alpine
-        environment:
-          POSTGRES_USER: root
-          POSTGRES_DB: rubymap_test
+      - image: mdillon/postgis:9.5
+        env:
+          - POSTGRES_USER=root
+          - PGUSER=postgrrootes
+          - POSTGRES_DB=rubymap_test
+          - POSTGRES_PASSWORD=
 
     working_directory: ~/repo
 
@@ -35,7 +37,7 @@ jobs:
             echo 'export BUNDLER_VERSION=$(cat Gemfile.lock | tail -1 | tr -d " ")' >> $BASH_ENV
             source $BASH_ENV
             gem install bundler
-            
+
       - run:
           name: install dependencies
           command: |
