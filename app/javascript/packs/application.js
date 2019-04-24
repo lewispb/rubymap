@@ -11,7 +11,7 @@ function initializeMap() {
         lat: 51.454514,
         lng: -2.587910
       },
-      zoom: 8
+      zoom: 6
     })
 
     var infowindow = new googleMaps.InfoWindow();
