@@ -1,4 +1,4 @@
-# Rubymap
+# Ruby Map
 
 Whilst travelling to other cities I've often wondered: "What's going on in the local Ruby community?"
 To answer this question, hopefully fellow Rubyists will share their organization / meetup / events and anyone interested will be able to discover the Ruby world around them!
