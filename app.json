@@ -60,7 +60,7 @@
   },
   "name": "rubymap",
   "scripts": {
-    "postdeploy": "bundle exec rail db:seed"
+    "postdeploy": "bundle exec rails db:seed"
   },
   "stack": "heroku-18"
 }
