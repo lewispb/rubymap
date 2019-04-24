@@ -15,3 +15,21 @@
   url: https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs
   locations:
     - address: Horizon House, Deanery Rd, Bristol BS1 5TL
+- name: Shopify
+  type: business
+  url: https://www.shopify.com/careers/locations
+  locations:
+    - address: Toronto
+    - address: Montreal
+    - address: Ottawa
+    - address: Waterloo
+- name: Basecamp
+  type: business
+  url: https://basecamp.com/about/office
+  locations:
+    - address: Chicago
+- name: GitHub
+  type: business
+  url: https://github.com/about
+  locations:
+    - address: San Francisco
