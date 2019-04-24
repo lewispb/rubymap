@@ -33,3 +33,8 @@
   url: https://github.com/about
   locations:
     - address: San Francisco
+- name: South West Ruby Meetup
+  type: business # need to change this to meetup
+  url: https://www.meetup.com/south-west-ruby/
+  locations:
+    - address: Broad Plain, Bristol
