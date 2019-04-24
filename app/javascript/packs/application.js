@@ -8,10 +8,10 @@ function initializeMap() {
   loadGoogleMapsApi({ key: process.env.GOOGLE_MAPS_API_KEY }).then(function (googleMaps) {
     map = new googleMaps.Map(document.querySelector('.map'), {
       center: {
-        lat: 40.7484405,
-        lng: -73.9944191
+        lat: 51.454514,
+        lng: -2.587910
       },
-      zoom: 8
+      zoom: 6
     })
 
     var infowindow = new googleMaps.InfoWindow();
