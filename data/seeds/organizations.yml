@@ -94,3 +94,8 @@
   url: https://charanga.com
   locations:
     - address: 5th floor, Olivier House, 18 Marine Parade, Brighton, BN2 1TL, UK
+- name: Helsinki Ruby Brigade
+  type: meetup
+  url: https://www.meetup.com/rubybrigade
+  locations:
+    - address: Helsinki
