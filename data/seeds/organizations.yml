@@ -53,3 +53,9 @@
   url: https://bathruby.uk
   locations:
     - address: Bath, UK
+- name: Catawiki
+  type: business
+  url: https://catawiki.com
+  locations:
+    - address: Trompenburgstraat 2, 1079 TX Amsterdam, The Netherlands
+    - address: Overcingellaan 5, 9401 LA Assen, The Netherlands
