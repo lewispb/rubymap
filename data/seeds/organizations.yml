@@ -34,7 +34,7 @@
   locations:
     - address: San Francisco
 - name: South West Ruby Meetup
-  type: business # need to change this to meetup
+  type: meetup
   url: https://www.meetup.com/south-west-ruby/
   locations:
     - address: Broad Plain, Bristol
