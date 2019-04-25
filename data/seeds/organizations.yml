@@ -58,6 +58,11 @@
   url: https://bathruby.uk
   locations:
     - address: Bath, UK
+- name: cardiffrb
+  type: meetup
+  url: https://www.cardiffrb.com
+  locations:
+    - address: Cardiff, UK
 - name: Catawiki
   type: business
   url: https://catawiki.com
