@@ -11,7 +11,18 @@ An example PR can be found [here](https://github.com/lewispb/rubymap/pull/1).
 
 ## Prerequisites
 
-`brew install geos`
+```bash
+brew install postgres
+brew install postgis
+brew install geos
+```
 
+Add PostGIS to postgres
 
+```
+$ psql
 
+psql> \c rubymap_development;
+
+psql> CREATE EXTENSION Postgis;
+```
