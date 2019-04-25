@@ -20,9 +20,5 @@ brew install geos
 Add PostGIS to postgres
 
 ```
-$ psql
-
-psql> \c rubymap_development;
-
-psql> CREATE EXTENSION Postgis;
+rake db:gis:setup
 ```
