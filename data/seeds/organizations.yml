@@ -74,3 +74,8 @@
   url: https://www.consonance.app
   locations:
     - address: 55 High St, Thame, OX9 3BH, UK
+- name: North West Ruby User Group
+  type: meetup
+  url: https://nwrug.org/
+  locations:
+    - address: Manchester, UK
