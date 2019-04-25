@@ -1,3 +1,8 @@
+- name: Białystok Ruby Users Group
+  type: meetup
+  url: https://www.facebook.com/groups/BRUGroup/
+  locations:
+    - address: ul. Sienkiewicza 110, Białystok, Poland
 - name: Cookpad
   type: business
   url: https://www.cookpadteam.com
@@ -79,3 +84,8 @@
   url: https://nwrug.org/
   locations:
     - address: Manchester, UK
+- name: 2N IT sp. z o.o.
+  type: business
+  url: https://www.2n.pl
+  locations:
+    - address: ul. Szmaragdowa 4, 15-157 Białystok, Poland
