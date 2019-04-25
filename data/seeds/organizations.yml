@@ -38,6 +38,11 @@
   url: https://www.meetup.com/south-west-ruby/
   locations:
     - address: Broad Plain, Bristol
+- name: KL Ruby Brigade
+  type: meetup
+  url: https://www.meetup.com/ruby-malaysia/
+  locations:
+    - address: Kuala Lumpur, Malaysia
 - name: Cahootify
   type: business
   url: https://cahootify.com
