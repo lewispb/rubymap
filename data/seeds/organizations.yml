@@ -38,3 +38,18 @@
   url: https://www.meetup.com/south-west-ruby/
   locations:
     - address: Broad Plain, Bristol
+- name: Cahootify
+  type: business
+  url: https://cahootify.com
+  locations:
+    - address: The Guild, High Street, Bath, UK
+- name: FreeAgent
+  type: business
+  url: https://www.freeagent.com
+  locations:
+    - address: 133 Fountainbridge, Edinburgh, Scotland, UK
+- name: Bath Ruby
+  type: meetup
+  url: https://bathruby.uk
+  locations:
+    - address: Bath, UK
