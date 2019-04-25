@@ -22,7 +22,7 @@
     - address: Toronto
     - address: Montreal
     - address: Ottawa
-    - address: Waterloo
+    - address: Waterloo, Ontario, Canada
 - name: Basecamp
   type: business
   url: https://basecamp.com/about/office
@@ -38,6 +38,11 @@
   url: https://www.meetup.com/south-west-ruby/
   locations:
     - address: Broad Plain, Bristol
+- name: KL Ruby Brigade
+  type: meetup
+  url: https://www.meetup.com/ruby-malaysia/
+  locations:
+    - address: Kuala Lumpur, Malaysia
 - name: Cahootify
   type: business
   url: https://cahootify.com
@@ -59,3 +64,8 @@
   locations:
     - address: Trompenburgstraat 2, 1079 TX Amsterdam, The Netherlands
     - address: Overcingellaan 5, 9401 LA Assen, The Netherlands
+- name: General Products Ltd – Consonance
+  type: business
+  url: https://www.consonance.app
+  locations:
+    - address: 55 High St, Thame, OX9 3BH, UK
