@@ -114,6 +114,11 @@
   url: https://polydice.github.io
   locations:
     - address: No. 9, Section 2, Roosevelt Road, Taipei, Taiwan
+- name: Dexemhttps://github.com/lewispb/rubymap/pull/25/conflicts
+  type: business
+  url: https://www.dexem.com/en/
+  locations:
+    - address: 4 Avenue des Peupliers, Cesson-Sévigné, France
 - name: Rubyside
   type: meetup
   url: https://www.meetup.com/Rubyside-Meetup/
