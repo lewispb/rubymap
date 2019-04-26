@@ -129,3 +129,8 @@
   url: https://vagas.monde.com.br
   locations:
     - address: Rua Pernambuco, 1466 Americana, SP, Brazil
+- name: Cadena
+  type: business
+  url: https://cadena.com.br
+  locations:
+    - address: Rua Operario Osvaldo dos Santos, 58 Americana, SP, Brazil
