@@ -134,3 +134,9 @@
   url: https://cadena.com.br
   locations:
     - address: Rua Operario Osvaldo dos Santos, 58 Americana, SP, Brazil
+- name: Youse
+  type: business
+  url: https://www.youse.com.br
+  locations:
+    - address: SHN, Quadra 01, Conjunto A, Bloco E, CEP 70701 050 – Brasília DF
+    - address: Cl 93 19-55, Bogotá
