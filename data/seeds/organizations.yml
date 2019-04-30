@@ -140,3 +140,8 @@
   locations:
     - address: SHN, Quadra 01, Conjunto A, Bloco E, CEP 70701 050 – Brasília DF
     - address: Cl 93 19-55, Bogotá
+- name: RubyMN
+  type: meetup
+  url: http://meetu.ps/c/2CVY4/tfF9t/a
+  locations:
+    - address: Minneapolis, MN
