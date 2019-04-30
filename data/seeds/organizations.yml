@@ -145,3 +145,13 @@
   url: http://meetu.ps/c/2CVY4/tfF9t/a
   locations:
     - address: Minneapolis, MN
+- name: thoughtbot
+  type: business
+  url: https://thoughtbot.com
+  locations:
+    - address: 42 Winter St, 7th Floor, Boston, MA, 02108, US
+    - address: 2nd Floor, Griffin Court, 15 Long Lane, London, EC1A 9PN, UK
+    - address: 1601 W 6th St, Austin, TX, 78703, US
+    - address: 1384 Broadway, 20th Floor, New York, NY, 10018, US
+    - address: 213 Fayetteville St, Raleigh, NC, 27601, US
+    - address: 85 2nd St, Suite 700, San Francisco, CA, 94105, US
