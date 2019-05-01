@@ -165,3 +165,8 @@
   url: https://www.meetup.com/IsraelRubyUnderground/
   locations:
     - address: Tel Aviv, Israel
+- name: Vanruby
+  type: meetup 
+  url: http://vanruby.org
+  locations:
+    - address: Vancouver, BC, Canada
