@@ -160,3 +160,8 @@
   url: http://charlotteruby.org
   locations:
     - address: Charlotte, NC
+- name: Vanruby
+  type: meetup 
+  url: http://vanruby.org
+  locations:
+    - address: Vancouver, BC, Canada
