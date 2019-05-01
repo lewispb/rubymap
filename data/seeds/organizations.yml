@@ -160,3 +160,13 @@
   url: http://charlotteruby.org
   locations:
     - address: Charlotte, NC
+- name: Salt Lake City Ruby Brigade (SLC.rb)
+  type: meetup
+  url: https://urug.org/#slc.rb
+  locations:
+    - address: SLCC Miller Corporate Partnership Center, 9690 South 300 West, 3rd flr Room 333, Sandy, UT, US
+- name: SLC Down Ruby Users Group (DRUG)
+  type: meetup
+  url: https://urug.org/#drug
+  locations:
+    - address: Church & State, 370 S 300 E, Salt Lake City, UT 84111, US
