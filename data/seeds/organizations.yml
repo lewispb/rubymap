@@ -170,3 +170,8 @@
   url: http://vanruby.org
   locations:
     - address: Vancouver, BC, Canada
+- name: Asakusa.rb
+  type: meetup
+  url: http://asakusa.rubyist.net/
+  locations:
+    - address: Tokyo
