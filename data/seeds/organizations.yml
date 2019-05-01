@@ -179,7 +179,7 @@
   type: meetup
   url: https://www.meetup.com/ClevelandRuby/
   locations:
-    - 22901 Millcreek Blvd, Highland Hills, OH, US
+    - address: 22901 Millcreek Blvd, Highland Hills, OH, US
 - name: Bold Penguin
   type: business
   url: https://www.boldpenguin.com/
