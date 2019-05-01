@@ -155,3 +155,8 @@
     - address: 1384 Broadway, 20th Floor, New York, NY, 10018, US
     - address: 213 Fayetteville St, Raleigh, NC, 27601, US
     - address: 85 2nd St, Suite 700, San Francisco, CA, 94105, US
+- name: Charlotte Ruby
+  type: meetup
+  url: http://charlotteruby.org
+  locations:
+    - address: Charlotte, NC
