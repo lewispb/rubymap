@@ -160,6 +160,26 @@
   url: http://charlotteruby.org
   locations:
     - address: Charlotte, NC
+- name: Columbus Ruby Brigade
+  type: meetup
+  url: http://www.columbusrb.com/
+  locations:
+    - address: 2 Miranova Pl, Columbus, OH, 43215, US
+- name: Cincinnati Ruby Brigade
+  type: meetup
+  url: http://cincyrb.com/
+  locations:
+    - address: 708 Walnut Street, Cincinnati, OH, 45202, US
+- name: Cleveland Ruby Brigade
+  type: meetup
+  url: https://www.meetup.com/ClevelandRuby/
+  locations:
+    - 22901 Millcreek Blvd, Highland Hills, OH, US
+- name: Bold Penguin
+  type: business
+  url: https://www.boldpenguin.com/
+  locations:
+    - address: 100 E Broad St, 15th Floor, Columbus, OH, 43215, US
 - name: Salt Lake City Ruby Brigade (SLC.rb)
   type: meetup
   url: https://urug.org/#slc.rb
