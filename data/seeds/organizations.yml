@@ -160,3 +160,8 @@
   url: http://charlotteruby.org
   locations:
     - address: Charlotte, NC
+- name: RubyJax
+  type: meetup
+  url: https://www.meetup.com/RubyJax/
+  locations:
+    - address: Jacksonville, FL
