@@ -170,3 +170,18 @@
   url: https://urug.org/#drug
   locations:
     - address: Church & State, 370 S 300 E, Salt Lake City, UT 84111, US
+- name: Ruby Underground Israel
+  type: meetup
+  url: https://www.meetup.com/IsraelRubyUnderground/
+  locations:
+    - address: Tel Aviv, Israel
+- name: Vanruby
+  type: meetup 
+  url: http://vanruby.org
+  locations:
+    - address: Vancouver, BC, Canada
+- name: Asakusa.rb
+  type: meetup
+  url: http://asakusa.rubyist.net/
+  locations:
+    - address: Tokyo
