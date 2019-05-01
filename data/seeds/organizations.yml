@@ -165,3 +165,58 @@
   url: https://www.meetup.com/RubyJax/
   locations:
     - address: Jacksonville, FL
+- name: Columbus Ruby Brigade
+  type: meetup
+  url: http://www.columbusrb.com/
+  locations:
+    - address: 2 Miranova Pl, Columbus, OH, 43215, US
+- name: Cincinnati Ruby Brigade
+  type: meetup
+  url: http://cincyrb.com/
+  locations:
+    - address: 708 Walnut Street, Cincinnati, OH, 45202, US
+- name: Cleveland Ruby Brigade
+  type: meetup
+  url: https://www.meetup.com/ClevelandRuby/
+  locations:
+    - 22901 Millcreek Blvd, Highland Hills, OH, US
+- name: Bold Penguin
+  type: business
+  url: https://www.boldpenguin.com/
+  locations:
+    - address: 100 E Broad St, 15th Floor, Columbus, OH, 43215, US
+- name: Salt Lake City Ruby Brigade (SLC.rb)
+  type: meetup
+  url: https://urug.org/#slc.rb
+  locations:
+    - address: SLCC Miller Corporate Partnership Center, 9690 South 300 West, 3rd flr Room 333, Sandy, UT, US
+- name: SLC Down Ruby Users Group (DRUG)
+  type: meetup
+  url: https://urug.org/#drug
+  locations:
+    - address: Church & State, 370 S 300 E, Salt Lake City, UT 84111, US
+- name: Ruby Underground Israel
+  type: meetup
+  url: https://www.meetup.com/IsraelRubyUnderground/
+  locations:
+    - address: Tel Aviv, Israel
+- name: Vanruby
+  type: meetup 
+  url: http://vanruby.org
+  locations:
+    - address: Vancouver, BC, Canada
+- name: Ruby Meetup Oslo
+  type: meetup
+  url: https://www.meetup.com/Ruby-Meetup-Oslo/
+  locations:
+    - address: Oslo, Norway
+- name: Luca Labs
+  type: business
+  url: www.lucalabs.com
+  locations:
+    - address: Tordenskiolds gate 3, 0160 Oslo, Norway
+- name: Asakusa.rb
+  type: meetup
+  url: http://asakusa.rubyist.net/
+  locations:
+    - address: Tokyo
