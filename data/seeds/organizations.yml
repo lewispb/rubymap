@@ -227,9 +227,14 @@
   url: https://creditdigital.co.uk
   locations:
     - address: 40 Islington High St, The Angel, London N1 8EQ
+- name: Great Lakes Bioenergy Research Center
+  type: business
+  url: https://www.glbrc.org
+  locations:
+    - address: 1552 University Ave, Madison, WI 53726, USA
+    - address: 1129 Farm Ln, East Lansing, MI 48824, USA
 - name: Paris.rb
   type: meetup
   url: https://rubyparis.org/
   locations:
     - address: Paris
-  
