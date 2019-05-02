@@ -6,6 +6,7 @@
 - name: Cookpad
   type: business
   url: https://www.cookpadteam.com
+  twitter_handle: cookpad_dev
   locations:
     - address: Broad Plain, Bristol
     - address: Ebisu Garden Place Tower, 12/F, 4-20-3 Ebisu, Tokyo, 150-6012, Japan
@@ -41,6 +42,7 @@
 - name: South West Ruby Meetup
   type: meetup
   url: https://www.meetup.com/south-west-ruby/
+  twitter_handle: southwestruby
   locations:
     - address: Broad Plain, Bristol
 - name: KL Ruby Brigade
