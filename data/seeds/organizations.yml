@@ -232,3 +232,8 @@
   url: https://sonnengroup.com/
   locations:
     - address: Am Riedbach 1, 87499 Wildpoldsried, Germany
+- name: Paris.rb
+  type: meetup
+  url: https://rubyparis.org/
+  locations:
+    - address: Paris
