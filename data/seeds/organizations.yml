@@ -233,3 +233,8 @@
   locations:
     - address: 1552 University Ave, Madison, WI 53726, USA
     - address: 1129 Farm Ln, East Lansing, MI 48824, USA
+- name: Paris.rb
+  type: meetup
+  url: https://rubyparis.org/
+  locations:
+    - address: Paris
