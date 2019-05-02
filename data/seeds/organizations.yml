@@ -227,3 +227,9 @@
   url: https://creditdigital.co.uk
   locations:
     - address: 40 Islington High St, The Angel, London N1 8EQ
+- name: Paris.rb
+  type: meetup
+  url: https://rubyparis.org/
+  locations:
+    - address: Paris
+  
