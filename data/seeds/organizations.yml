@@ -220,3 +220,8 @@
   url: http://asakusa.rubyist.net/
   locations:
     - address: Tokyo
+- name: CreditDigital
+  type: business
+  url: https://creditdigital.co.uk
+  locations:
+    - address: 40 Islington High St, The Angel, London N1 8EQ
