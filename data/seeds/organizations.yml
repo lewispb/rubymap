@@ -248,3 +248,8 @@
   url: https://stormconsultancy.co.uk/
   locations:
     - address: 14 New Bond St, Bath, BA1 1BE, United Kingdom
+- name: Bangkok.rb
+  type: meetup
+  url: https://www.meetup.com/bangkok-rb/
+  locations:
+    - address: 399 Interchange Tower 21 Sukhumvit Rd, Khlong Toei Nuea, Watthana, Bangkok 10110, Thailand
