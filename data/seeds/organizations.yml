@@ -248,3 +248,24 @@
   url: https://stormconsultancy.co.uk/
   locations:
     - address: 14 New Bond St, Bath, BA1 1BE, United Kingdom
+- name: Mad-Railers
+  type: meetup
+  url: https://www.meetup.com/Mad-Railers/
+  locations:
+    - address: Madison, WI
+- name: Ten Forward Consulting
+  type: business
+  url: https://www.tenforward.consulting
+  locations:
+    - address: 4513 Vernon Blvd, Madison, WI 53715, USA
+- name: Cloud Five
+  type: business
+  url: https://www.cloudfive.app
+  locations:
+    - address: 4513 Vernon Blvd, Madison, WI 53715, USA
+- name: Mobile Doorman
+  type: business
+  url: https://www.mobiledoorman.com
+  locations:
+    - address: 4513 Vernon Blvd, Madison, WI 53715, USA
+    - address: 4224 N Desplaines St, Suite 400, Chicago, IL 60661, USA
