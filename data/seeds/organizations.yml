@@ -248,3 +248,8 @@
   url: https://stormconsultancy.co.uk/
   locations:
     - address: 14 New Bond St, Bath, BA1 1BE, United Kingdom
+- name: Wealthsimple
+  type: business
+  url: https://www.wealthsimple.com/about/work-with-us
+  locations:
+    - address: Toronto, Ontario, Canada
