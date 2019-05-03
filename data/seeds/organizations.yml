@@ -238,3 +238,13 @@
   url: https://rubyparis.org/
   locations:
     - address: Paris
+- name: Mystery Applicant
+  type: business
+  url: https://www.mysteryapplicant.com/
+  locations:
+    - address: 35 Gay Street, Bath, BA1 2NT, United Kingdom
+- name: Storm Consultancy
+  type: business
+  url: https://stormconsultancy.co.uk/
+  locations:
+    - address: 14 New Bond St, Bath, BA1 1BE, United Kingdom
