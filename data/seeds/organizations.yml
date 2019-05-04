@@ -203,7 +203,7 @@
   locations:
     - address: Tel Aviv, Israel
 - name: Vanruby
-  type: meetup 
+  type: meetup
   url: http://vanruby.org
   locations:
     - address: Vancouver, BC, Canada
@@ -227,6 +227,16 @@
   url: https://creditdigital.co.uk
   locations:
     - address: 40 Islington High St, The Angel, London N1 8EQ
+- name: indy.rb - Indianapolis Ruby Brigade
+  type: meetup
+  url: http://www.indyrb.org
+  locations:
+    - address: Indianapolis, IN, US
+- name: sonnen GmbH
+  type: business
+  url: https://sonnengroup.com/
+  locations:
+    - address: Am Riedbach 1, 87499 Wildpoldsried, Germany
 - name: Great Lakes Bioenergy Research Center
   type: business
   url: https://www.glbrc.org
@@ -258,3 +268,8 @@
   url: https://www.3playmedia.com/
   locations:
     - address: 34 Farnsworth St, Boston, MA 02210, United States
+- name: Faveod
+  type: business
+  url: https://faveod.com/
+  locations:
+    - address: 3 avenue Victor Hugo, 75116 Paris XVIe, France
