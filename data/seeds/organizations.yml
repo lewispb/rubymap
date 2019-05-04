@@ -227,6 +227,11 @@
   url: https://creditdigital.co.uk
   locations:
     - address: 40 Islington High St, The Angel, London N1 8EQ
+- name: sonnen GmbH
+  type: business
+  url: https://sonnengroup.com/
+  locations:
+    - address: Am Riedbach 1, 87499 Wildpoldsried, Germany
 - name: Great Lakes Bioenergy Research Center
   type: business
   url: https://www.glbrc.org
