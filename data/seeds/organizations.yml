@@ -314,3 +314,8 @@
   url: https://faveod.com/
   locations:
     - address: 3 avenue Victor Hugo, 75116 Paris XVIe, France
+- name: carwow
+  type: business
+  url: https://www.carwow.co.uk
+  locations:
+    - address: 10 Bressenden Place, Westminster, London SW1E 5DH
