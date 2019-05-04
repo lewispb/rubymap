@@ -1,3 +1,8 @@
+- name: Bangkok.rb
+  type: meetup
+  url: https://www.meetup.com/bangkok-rb/
+  locations:
+    - address: Bangkok, Thailand
 - name: Białystok Ruby Users Group
   type: meetup
   url: https://www.facebook.com/groups/BRUGroup/
