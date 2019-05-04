@@ -248,3 +248,13 @@
   url: https://stormconsultancy.co.uk/
   locations:
     - address: 14 New Bond St, Bath, BA1 1BE, United Kingdom
+- name: PatientsLikeMe
+  type: business
+  url: https://www.patientslikeme.com/
+  locations:
+    - address: 160 Second St, Cambridge, MA 02142, United States
+- name: 3Play Media
+  type: business
+  url: https://www.3playmedia.com/
+  locations:
+    - address: 34 Farnsworth St, Boston, MA 02210, United States
