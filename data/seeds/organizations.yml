@@ -232,6 +232,11 @@
   url: http://www.indyrb.org
   locations:
     - address: Indianapolis, IN, US
+- name: sonnen GmbH
+  type: business
+  url: https://sonnengroup.com/
+  locations:
+    - address: Am Riedbach 1, 87499 Wildpoldsried, Germany
 - name: Great Lakes Bioenergy Research Center
   type: business
   url: https://www.glbrc.org
