@@ -227,6 +227,11 @@
   url: http://asakusa.rubyist.net/
   locations:
     - address: Tokyo
+- name: Hiroshima.rb
+  type: meetup
+  url: https://hiroshimarb.connpass.com/
+  locations:
+    - address: Hiroshima
 - name: CreditDigital
   type: business
   url: https://creditdigital.co.uk
