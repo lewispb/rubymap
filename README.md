@@ -11,6 +11,8 @@ Sometimes folks are interested in finding a new gig, in a new location. Ruby Map
 What if your company / meetup / event is missing on the map? No problem, just send us a PR and it will get added asap.
 An example PR can be found [here](https://github.com/lewispb/rubymap/pull/1).
 
+Please try to maintain the order-by-name of the yaml file, to prevent merge conflicts.
+
 ## Prerequisites
 
 ```bash
