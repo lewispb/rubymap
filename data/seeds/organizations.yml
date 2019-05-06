@@ -319,3 +319,11 @@
   url: https://www.flipp.com/
   locations:
     - address: 3250 Bloor St W \#12, Etobicoke, ON, Canada M8X 2X9
+- name: Evil Martians
+  type: business
+  url: https://evilmartians.com
+  twitter_handle: evilmartians
+  locations:
+    - address: 195 Montague St, Brooklyn, NY, 11201, US
+    - address: 156 2nd St, San Francisco, CA, 94105, US
+    - address: Novoslobodskaya St, 16, Moscow, 127055, Russia
