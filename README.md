@@ -14,6 +14,7 @@ An example PR can be found [here](https://github.com/lewispb/rubymap/pull/1).
 ## Prerequisites
 
 ```bash
+brew install redis
 brew install postgres
 brew install postgis
 brew install geos
