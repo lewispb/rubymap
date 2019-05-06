@@ -253,6 +253,11 @@
   url: https://rubyparis.org/
   locations:
     - address: Paris
+- name: "#pivorak"
+  type: meetup
+  url: https://pivorak.com
+  locations:
+    - address: Lviv, Ukraine
 - name: Mystery Applicant
   type: business
   url: https://www.mysteryapplicant.com/
