@@ -1,4 +1,4 @@
-#!/usr/bin/ruby
+#!/usr/bin/env ruby
 
 # Replaces the organizations.yml file with its data sorted by name, case insensitively.
 # Before overwriting the file, tests that the unsorted and sorted data,

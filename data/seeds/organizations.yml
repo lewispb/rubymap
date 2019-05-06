@@ -1,344 +1,349 @@
+---
+- name: "#pivorak"
+  type: meetup
+  url: https://pivorak.com
+  locations:
+  - address: Lviv, Ukraine
+- name: 2N IT sp. z o.o.
+  type: business
+  url: https://www.2n.pl
+  locations:
+  - address: ul. Szmaragdowa 4, 15-157 Białystok, Poland
+- name: 3Play Media
+  type: business
+  url: https://www.3playmedia.com/
+  locations:
+  - address: 34 Farnsworth St, Boston, MA 02210, United States
+- name: Asakusa.rb
+  type: meetup
+  url: http://asakusa.rubyist.net/
+  locations:
+  - address: Tokyo
 - name: Bangkok.rb
   type: meetup
   url: https://www.meetup.com/bangkok-rb/
   locations:
-    - address: 399 Interchange Tower 21 Sukhumvit Rd, Khlong Toei Nuea, Watthana, Bangkok 10110, Thailand
+  - address: 399 Interchange Tower 21 Sukhumvit Rd, Khlong Toei Nuea, Watthana, Bangkok
+      10110, Thailand
+- name: Basecamp
+  type: business
+  url: https://basecamp.com/about/office
+  locations:
+  - address: Chicago
+- name: Bath Ruby
+  type: meetup
+  url: https://bathruby.uk
+  locations:
+  - address: Bath, UK
 - name: Białystok Ruby Users Group
   type: meetup
   url: https://www.facebook.com/groups/BRUGroup/
   locations:
-    - address: ul. Sienkiewicza 110, Białystok, Poland
+  - address: ul. Sienkiewicza 110, Białystok, Poland
+- name: Bold Penguin
+  type: business
+  url: https://www.boldpenguin.com/
+  locations:
+  - address: 100 E Broad St, 15th Floor, Columbus, OH, 43215, US
+- name: Cadena
+  type: business
+  url: https://cadena.com.br
+  locations:
+  - address: Rua Operario Osvaldo dos Santos, 58 Americana, SP, Brazil
+- name: Cahootify
+  type: business
+  url: https://cahootify.com
+  locations:
+  - address: The Guild, High Street, Bath, UK
+- name: cardiffrb
+  type: meetup
+  url: https://www.cardiffrb.com
+  locations:
+  - address: Cardiff, UK
+- name: carwow
+  type: business
+  url: https://www.carwow.co.uk
+  locations:
+  - address: 10 Bressenden Place, Westminster, London SW1E 5DH
+- name: Catawiki
+  type: business
+  url: https://catawiki.com
+  locations:
+  - address: Trompenburgstraat 2, 1079 TX Amsterdam, The Netherlands
+  - address: Overcingellaan 5, 9401 LA Assen, The Netherlands
+- name: Charanga
+  type: business
+  url: https://charanga.com
+  locations:
+  - address: 5th floor, Olivier House, 18 Marine Parade, Brighton, BN2 1TL, UK
+- name: Charlotte Ruby
+  type: meetup
+  url: http://charlotteruby.org
+  locations:
+  - address: Charlotte, NC
+- name: Cincinnati Ruby Brigade
+  type: meetup
+  url: http://cincyrb.com/
+  locations:
+  - address: 708 Walnut Street, Cincinnati, OH, 45202, US
+- name: Cleveland Ruby Brigade
+  type: meetup
+  url: https://www.meetup.com/ClevelandRuby/
+  locations:
+  - address: 22901 Millcreek Blvd, Highland Hills, OH, US
+- name: Cloud Five
+  type: business
+  url: https://www.cloudfive.app
+  locations:
+  - address: 4513 Vernon Blvd, Madison, WI 53715, USA
+- name: Columbus Ruby Brigade
+  type: meetup
+  url: http://www.columbusrb.com/
+  locations:
+  - address: 2 Miranova Pl, Columbus, OH, 43215, US
 - name: Cookpad
   type: business
   url: https://www.cookpadteam.com
   twitter_handle: cookpad_dev
   locations:
-    - address: Broad Plain, Bristol
-    - address: Ebisu Garden Place Tower, 12/F, 4-20-3 Ebisu, Tokyo, 150-6012, Japan
-    - address: Jl. Pramuka Sari II No.24, RT.5/RW.6, Kenari, Senen, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10430
-- name: SUSE Linux GmbH
-  type: business
-  url: https://www.suse.com/
-  locations:
-    - address: Maxfeldstrasse 5, Nuremberg
-- name: Department for Environment Food & Rural Affairs
-  type: business
-  url: https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs
-  locations:
-    - address: Horizon House, Deanery Rd, Bristol BS1 5TL
-- name: Shopify
-  type: business
-  url: https://www.shopify.com/careers/locations
-  locations:
-    - address: Toronto
-    - address: Montreal
-    - address: Ottawa
-    - address: Waterloo, Ontario, Canada
-- name: Basecamp
-  type: business
-  url: https://basecamp.com/about/office
-  locations:
-    - address: Chicago
-- name: GitHub
-  type: business
-  url: https://github.com/about
-  locations:
-    - address: San Francisco
-- name: South West Ruby Meetup
-  type: meetup
-  url: https://www.meetup.com/south-west-ruby/
-  twitter_handle: southwestruby
-  locations:
-    - address: Broad Plain, Bristol
-- name: KL Ruby Brigade
-  type: meetup
-  url: https://www.meetup.com/ruby-malaysia/
-  locations:
-    - address: Kuala Lumpur, Malaysia
-- name: Cahootify
-  type: business
-  url: https://cahootify.com
-  locations:
-    - address: The Guild, High Street, Bath, UK
-- name: FreeAgent
-  type: business
-  url: https://www.freeagent.com
-  locations:
-    - address: 133 Fountainbridge, Edinburgh, Scotland, UK
-- name: Bath Ruby
-  type: meetup
-  url: https://bathruby.uk
-  locations:
-    - address: Bath, UK
-- name: cardiffrb
-  type: meetup
-  url: https://www.cardiffrb.com
-  locations:
-    - address: Cardiff, UK
-- name: Catawiki
-  type: business
-  url: https://catawiki.com
-  locations:
-    - address: Trompenburgstraat 2, 1079 TX Amsterdam, The Netherlands
-    - address: Overcingellaan 5, 9401 LA Assen, The Netherlands
-- name: General Products Ltd – Consonance
-  type: business
-  url: https://www.consonance.app
-  locations:
-    - address: 55 High St, Thame, OX9 3BH, UK
-- name: North West Ruby User Group
-  type: meetup
-  url: https://nwrug.org/
-  locations:
-    - address: Manchester, UK
-- name: 2N IT sp. z o.o.
-  type: business
-  url: https://www.2n.pl
-  locations:
-    - address: ul. Szmaragdowa 4, 15-157 Białystok, Poland
-- name: Charanga
-  type: business
-  url: https://charanga.com
-  locations:
-    - address: 5th floor, Olivier House, 18 Marine Parade, Brighton, BN2 1TL, UK
-- name: Finalsite
-  type: business
-  url: https://finalsite.dev/jobs
-  locations:
-    - address: Glastonbury, Connecticut
-- name: Helsinki Ruby Brigade
-  type: meetup
-  url: https://www.meetup.com/rubybrigade
-  locations:
-    - address: Helsinki
-- name: Ruby Taiwan
-  type: meetup
-  url: https://ruby.tw
-  locations:
-    - address: Taipei, Taiwan
-- name: Polydice
-  type: business
-  url: https://polydice.github.io
-  locations:
-    - address: No. 9, Section 2, Roosevelt Road, Taipei, Taiwan
-- name: Dexem
-  type: business
-  url: https://www.dexem.com/en/
-  locations:
-    - address: 4 Avenue des Peupliers, Cesson-Sévigné, France
-- name: Rubyside
-  type: meetup
-  url: https://www.meetup.com/Rubyside-Meetup/
-  locations:
-    - address: Yozu, Cunard Two Suite, The Cotton Exchange, Bixteth Street, Liverpool, L3 9LQ
-- name: Monde
-  type: business
-  url: https://vagas.monde.com.br
-  locations:
-    - address: Rua Pernambuco, 1466 Americana, SP, Brazil
-- name: Cadena
-  type: business
-  url: https://cadena.com.br
-  locations:
-    - address: Rua Operario Osvaldo dos Santos, 58 Americana, SP, Brazil
-- name: Youse
-  type: business
-  url: https://www.youse.com.br
-  locations:
-    - address: SHN, Quadra 01, Conjunto A, Bloco E, CEP 70701 050 – Brasília DF
-    - address: Cl 93 19-55, Bogotá
-- name: RubyMN
-  type: meetup
-  url: http://meetu.ps/c/2CVY4/tfF9t/a
-  locations:
-    - address: Minneapolis, MN
-- name: thoughtbot
-  type: business
-  url: https://thoughtbot.com
-  locations:
-    - address: 42 Winter St, 7th Floor, Boston, MA, 02108, US
-    - address: 2nd Floor, Griffin Court, 15 Long Lane, London, EC1A 9PN, UK
-    - address: 1601 W 6th St, Austin, TX, 78703, US
-    - address: 1384 Broadway, 20th Floor, New York, NY, 10018, US
-    - address: 213 Fayetteville St, Raleigh, NC, 27601, US
-    - address: 85 2nd St, Suite 700, San Francisco, CA, 94105, US
-- name: Charlotte Ruby
-  type: meetup
-  url: http://charlotteruby.org
-  locations:
-    - address: Charlotte, NC
-- name: RubyJax
-  type: meetup
-  url: https://www.meetup.com/RubyJax/
-  locations:
-    - address: Jacksonville, FL
-- name: Columbus Ruby Brigade
-  type: meetup
-  url: http://www.columbusrb.com/
-  locations:
-    - address: 2 Miranova Pl, Columbus, OH, 43215, US
-- name: Cincinnati Ruby Brigade
-  type: meetup
-  url: http://cincyrb.com/
-  locations:
-    - address: 708 Walnut Street, Cincinnati, OH, 45202, US
-- name: Cleveland Ruby Brigade
-  type: meetup
-  url: https://www.meetup.com/ClevelandRuby/
-  locations:
-    - address: 22901 Millcreek Blvd, Highland Hills, OH, US
-- name: Bold Penguin
-  type: business
-  url: https://www.boldpenguin.com/
-  locations:
-    - address: 100 E Broad St, 15th Floor, Columbus, OH, 43215, US
-- name: Salt Lake City Ruby Brigade (SLC.rb)
-  type: meetup
-  url: https://urug.org/#slc.rb
-  locations:
-    - address: SLCC Miller Corporate Partnership Center, 9690 South 300 West, 3rd flr Room 333, Sandy, UT, US
-- name: SLC Down Ruby Users Group (DRUG)
-  type: meetup
-  url: https://urug.org/#drug
-  locations:
-    - address: Church & State, 370 S 300 E, Salt Lake City, UT 84111, US
-- name: Ruby Underground Israel
-  type: meetup
-  url: https://www.meetup.com/IsraelRubyUnderground/
-  locations:
-    - address: Tel Aviv, Israel
-- name: Vanruby
-  type: meetup
-  url: http://vanruby.org
-  locations:
-    - address: Vancouver, BC, Canada
-- name: Ruby Meetup Oslo
-  type: meetup
-  url: https://www.meetup.com/Ruby-Meetup-Oslo/
-  locations:
-    - address: Oslo, Norway
-- name: Luca Labs
-  type: business
-  url: www.lucalabs.com
-  locations:
-    - address: Tordenskiolds gate 3, 0160 Oslo, Norway
-- name: Asakusa.rb
-  type: meetup
-  url: http://asakusa.rubyist.net/
-  locations:
-    - address: Tokyo
-- name: Hiroshima.rb
-  type: meetup
-  url: https://hiroshimarb.connpass.com/
-  locations:
-    - address: Hiroshima
+  - address: Broad Plain, Bristol
+  - address: Ebisu Garden Place Tower, 12/F, 4-20-3 Ebisu, Tokyo, 150-6012, Japan
+  - address: Jl. Pramuka Sari II No.24, RT.5/RW.6, Kenari, Senen, Kota Jakarta Pusat,
+      Daerah Khusus Ibukota Jakarta 10430
 - name: CreditDigital
   type: business
   url: https://creditdigital.co.uk
   locations:
-    - address: 40 Islington High St, The Angel, London N1 8EQ
-- name: indy.rb - Indianapolis Ruby Brigade
-  type: meetup
-  url: http://www.indyrb.org
-  locations:
-    - address: Indianapolis, IN, US
-- name: sonnen GmbH
+  - address: 40 Islington High St, The Angel, London N1 8EQ
+- name: Department for Environment Food & Rural Affairs
   type: business
-  url: https://sonnengroup.com/
+  url: https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs
   locations:
-    - address: Am Riedbach 1, 87499 Wildpoldsried, Germany
-- name: Great Lakes Bioenergy Research Center
+  - address: Horizon House, Deanery Rd, Bristol BS1 5TL
+- name: Dexem
   type: business
-  url: https://www.glbrc.org
+  url: https://www.dexem.com/en/
   locations:
-    - address: 1552 University Ave, Madison, WI 53726, USA
-    - address: 1129 Farm Ln, East Lansing, MI 48824, USA
-- name: Paris.rb
-  type: meetup
-  url: https://rubyparis.org/
-  locations:
-    - address: Paris
-- name: "#pivorak"
-  type: meetup
-  url: https://pivorak.com
-  locations:
-    - address: Lviv, Ukraine
-- name: Mystery Applicant
-  type: business
-  url: https://www.mysteryapplicant.com/
-  locations:
-    - address: 35 Gay Street, Bath, BA1 2NT, United Kingdom
-- name: Storm Consultancy
-  type: business
-  url: https://stormconsultancy.co.uk/
-  locations:
-    - address: 14 New Bond St, Bath, BA1 1BE, United Kingdom
-- name: Ruby Monstas Zurich
-  type: meetup
-  url: https://rubymonstas.ch/
-  locations:
-    - address: Zurich, Switzerland
-- name: PatientsLikeMe
-  type: business
-  url: https://www.patientslikeme.com/
-  locations:
-    - address: 160 Second St, Cambridge, MA 02142, United States
-- name: 3Play Media
-  type: business
-  url: https://www.3playmedia.com/
-  locations:
-    - address: 34 Farnsworth St, Boston, MA 02210, United States
-- name: Wealthsimple
-  type: business
-  url: https://www.wealthsimple.com/about/work-with-us
-  locations:
-    - address: Toronto, Ontario, Canada
-- name: Mad-Railers
-  type: meetup
-  url: https://www.meetup.com/Mad-Railers/
-  locations:
-    - address: Madison, WI
-- name: Ten Forward Consulting
-  type: business
-  url: https://www.tenforward.consulting
-  locations:
-    - address: 4513 Vernon Blvd, Madison, WI 53715, USA
-- name: Cloud Five
-  type: business
-  url: https://www.cloudfive.app
-  locations:
-    - address: 4513 Vernon Blvd, Madison, WI 53715, USA
-- name: Mobile Doorman
-  type: business
-  url: https://www.mobiledoorman.com
-  locations:
-    - address: 4513 Vernon Blvd, Madison, WI 53715, USA
-    - address: 4224 N Desplaines St, Suite 400, Chicago, IL 60661, USA
-- name: Renuo
-  type: business
-  url: https://www.renuo.ch/
-  locations:
-    - address: Industriestrasse 44, Wallisellen, Switzerland
-- name: Faveod
-  type: business
-  url: https://faveod.com/
-  locations:
-    - address: 3 avenue Victor Hugo, 75116 Paris XVIe, France
-- name: carwow
-  type: business
-  url: https://www.carwow.co.uk
-  locations:
-    - address: 10 Bressenden Place, Westminster, London SW1E 5DH
-- name: Flipp
-  type: business
-  url: https://www.flipp.com/
-  locations:
-    - address: 3250 Bloor St W \#12, Etobicoke, ON, Canada M8X 2X9
+  - address: 4 Avenue des Peupliers, Cesson-Sévigné, France
 - name: Evil Martians
   type: business
   url: https://evilmartians.com
   twitter_handle: evilmartians
   locations:
-    - address: 195 Montague St, Brooklyn, NY, 11201, US
-    - address: 156 2nd St, San Francisco, CA, 94105, US
-    - address: Novoslobodskaya St, 16, Moscow, 127055, Russia
+  - address: 195 Montague St, Brooklyn, NY, 11201, US
+  - address: 156 2nd St, San Francisco, CA, 94105, US
+  - address: Novoslobodskaya St, 16, Moscow, 127055, Russia
+- name: Faveod
+  type: business
+  url: https://faveod.com/
+  locations:
+  - address: 3 avenue Victor Hugo, 75116 Paris XVIe, France
+- name: Finalsite
+  type: business
+  url: https://finalsite.dev/jobs
+  locations:
+  - address: Glastonbury, Connecticut
+- name: Flipp
+  type: business
+  url: https://www.flipp.com/
+  locations:
+  - address: 3250 Bloor St W \#12, Etobicoke, ON, Canada M8X 2X9
+- name: FreeAgent
+  type: business
+  url: https://www.freeagent.com
+  locations:
+  - address: 133 Fountainbridge, Edinburgh, Scotland, UK
+- name: General Products Ltd – Consonance
+  type: business
+  url: https://www.consonance.app
+  locations:
+  - address: 55 High St, Thame, OX9 3BH, UK
+- name: GitHub
+  type: business
+  url: https://github.com/about
+  locations:
+  - address: San Francisco
+- name: Great Lakes Bioenergy Research Center
+  type: business
+  url: https://www.glbrc.org
+  locations:
+  - address: 1552 University Ave, Madison, WI 53726, USA
+  - address: 1129 Farm Ln, East Lansing, MI 48824, USA
+- name: Helsinki Ruby Brigade
+  type: meetup
+  url: https://www.meetup.com/rubybrigade
+  locations:
+  - address: Helsinki
+- name: Hiroshima.rb
+  type: meetup
+  url: https://hiroshimarb.connpass.com/
+  locations:
+  - address: Hiroshima
+- name: indy.rb - Indianapolis Ruby Brigade
+  type: meetup
+  url: http://www.indyrb.org
+  locations:
+  - address: Indianapolis, IN, US
+- name: KL Ruby Brigade
+  type: meetup
+  url: https://www.meetup.com/ruby-malaysia/
+  locations:
+  - address: Kuala Lumpur, Malaysia
+- name: Luca Labs
+  type: business
+  url: www.lucalabs.com
+  locations:
+  - address: Tordenskiolds gate 3, 0160 Oslo, Norway
+- name: Mad-Railers
+  type: meetup
+  url: https://www.meetup.com/Mad-Railers/
+  locations:
+  - address: Madison, WI
+- name: Mobile Doorman
+  type: business
+  url: https://www.mobiledoorman.com
+  locations:
+  - address: 4513 Vernon Blvd, Madison, WI 53715, USA
+  - address: 4224 N Desplaines St, Suite 400, Chicago, IL 60661, USA
+- name: Monde
+  type: business
+  url: https://vagas.monde.com.br
+  locations:
+  - address: Rua Pernambuco, 1466 Americana, SP, Brazil
+- name: Mystery Applicant
+  type: business
+  url: https://www.mysteryapplicant.com/
+  locations:
+  - address: 35 Gay Street, Bath, BA1 2NT, United Kingdom
+- name: North West Ruby User Group
+  type: meetup
+  url: https://nwrug.org/
+  locations:
+  - address: Manchester, UK
+- name: Paris.rb
+  type: meetup
+  url: https://rubyparis.org/
+  locations:
+  - address: Paris
+- name: PatientsLikeMe
+  type: business
+  url: https://www.patientslikeme.com/
+  locations:
+  - address: 160 Second St, Cambridge, MA 02142, United States
+- name: Polydice
+  type: business
+  url: https://polydice.github.io
+  locations:
+  - address: No. 9, Section 2, Roosevelt Road, Taipei, Taiwan
+- name: Renuo
+  type: business
+  url: https://www.renuo.ch/
+  locations:
+  - address: Industriestrasse 44, Wallisellen, Switzerland
+- name: Ruby Meetup Oslo
+  type: meetup
+  url: https://www.meetup.com/Ruby-Meetup-Oslo/
+  locations:
+  - address: Oslo, Norway
+- name: Ruby Monstas Zurich
+  type: meetup
+  url: https://rubymonstas.ch/
+  locations:
+  - address: Zurich, Switzerland
+- name: Ruby Taiwan
+  type: meetup
+  url: https://ruby.tw
+  locations:
+  - address: Taipei, Taiwan
+- name: Ruby Underground Israel
+  type: meetup
+  url: https://www.meetup.com/IsraelRubyUnderground/
+  locations:
+  - address: Tel Aviv, Israel
+- name: RubyJax
+  type: meetup
+  url: https://www.meetup.com/RubyJax/
+  locations:
+  - address: Jacksonville, FL
+- name: RubyMN
+  type: meetup
+  url: http://meetu.ps/c/2CVY4/tfF9t/a
+  locations:
+  - address: Minneapolis, MN
+- name: Rubyside
+  type: meetup
+  url: https://www.meetup.com/Rubyside-Meetup/
+  locations:
+  - address: Yozu, Cunard Two Suite, The Cotton Exchange, Bixteth Street, Liverpool,
+      L3 9LQ
+- name: Salt Lake City Ruby Brigade (SLC.rb)
+  type: meetup
+  url: https://urug.org/#slc.rb
+  locations:
+  - address: SLCC Miller Corporate Partnership Center, 9690 South 300 West, 3rd flr
+      Room 333, Sandy, UT, US
+- name: Shopify
+  type: business
+  url: https://www.shopify.com/careers/locations
+  locations:
+  - address: Toronto
+  - address: Montreal
+  - address: Ottawa
+  - address: Waterloo, Ontario, Canada
+- name: SLC Down Ruby Users Group (DRUG)
+  type: meetup
+  url: https://urug.org/#drug
+  locations:
+  - address: Church & State, 370 S 300 E, Salt Lake City, UT 84111, US
+- name: sonnen GmbH
+  type: business
+  url: https://sonnengroup.com/
+  locations:
+  - address: Am Riedbach 1, 87499 Wildpoldsried, Germany
+- name: South West Ruby Meetup
+  type: meetup
+  url: https://www.meetup.com/south-west-ruby/
+  twitter_handle: southwestruby
+  locations:
+  - address: Broad Plain, Bristol
+- name: Storm Consultancy
+  type: business
+  url: https://stormconsultancy.co.uk/
+  locations:
+  - address: 14 New Bond St, Bath, BA1 1BE, United Kingdom
+- name: SUSE Linux GmbH
+  type: business
+  url: https://www.suse.com/
+  locations:
+  - address: Maxfeldstrasse 5, Nuremberg
+- name: Ten Forward Consulting
+  type: business
+  url: https://www.tenforward.consulting
+  locations:
+  - address: 4513 Vernon Blvd, Madison, WI 53715, USA
+- name: thoughtbot
+  type: business
+  url: https://thoughtbot.com
+  locations:
+  - address: 42 Winter St, 7th Floor, Boston, MA, 02108, US
+  - address: 2nd Floor, Griffin Court, 15 Long Lane, London, EC1A 9PN, UK
+  - address: 1601 W 6th St, Austin, TX, 78703, US
+  - address: 1384 Broadway, 20th Floor, New York, NY, 10018, US
+  - address: 213 Fayetteville St, Raleigh, NC, 27601, US
+  - address: 85 2nd St, Suite 700, San Francisco, CA, 94105, US
+- name: Vanruby
+  type: meetup
+  url: http://vanruby.org
+  locations:
+  - address: Vancouver, BC, Canada
+- name: Wealthsimple
+  type: business
+  url: https://www.wealthsimple.com/about/work-with-us
+  locations:
+  - address: Toronto, Ontario, Canada
+- name: Youse
+  type: business
+  url: https://www.youse.com.br
+  locations:
+  - address: SHN, Quadra 01, Conjunto A, Bloco E, CEP 70701 050 – Brasília DF
+  - address: Cl 93 19-55, Bogotá
