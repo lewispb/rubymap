@@ -314,3 +314,8 @@
   url: https://faveod.com/
   locations:
     - address: 3 avenue Victor Hugo, 75116 Paris XVIe, France
+- name: Flipp
+  type: business
+  url: https://www.flipp.com/
+  locations:
+    - address: 3250 Bloor St W \#12, Etobicoke, ON, Canada M8X 2X9
