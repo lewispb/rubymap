@@ -227,6 +227,11 @@
   url: http://asakusa.rubyist.net/
   locations:
     - address: Tokyo
+- name: Hiroshima.rb
+  type: meetup
+  url: https://hiroshimarb.connpass.com/
+  locations:
+    - address: Hiroshima
 - name: CreditDigital
   type: business
   url: https://creditdigital.co.uk
@@ -253,6 +258,11 @@
   url: https://rubyparis.org/
   locations:
     - address: Paris
+- name: "#pivorak"
+  type: meetup
+  url: https://pivorak.com
+  locations:
+    - address: Lviv, Ukraine
 - name: Mystery Applicant
   type: business
   url: https://www.mysteryapplicant.com/
@@ -263,6 +273,26 @@
   url: https://stormconsultancy.co.uk/
   locations:
     - address: 14 New Bond St, Bath, BA1 1BE, United Kingdom
+- name: Ruby Monstas Zurich
+  type: meetup
+  url: https://rubymonstas.ch/
+  locations:
+    - address: Zurich, Switzerland
+- name: PatientsLikeMe
+  type: business
+  url: https://www.patientslikeme.com/
+  locations:
+    - address: 160 Second St, Cambridge, MA 02142, United States
+- name: 3Play Media
+  type: business
+  url: https://www.3playmedia.com/
+  locations:
+    - address: 34 Farnsworth St, Boston, MA 02210, United States
+- name: Wealthsimple
+  type: business
+  url: https://www.wealthsimple.com/about/work-with-us
+  locations:
+    - address: Toronto, Ontario, Canada
 - name: Mad-Railers
   type: meetup
   url: https://www.meetup.com/Mad-Railers/
@@ -294,3 +324,21 @@
   url: https://faveod.com/
   locations:
     - address: 3 avenue Victor Hugo, 75116 Paris XVIe, France
+- name: carwow
+  type: business
+  url: https://www.carwow.co.uk
+  locations:
+    - address: 10 Bressenden Place, Westminster, London SW1E 5DH
+- name: Flipp
+  type: business
+  url: https://www.flipp.com/
+  locations:
+    - address: 3250 Bloor St W \#12, Etobicoke, ON, Canada M8X 2X9
+- name: Evil Martians
+  type: business
+  url: https://evilmartians.com
+  twitter_handle: evilmartians
+  locations:
+    - address: 195 Montague St, Brooklyn, NY, 11201, US
+    - address: 156 2nd St, San Francisco, CA, 94105, US
+    - address: Novoslobodskaya St, 16, Moscow, 127055, Russia

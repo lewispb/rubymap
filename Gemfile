@@ -12,6 +12,7 @@ gem "jbuilder", "~> 2.5"
 gem "pg"
 gem "puma", "~> 3.11"
 gem "rails", "~> 5.2.2", ">= 5.2.2.1"
+gem "redis", "~> 4.0"
 gem "sass-rails", "~> 5.0"
 gem "sentry-raven"
 gem "turbolinks", "~> 5"
@@ -22,7 +23,7 @@ gem "yamllint"
 group :development, :test do
   gem "byebug", platforms: [:mri, :mingw, :x64_mingw]
   gem "dotenv-rails"
-  gem "factory_bot"
+  gem "factory_bot_rails"
   gem "rspec-rails"
   gem "standard"
 end
