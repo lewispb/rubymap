@@ -15,7 +15,7 @@ module Seeds
     private
 
       def organization
-        @_organization ||= ::Organization.find_or_create_by!(name: name) do |organization|
+        @_organization ||= ::Organization.create!(name: name) do |organization|
           organization.org_type = type
           organization.url = url
           organization.twitter_handle = twitter_handle
