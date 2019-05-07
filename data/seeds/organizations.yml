@@ -189,6 +189,11 @@
   url: https://www.meetup.com/ruby-malaysia/
   locations:
   - address: Kuala Lumpur, Malaysia
+- name: LocalMotion, Boise Ruby User Group
+  type: meetup
+  url: https://www.meetup.com/LocalMotion/
+  locations:
+  - address: 2404 Bank Dr, Boise, ID 83705
 - name: Luca Labs
   type: business
   url: www.lucalabs.com
