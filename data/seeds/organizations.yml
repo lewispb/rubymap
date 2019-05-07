@@ -45,6 +45,11 @@
   url: https://www.boldpenguin.com/
   locations:
   - address: 100 E Broad St, 15th Floor, Columbus, OH, 43215, US
+- name: BrisRuby
+  type: meetup
+  url: https://www.meetup.com/BrisRuby
+  locations:
+  - address: Toowong Library (Meeting Room), 9 Sherwood Rd Toowong Village Shopping Centre, Toowong   
 - name: Cadena
   type: business
   url: https://cadena.com.br
