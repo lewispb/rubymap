@@ -362,3 +362,13 @@
   locations:
   - address: SHN, Quadra 01, Conjunto A, Bloco E, CEP 70701 050 – Brasília DF
   - address: Cl 93 19-55, Bogotá
+- name: Bookwhen
+  type: business
+  url: https://bookwhen.com
+  locations:
+  - address: Belsyre Court, 57 Woodstock Road, Oxford, OX2 6HJ
+- name: OxRUG
+  type: meetup
+  url: https://www.meetup.com/Oxford-Ruby-Users-Group-OxRUG
+  locations:
+  - address: Kings Arms, 40 Holywell St, Oxford, OX1 3SP
