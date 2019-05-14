@@ -372,6 +372,11 @@
   url: https://www.meetup.com/Oxford-Ruby-Users-Group-OxRUG
   locations:
   - address: Kings Arms, 40 Holywell St, Oxford, OX1 3SP
+- name: Ruby Usergroup Hamburg
+  type: meetup
+  url: https://hamburg.onruby.de/
+  locations:
+  - address: Hamburg, Germany
 - name: Ideamotive - Ruby on Rails development
   type: business
   url: https://ideamotive.co
