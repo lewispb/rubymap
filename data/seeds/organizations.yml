@@ -387,3 +387,19 @@
   url: https://www.radiusnetworks.com
   locations:
   - address: 3255 Grace St NW, Washington, DC, 20007, USA
+- name: sum.cumo GmbH
+  type: business
+  url: https://www.sumcumo.com
+  locations:
+  - address: Schäferkampsallee 16, 20357 Hamburg, Germany
+  - address: Speditionstraße 1, 40221 Düsseldorf, Germany
+- name: Ruby Usergroup Hamburg
+  type: meetup
+  url: https://hamburg.onruby.de/
+  locations:
+  - address: Hamburg, Germany
+- name: Ideamotive - Ruby on Rails development
+  type: business
+  url: https://ideamotive.co
+  locations:
+  - address: ul. Bohomolca 15, 01-613 Warsaw
