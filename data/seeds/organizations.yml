@@ -403,3 +403,8 @@
   url: https://ideamotive.co
   locations:
   - address: ul. Bohomolca 15, 01-613 Warsaw
+- name: Rzeszów Ruby User Group
+  type: meetup
+  url: http://rrug.pl/
+  locations:
+  - address: Rzeszów, Poland
