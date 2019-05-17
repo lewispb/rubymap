@@ -19,6 +19,11 @@
   url: http://asakusa.rubyist.net/
   locations:
   - address: Tokyo
+- name: B'more (Baltimore) on Rails
+  type: meetup
+  url: https://www.meetup.com/bmore-on-rails/
+  locations:
+  - address: Baltimore, MD, USA
 - name: Bangkok.rb
   type: meetup
   url: https://www.meetup.com/bangkok-rb/
@@ -120,6 +125,11 @@
   url: https://creditdigital.co.uk
   locations:
   - address: 40 Islington High St, The Angel, London N1 8EQ
+- name: DCRUG (Washington DC Ruby User Group)
+  type: meetup
+  url: https://www.meetup.com/dcruby/
+  locations:
+    - address: Washington, DC, USA
 - name: Department for Environment Food & Rural Affairs
   type: business
   url: https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs
@@ -235,6 +245,11 @@
   url: https://nwrug.org/
   locations:
   - address: Manchester, UK
+- name: NYC.rb
+  type: meetup
+  url: https://www.meetup.com/NYC-rb/
+  locations:
+  - address: New York, NY, USA
 - name: Paris.rb
   type: meetup
   url: https://rubyparis.org/
@@ -245,6 +260,10 @@
   url: https://www.patientslikeme.com/
   locations:
   - address: 160 Second St, Cambridge, MA 02142, United States
+- name: Philly RB
+  url: https://www.meetup.com/Phillyrb/
+  locations:
+  - address: Philadelphia, PA, USA
 - name: Polydice
   type: business
   url: https://polydice.github.io
