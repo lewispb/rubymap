@@ -427,3 +427,8 @@
   url: http://rrug.pl/
   locations:
   - address: Rzeszów, Poland
+- name: Guava
+  type: business
+  url: https://guava.software
+  locations:
+  - address: R. Alfredo Coutinho, 74 - Poço da Panela, Recife, Pernambuco, Brasil
