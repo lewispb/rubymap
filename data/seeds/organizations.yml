@@ -224,6 +224,11 @@
   url: https://www.meetup.com/Mad-Railers/
   locations:
   - address: Madison, WI
+- name: minsk.rb
+  type: meetup
+  url: https://www.facebook.com/minskruby/
+  locations:
+  - address: Minsk, Belarus
 - name: Mobile Doorman
   type: business
   url: https://www.mobiledoorman.com
