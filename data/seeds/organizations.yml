@@ -447,3 +447,8 @@
   url: https://cologne.onruby.de/
   locations:
   - address: Cologne, Germany
+- name: RubyZG
+  type: meetup
+  url: https://www.meetup.com/rubyzg/
+  locations:
+  - address: Zagreb, Croatia
