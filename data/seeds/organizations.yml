@@ -437,3 +437,13 @@
   url: https://guava.software
   locations:
   - address: R. Alfredo Coutinho, 74 - Poço da Panela, Recife, Pernambuco, Brasil
+- name: RUG::B - Berlin Ruby User Group
+  type: meetup
+  url: https://www.rug-b.de/
+  locations:
+  - address: Berlin, Germany
+- name: cologne.rb - Cologne Ruby User Group
+  type: meetup
+  url: https://cologne.onruby.de/
+  locations:
+  - address: Cologne, Germany
