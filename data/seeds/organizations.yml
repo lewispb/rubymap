@@ -452,3 +452,8 @@
   url: https://www.meetup.com/rubyzg/
   locations:
   - address: Zagreb, Croatia
+- name: Ruby Meetup Frankfurt
+  type: meetup
+  url: https://www.ruby-frankfurt.de
+  locations:
+  - address: Frankfurt, Germany
