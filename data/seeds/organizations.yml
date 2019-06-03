@@ -457,3 +457,8 @@
   url: https://www.ruby-frankfurt.de
   locations:
   - address: Frankfurt, Germany
+- name: makandra GmbH
+  type: business
+  url: https://makandra.com
+  locations:
+  - address: Werner-von-Siemens-Str. 6, 86159 Augsburg, Germany
