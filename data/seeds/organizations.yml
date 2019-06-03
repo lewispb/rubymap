@@ -329,6 +329,12 @@
   - address: Montreal
   - address: Ottawa
   - address: Waterloo, Ontario, Canada
+- name: SiGHT ViSiT
+  type: business
+  url: https://sight-visit.com/
+  twitter_handle: shikaku_square
+  locations:
+  - address: 〒101-0054 東京都千代田区神田錦町3-1 オームビル2階
 - name: SLC Down Ruby Users Group (DRUG)
   type: meetup
   url: https://urug.org/#drug
