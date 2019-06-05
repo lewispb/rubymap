@@ -18,7 +18,7 @@
   type: meetup
   url: http://asakusa.rubyist.net/
   locations:
-  - address: Tokyo
+  - address: Asakusa, Tokyo, Japan
 - name: B'more (Baltimore) on Rails
   type: meetup
   url: https://www.meetup.com/bmore-on-rails/
@@ -173,6 +173,12 @@
   url: https://www.consonance.app
   locations:
   - address: 55 High St, Thame, OX9 3BH, UK
+- name: Ginza.rb
+  type: meetup
+  url: https://ginzarb.github.io/
+  twitter_handle: ginzarb2
+  locations:
+  - address: Ginza, Tokyo, Japan
 - name: GitHub
   type: business
   url: https://github.com/about
@@ -329,6 +335,12 @@
   - address: Montreal
   - address: Ottawa
   - address: Waterloo, Ontario, Canada
+- name: SiGHT ViSiT
+  type: business
+  url: https://sight-visit.com/
+  twitter_handle: shikaku_square
+  locations:
+  - address: 〒101-0054 東京都千代田区神田錦町3-1 オームビル2階
 - name: SLC Down Ruby Users Group (DRUG)
   type: meetup
   url: https://urug.org/#drug
@@ -370,6 +382,12 @@
   - address: 1384 Broadway, 20th Floor, New York, NY, 10018, US
   - address: 213 Fayetteville St, Raleigh, NC, 27601, US
   - address: 85 2nd St, Suite 700, San Francisco, CA, 94105, US
+- name: TOKYO Rails Meetup
+  type: meetup
+  url: http://www.tokyorails.org/
+  twitter_handle: tokyorails
+  locations:
+  - address: Ebisu Garden Place Tower, 12/F, 4-20-3 Ebisu, Tokyo, 150-6012, Japan
 - name: Vanruby
   type: meetup
   url: http://vanruby.org
