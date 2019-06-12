@@ -285,6 +285,11 @@
   url: https://www.renuo.ch/
   locations:
   - address: Industriestrasse 44, Wallisellen, Switzerland
+- name: Ruby Belgium
+  type: meetup
+  url: https://www.rubybelgium.be
+  locations:
+  - address: Brussels, Belgium
 - name: Ruby Meetup Oslo
   type: meetup
   url: https://www.meetup.com/Ruby-Meetup-Oslo/
