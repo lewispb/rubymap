@@ -485,3 +485,8 @@
   url: https://makandra.com
   locations:
   - address: Werner-von-Siemens-Str. 6, 86159 Augsburg, Germany
+- name: Ruby a la Cluj
+  type: meetup
+  url: https://www.meetup.com/en/Ruby-a-la-Cluj/
+  locations:
+  - address: Cluj-Napoca, Romania
