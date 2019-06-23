@@ -332,6 +332,11 @@
   locations:
   - address: SLCC Miller Corporate Partnership Center, 9690 South 300 West, 3rd flr
       Room 333, Sandy, UT, US
+- name: Seocho.rb
+  type: meetup
+  url: https://www.facebook.com/groups/324999601468189/
+  locations:
+  - address: 14, Teheran-ro 4-gil, Gangnam-gu, Seoul, Republic of Korea
 - name: Shopify
   type: business
   url: https://www.shopify.com/careers/locations
