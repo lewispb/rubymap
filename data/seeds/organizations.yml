@@ -140,6 +140,12 @@
   url: https://www.dexem.com/en/
   locations:
   - address: 4 Avenue des Peupliers, Cesson-Sévigné, France
+- name: epiGenesys
+  type: business
+  url: https://www.epigenesys.org.uk/
+  twitter_handle: epigenesys
+  locations:
+  - address: Floor C, Cathedral Court, 1 Vicar Lane, Sheffield, S1 2LT
 - name: Evil Martians
   type: business
   url: https://evilmartians.com
