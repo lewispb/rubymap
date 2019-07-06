@@ -343,6 +343,12 @@
   url: https://www.facebook.com/groups/324999601468189/
   locations:
   - address: 14, Teheran-ro 4-gil, Gangnam-gu, Seoul, Republic of Korea
+- name: Sheffield Ruby User Group (ShRUG)
+  type: meetup
+  url: https://shrug.org/
+  twitter_handle: sheffieldruby
+  locations:
+  - address: Union St, 18-20 Union Street, Sheffield, S1 2JP
 - name: Shopify
   type: business
   url: https://www.shopify.com/careers/locations
