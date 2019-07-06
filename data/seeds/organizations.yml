@@ -185,6 +185,12 @@
   twitter_handle: ginzarb2
   locations:
   - address: Ginza, Tokyo, Japan
+- name: Government Digital Service
+  type: business
+  url: https://www.gov.uk/government/organisations/government-digital-service
+  twitter_handle: GDSTeam
+  locations:
+  - address: The White Chapel Building, 10 Whitechapel High Street, London, E1 8QS, UK
 - name: GitHub
   type: business
   url: https://github.com/about
