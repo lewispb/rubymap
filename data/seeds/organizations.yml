@@ -519,15 +519,21 @@
   twitter_handle: Codesthq
   locations:
   - address: ul. Fabryczna 20A, 31-553 Kraków, Poland
-- name: Stitch Fix 
+- name: Stitch Fix
   type: business
-  url: https://www.stitchfix.com 
+  url: https://www.stitchfix.com
   twitter_handle: stitchfix
   locations:
   - address: 1 Montgomery Tower, San Francisco, CA 94104, USA
 - name: Bigger Pockets
   type: business
-  url: https://www.biggerpockets.com 
+  url: https://www.biggerpockets.com
   twitter_handle: biggerpockets
   locations:
   - address: 3344 Walnut St, Denver, CO 80205, USA
+- name: Rapid River Software
+  type: business
+  url: https://www.rrsoft.co
+  twitter_handle: rapidriversw
+  locations:
+  - address: 25-02 Tower A, Vertical Business Suites, Avenue 3 Bangsar South City, 59200 Kuala Lumpur, Malaysia
