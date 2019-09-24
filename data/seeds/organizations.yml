@@ -537,3 +537,9 @@
   twitter_handle: rapidriversw
   locations:
   - address: 25-02 Tower A, Vertical Business Suites, Avenue 3 Bangsar South City, 59200 Kuala Lumpur, Malaysia
+- name: WeCode
+  type: business
+  url: https://wecode.io/en
+  twitter_handle: wecodeio
+  locations:
+  - address: Bme. Mitre 87, Ramos Mejía, Buenos Aires, Argentina
