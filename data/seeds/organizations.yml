@@ -369,6 +369,12 @@
   twitter_handle: shikaku_square
   locations:
   - address: 〒101-0054 東京都千代田区神田錦町3-1 オームビル2階
+- name: Simply Business
+  type: business
+  url: https://www.simplybusiness.co.uk/
+  locations:
+  - address: 99 Gresham St, London EC2V 7NG
+  - address: 1 Beacon St 14th floor, Boston, MA 02108, USA
 - name: SLC Down Ruby Users Group (DRUG)
   type: meetup
   url: https://urug.org/#drug
