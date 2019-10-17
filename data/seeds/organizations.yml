@@ -549,3 +549,8 @@
   twitter_handle: wecodeio
   locations:
   - address: Bme. Mitre 87, Ramos Mejía, Buenos Aires, Argentina
+- name: Hamada.rb
+  type: meetup
+  url: https://hamada-rb.github.io/hamadarb/
+  locations:
+  - address: Hamada, Shimane, Japan
