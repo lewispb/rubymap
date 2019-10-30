@@ -14,6 +14,11 @@
   url: https://www.3playmedia.com/
   locations:
   - address: 34 Farnsworth St, Boston, MA 02210, United States
+- name: ApplyBoard
+  type: business
+  url: https://www.applyboard.com/
+  locations:
+  - address: 101 Frederick St,Kitchener, Ontario, Canada
 - name: Asakusa.rb
   type: meetup
   url: http://asakusa.rubyist.net/
@@ -159,6 +164,11 @@
   url: https://faveod.com/
   locations:
   - address: 3 avenue Victor Hugo, 75116 Paris XVIe, France
+- name: Fera.ai
+  type: business
+  url: https://www.fera.ai/
+  locations:
+  - address: 151 Charles St West, Kitchener, Ontario, Canada
 - name: Finalsite
   type: business
   url: https://finalsite.dev/jobs
@@ -227,6 +237,11 @@
   url: https://krug.org.pl
   locations:
   - address: ul. Ślusarska 9, Kraków, Poland
+- name: KWRuby
+  type: meetup
+  url: http://kwruby.ca/
+  locations:
+  - address: Kitchener, Ontario, Canada
 - name: LocalMotion, Boise Ruby User Group
   type: meetup
   url: https://www.meetup.com/LocalMotion/
@@ -385,6 +400,11 @@
   url: https://sonnengroup.com/
   locations:
   - address: Am Riedbach 1, 87499 Wildpoldsried, Germany
+- name: Smile.io
+  type: business
+  url: https://smile.io/
+  locations:
+  - address: 305 King St W, Kitchener, Ontario, Canada
 - name: South West Ruby Meetup
   type: meetup
   url: https://www.meetup.com/south-west-ruby/
@@ -427,6 +447,11 @@
   url: http://vanruby.org
   locations:
   - address: Vancouver, BC, Canada
+- name: Vidyard
+  type: business
+  url: https://www.vidyard.com/
+  locations:
+  - address: 8 Queen St N, Kitchener, Ontario, Canada
 - name: Wealthsimple
   type: business
   url: https://www.wealthsimple.com/about/work-with-us
