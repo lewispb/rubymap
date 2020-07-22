@@ -353,6 +353,11 @@
   locations:
   - address: Yozu, Cunard Two Suite, The Cotton Exchange, Bixteth Street, Liverpool,
       L3 9LQ
+- name: Saigon.rb
+  type: meetup
+  url: https://www.meetup.com/saigon-rb/
+  locations:
+  - address: WeWork Lim Tower 3, 29A Nguyen Dinh Chieu, Da Kao Ward, District 1, Ho Chi Minh City, Viet Nam
 - name: Salt Lake City Ruby Brigade (SLC.rb)
   type: meetup
   url: https://urug.org/#slc.rb
