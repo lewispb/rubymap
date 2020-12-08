@@ -19,6 +19,6 @@ class Location < ApplicationRecord
   end
 
   def geocoded_coords
-    @_geocoded_coords ||= Geocoder.search(address).first&.coordinates.reverse
+    @_geocoded_coords ||= Geocoder.search(address).first&.coordinates&.reverse
   end
 end
