@@ -1,4 +1,4 @@
 task release: :environment do
-  sh "bundle exec rails db:migrate"
-  sh "bundle exec rails db:seed"
+  Rake::Task['db:migrate'].invoke
+  Rake::Task['db:seed'].invoke
 end
