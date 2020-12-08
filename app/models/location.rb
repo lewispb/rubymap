@@ -5,7 +5,7 @@ class Location < ApplicationRecord
   before_validation :geocode_address
 
   def self.import(organization:, address:)
-    new(organization: organization, address: address).save!
+    new(organization: organization, address: address).save
   end
 
   private
