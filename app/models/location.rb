@@ -11,6 +11,8 @@ class Location < ApplicationRecord
   private
 
   def geocode_address
+    return if geocoded_coords.blank?
+
     self.coords = "SRID=4326;POINT(#{geocoded_coords_with_entropy.join(" ")})"
   end
 
