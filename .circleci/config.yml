@@ -68,7 +68,7 @@ jobs:
 
       - run:
           name: run yaml lint
-          command: rake yamllint
+          command: bundle exec rake yamllint
 
       # run tests!
       - run:
