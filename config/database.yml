@@ -16,6 +16,7 @@ development:
 test:
   <<: *default
   database: rubymap_test
+  user: <%= ENV.fetch("PGUSER") { "" } %>
 
 production:
   url: <%= ENV['DATABASE_URL']&.sub(/^postgres/, "postgis") %>

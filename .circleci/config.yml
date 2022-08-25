@@ -10,12 +10,12 @@ jobs:
       - image: cimg/ruby:3.0.4
         environment:
           PGHOST: 127.0.0.1
-          PGUSER: root
+          PGUSER: postgres
           RAILS_ENV: test
           GOOGLE_MAPS_API_KEY: XXXXXXXXXXXXX
       - image: mdillon/postgis:9.5
         env:
-          - POSTGRES_USER=root
+          - POSTGRES_USER=postgres
           - POSTGRES_DB=rubymap_test
           - POSTGRES_PASSWORD=
 
