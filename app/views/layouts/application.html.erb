@@ -5,15 +5,17 @@
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <%= stylesheet_link_tag "application" %>
+    <%= javascript_include_tag "map" %>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=<%= ENV["GOOGLE_MAPS_API_KEY"] %>&callback=initMap"></script>
 
-    <%= javascript_pack_tag "application" %>
-    <%= stylesheet_pack_tag "application" %>
+    <%= javascript_importmap_tags %>
   </head>
 
   <body>
     <div class="navigation">
       <div class="logo">
-        <%= image_pack_tag "media/packs/images/logo.png" %>
+        <%= image_tag "logo.png" %>
         <%= link_to "What's this all about?", "#about", id: "about", data: { micromodal_trigger: "modal-1" } %>
       </div>
     </div>
