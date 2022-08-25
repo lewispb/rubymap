@@ -7,7 +7,6 @@ gem "rails", "~> 7"
 
 gem "active_hash"
 gem "activerecord-postgis-adapter"
-gem "coffee-rails", "~> 4.2"
 gem "geocoder"
 gem "jbuilder", "~> 2.5"
 gem "pg"
