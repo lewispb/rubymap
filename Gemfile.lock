@@ -1,3 +1,11 @@
+GIT
+  remote: https://github.com/balvig/utensils.git
+  revision: e56ba6ca0170f7ee29e84673ae40d2ea696ecbb7
+  specs:
+    utensils (5.0.0)
+      launchy
+      multi_json
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -73,8 +81,6 @@ GEM
       tzinfo (~> 2.0)
     addressable (2.8.1)
       public_suffix (>= 2.0.2, < 6.0)
-    archive-zip (0.12.0)
-      io-like (~> 0.3.0)
     ast (2.4.2)
     bindex (0.8.1)
     builder (3.2.4)
@@ -88,10 +94,6 @@ GEM
       rack-test (>= 0.6.3)
       regexp_parser (>= 1.5, < 3.0)
       xpath (~> 3.2)
-    childprocess (4.1.0)
-    chromedriver-helper (2.1.1)
-      archive-zip (~> 0.10)
-      nokogiri (~> 1.8)
     concurrent-ruby (1.1.10)
     crass (1.0.6)
     cssbundling-rails (1.1.1)
@@ -121,7 +123,6 @@ GEM
     importmap-rails (1.1.5)
       actionpack (>= 6.0.0)
       railties (>= 6.0.0)
-    io-like (0.3.1)
     jbuilder (2.11.5)
       actionview (>= 5.0.0)
       activesupport (>= 5.0.0)
@@ -142,6 +143,7 @@ GEM
     mini_mime (1.1.2)
     mini_portile2 (2.8.0)
     minitest (5.16.3)
+    multi_json (1.15.0)
     net-imap (0.2.3)
       digest
       net-protocol
@@ -249,12 +251,6 @@ GEM
       rubocop-ast (>= 0.4.0)
     ruby-progressbar (1.11.0)
     ruby2_keywords (0.0.5)
-    rubyzip (2.3.2)
-    selenium-webdriver (4.4.0)
-      childprocess (>= 0.5, < 5.0)
-      rexml (~> 3.2, >= 3.2.5)
-      rubyzip (>= 1.2.2, < 3.0)
-      websocket (~> 1.0)
     sentry-raven (3.1.2)
       faraday (>= 1.0)
     sprockets (4.1.1)
@@ -277,13 +273,11 @@ GEM
     tzinfo (2.0.5)
       concurrent-ruby (~> 1.0)
     unicode-display_width (2.2.0)
-    utensils (4.0.0)
     web-console (4.2.0)
       actionview (>= 6.0.0)
       activemodel (>= 6.0.0)
       bindex (>= 0.4.0)
       railties (>= 6.0.0)
-    websocket (1.2.9)
     websocket-driver (0.7.5)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
@@ -301,7 +295,6 @@ DEPENDENCIES
   activerecord-postgis-adapter
   byebug
   capybara (>= 2.15)
-  chromedriver-helper
   cssbundling-rails
   dotenv-rails
   factory_bot_rails
@@ -317,12 +310,11 @@ DEPENDENCIES
   redis (~> 4.0)
   rspec-rails
   rspec_junit_formatter
-  selenium-webdriver
   sentry-raven
   sprockets-rails
   standard
   turbolinks (~> 5)
-  utensils
+  utensils!
   web-console (>= 3.3.0)
   yamllint
 

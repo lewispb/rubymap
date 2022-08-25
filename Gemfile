@@ -35,10 +35,8 @@ end
 
 group :test do
   gem "capybara", ">= 2.15"
-  gem "chromedriver-helper"
   gem "launchy"
   gem "rails-controller-testing"
   gem "rspec_junit_formatter"
-  gem "selenium-webdriver"
-  gem "utensils"
+  gem "utensils", github: "balvig/utensils"
 end

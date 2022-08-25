@@ -1,7 +1,6 @@
 # require 'utensils/capybara_extensions'
 # require 'utensils/capybara_javascript'
 # require 'utensils/capybara_screenshot'
-require 'utensils/custom_matchers'
 require 'utensils/json'
 # require 'utensils/database_cleaner'
 # require 'utensils/email'
