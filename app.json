@@ -3,11 +3,6 @@
     "heroku-postgresql",
     "sentry"
   ],
-  "buildpacks": [
-    {
-      "url": "heroku/ruby"
-    }
-  ],
   "description": "",
   "env": {
     "GOOGLE_MAPS_API_KEY": {
@@ -62,5 +57,5 @@
   "scripts": {
     "postdeploy": "bundle exec rails db:seed"
   },
-  "stack": "heroku-18"
+  "stack": "heroku-22"
 }
