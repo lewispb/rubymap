@@ -1,9 +1,9 @@
 source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby "2.7.6"
+ruby "3.0.4"
 
-gem "rails", "~> 6.1"
+gem "rails", "~> 7"
 
 gem "active_hash"
 gem "activerecord-postgis-adapter"
@@ -19,6 +19,7 @@ gem "yamllint"
 
 gem "importmap-rails"
 gem "cssbundling-rails"
+gem "sprockets-rails"
 
 group :development, :test do
   gem "byebug", platforms: [:mri, :mingw, :x64_mingw]
