@@ -16,7 +16,6 @@ jobs:
       - image: mdillon/postgis:9.5
         env:
           - POSTGRES_USER=root
-          - PGUSER=postgrrootes
           - POSTGRES_DB=rubymap_test
           - POSTGRES_PASSWORD=
 
