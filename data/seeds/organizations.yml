@@ -14,12 +14,6 @@
   url: https://www.3playmedia.com/
   locations:
   - address: 34 Farnsworth St, Boston, MA 02210, United States
-- name: adigi GmbH
-  type: business
-  url: https://www.adigi.ai/
-  twitter_handle: adigi_ai
-  locations:
-  - address: Schulstraße 5, 92711 Parkstein, Germany  
 - name: ApplyBoard
   type: business
   url: https://www.applyboard.com/
@@ -595,3 +589,9 @@
   url: https://www.switchdreams.com.br/
   locations:
   - address: SHCGN 502 Bloco B - Asa Norte, Brasília - DF, 70720-502
+- name: adigi GmbH
+  type: business
+  url: https://www.adigi.ai/
+  twitter_handle: adigi_ai
+  locations:
+  - address: Schulstraße 5, 92711 Parkstein, Germany
