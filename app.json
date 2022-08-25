@@ -57,5 +57,5 @@
   "scripts": {
     "postdeploy": "bundle exec rails db:seed"
   },
-  "stack": "heroku-22"
+  "stack": "heroku-20"
 }
