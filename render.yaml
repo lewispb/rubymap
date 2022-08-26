@@ -1,0 +1,28 @@
+services:
+  - type: web
+    name: rubymap-web
+    env: ruby
+    region: frankfurt
+    plan: starter
+    numInstances: 1
+    buildCommand: ./bin/render-build.sh
+    startCommand: bundle exec puma -C config/puma.rb
+    domains:
+      - www.rubymap.com
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: rubymap-db
+          property: connectionString
+      - key: GOOGLE_MAPS_API_KEY
+        sync: false
+
+  - type: redis
+    plan: free
+    name: rubymap-redis
+    ipAllowList: [] # only allow internal connections
+
+databases:
+  - name: rubymap-db
+    plan: free
+    region: frankfurt
