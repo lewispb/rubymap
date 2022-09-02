@@ -14,6 +14,18 @@
   url: https://www.3playmedia.com/
   locations:
   - address: 34 Farnsworth St, Boston, MA 02210, United States
+- name: Adelaide.rb
+  type: meetup
+  url: https://www.meetup.com/adelaiderb/
+  twitter_handle: adelaiderb
+  locations:
+  - address: Adelaide, South Australia, Australia
+- name: Alembic
+  type: business
+  url: https://alembic.com.au/
+  twitter_handle: teamalembic
+  locations:
+  - address: Level 6, 241 Commonwealth St, Surry Hills, New South Wales, Australia
 - name: ApplyBoard
   type: business
   url: https://www.applyboard.com/
@@ -24,6 +36,12 @@
   url: http://asakusa.rubyist.net/
   locations:
   - address: Asakusa, Tokyo, Japan
+- name: Assembly Four
+  type: business
+  url: https://assemblyfour.com/
+  twitter_handle: AssemblyFour
+  locations:
+  - address: Spencer St, Melbourne, Victoria, Australia
 - name: B'more (Baltimore) on Rails
   type: meetup
   url: https://www.meetup.com/bmore-on-rails/
@@ -58,8 +76,15 @@
 - name: BrisRuby
   type: meetup
   url: https://www.meetup.com/BrisRuby
+  twitter_handle: brisruby
   locations:
-  - address: Toowong Library (Meeting Room), 9 Sherwood Rd Toowong Village Shopping Centre, Toowong
+  - address: Brisbane, Queensland, Australia
+- name: Buildkite
+  type: business
+  url: https://buildkite.com/
+  twitter_handle: buildkite
+  locations:
+  - address: 149A Brunswick St, Fitzroy, Victoria, Australia
 - name: Cadena
   type: business
   url: https://cadena.com.br
@@ -70,6 +95,12 @@
   url: https://cahootify.com
   locations:
   - address: The Guild, High Street, Bath, UK
+- name: Calibre
+  type: business
+  url: https://calibreapp.com/
+  twitter_handle: calibreapp
+  locations:
+  - address: 149A Brunswick Street, Melbourne, Victoria, Australia
 - name: cardiffrb
   type: meetup
   url: https://www.cardiffrb.com
@@ -91,6 +122,12 @@
   url: https://charanga.com
   locations:
   - address: 5th floor, Olivier House, 18 Marine Parade, Brighton, BN2 1TL, UK
+- name: Chargefox
+  type: business
+  url: https://www.chargefox.com
+  twitter_handle: Chargefox
+  locations:
+  - address: Level 1, 673 Bourke Street, Melbourne, Victoria, Australia
 - name: Charlotte Ruby
   type: meetup
   url: http://charlotteruby.org
@@ -130,6 +167,12 @@
   url: https://creditdigital.co.uk
   locations:
   - address: 40 Islington High St, The Angel, London N1 8EQ
+- name: Culture Amp
+  type: business
+  url: https://www.cultureamp.com/
+  twitter_handle: CultureAmp
+  locations:
+  - address: Level 2, 29 Stewart St, Richmond, Victoria, Australia
 - name: DCRUG (Washington DC Ruby User Group)
   type: meetup
   url: https://www.meetup.com/dcruby/
@@ -145,6 +188,12 @@
   url: https://www.dexem.com/en/
   locations:
   - address: 4 Avenue des Peupliers, Cesson-Sévigné, France
+- name: Envato
+  type: business
+  url: https://www.envato.com/
+  twitter_handle: envato
+  locations:
+  - address: Level 3, 551 Swanston Street, Carlton, Victoria, Australia
 - name: epiGenesys
   type: business
   url: https://www.epigenesys.org.uk/
@@ -179,6 +228,12 @@
   url: https://www.flipp.com/
   locations:
   - address: 3250 Bloor St W \#12, Etobicoke, ON, Canada M8X 2X9
+- name: Flood
+  type: business
+  url: https://www.flood.io/
+  twitter_handle: flood_io
+  locations:
+  - address: Level 3, Suite 4, 2-12 Foveaux St, Surry Hills, New South Wales, Australia
 - name: FreeAgent
   type: business
   url: https://www.freeagent.com
@@ -212,6 +267,12 @@
   locations:
   - address: 1552 University Ave, Madison, WI 53726, USA
   - address: 1129 Farm Ln, East Lansing, MI 48824, USA
+- name: GreenSync
+  type: business
+  url: https://greensync.com/
+  twitter_handle: greensync
+  locations:
+  - address: Suite 3515, Level 35, 477 Collins St, Melbourne, Victoria, Australia
 - name: Helsinki Ruby Brigade
   type: meetup
   url: https://www.meetup.com/rubybrigade
@@ -222,6 +283,12 @@
   url: https://hiroshimarb.connpass.com/
   locations:
   - address: Hiroshima
+- name: HotDoc
+  type: business
+  url: https://www.hotdoc.com.au/
+  twitter_handle: HotDocOnline
+  locations:
+  - address: Level 7, 276 Flinders St, Melbourne, Victoria, Australia
 - name: indy.rb - Indianapolis Ruby Brigade
   type: meetup
   url: http://www.indyrb.org
@@ -247,6 +314,12 @@
   url: https://www.meetup.com/LocalMotion/
   locations:
   - address: 2404 Bank Dr, Boise, ID 83705
+- name: Lookahead Search
+  type: business
+  url: https://lookahead.com.au/
+  twitter_handle: LookaheadSearch
+  locations:
+  - address: Level 5, 63 York Street, Sydney, New South Wales, Australia
 - name: Luca Labs
   type: business
   url: www.lucalabs.com
@@ -257,6 +330,12 @@
   url: https://www.meetup.com/Mad-Railers/
   locations:
   - address: Madison, WI
+- name: Melbourne Ruby
+  type: meetup
+  url: https://www.meetup.com/en-AU/ruby-on-rails-oceania-melbourne/
+  twitter_handle: roromelb
+  locations:
+  - address: Melbourne, Victoria, Australia
 - name: minsk.rb
   type: meetup
   url: https://www.facebook.com/minskruby/
@@ -298,25 +377,67 @@
   url: https://www.patientslikeme.com/
   locations:
   - address: 160 Second St, Cambridge, MA 02142, United States
+- name: Perth Ruby
+  type: meetup
+  url: https://www.meetup.com/ruby-on-rails-oceania-perth/
+  locations:
+  - address: Perth, Australia
 - name: Philly RB
   url: https://www.meetup.com/Phillyrb/
   locations:
   - address: Philadelphia, PA, USA
+- name: Pin Payments
+  type: business
+  url: https://pinpayments.com
+  twitter_handle: PinPayments
+  locations:
+  - address: Level 4, 356 Collins St, Melbourne, Victoria, Australia
 - name: Polydice
   type: business
   url: https://polydice.github.io
   locations:
   - address: No. 9, Section 2, Roosevelt Road, Taipei, Taiwan
+- name: Rails Camp AU
+  type: event
+  url: https://railscamp.com.au/
+  twitter_handle: railscamp_au
+  locations:
+  - address: Australia
+- name: Rails Girls AU
+  type: event
+  url: https://ruby.org.au/rails-girls
+  twitter_handle: RailsGirls_AU
+  locations:
+  - address: Melbourne, Victoria, Australia
+  - address: Sydney, New South Wales, Australia
+- name: Redbubble
+  type: business
+  url: https://www.redbubble.com/
+  twitter_handle: redbubble
+  locations:
+  - address: Level 12, 697 Collins Street, Docklands, Victoria, Australia
 - name: Renuo
   type: business
   url: https://www.renuo.ch/
   locations:
   - address: Industriestrasse 44, Wallisellen, Switzerland
+- name: RORO Sydney
+  type: meetup
+  url: https://www.meetup.com/en-AU/ruby-on-rails-oceania-sydney/
+  twitter_handle: rorosyd
+  locations:
+  - address: Sydney, New South Wales, Australia
 - name: Ruby Belgium
   type: meetup
   url: https://rubybelgium.be
   locations:
   - address: Brussels, Belgium
+- name: RubyConf AU
+  type: event
+  url: https://www.rubyconf.org.au
+  twitter_handle: rubyconf_au
+  locations:
+  - address: Australia
 - name: Ruby Meetup Oslo
   type: meetup
   url: https://www.meetup.com/Ruby-Meetup-Oslo/
@@ -416,11 +537,23 @@
   twitter_handle: southwestruby
   locations:
   - address: Broad Plain, Bristol
+- name: Square
+  type: business
+  url: https://squareup.com/au/en
+  twitter_handle: SquareAU
+  locations:
+  - address: Level 2, 246 Bourke St, Melbourne, Victoria, Australia
 - name: Storm Consultancy
   type: business
   url: https://stormconsultancy.co.uk/
   locations:
   - address: 14 New Bond St, Bath, BA1 1BE, United Kingdom
+- name: Stripe
+  type: business
+  url: https://stripe.com
+  twitter_handle: StripeAustralia
+  locations:
+  - address: Level 7, 222 Exhibition Street, Melbourne, Victoria, Australia
 - name: SUSE Linux GmbH
   type: business
   url: https://www.suse.com/
@@ -431,6 +564,12 @@
   url: https://www.tenforward.consulting
   locations:
   - address: 4513 Vernon Blvd, Madison, WI 53715, USA
+- name: The Conversation
+  type: business
+  url: https://theconversation.com
+  twitter_handle: ConversationEDU
+  locations:
+  - address: Level 5, 700 Swanston St, Carlton, Victoria, Australia
 - name: thoughtbot
   type: business
   url: https://thoughtbot.com
@@ -447,6 +586,18 @@
   twitter_handle: tokyorails
   locations:
   - address: Ebisu Garden Place Tower, 12/F, 4-20-3 Ebisu, Tokyo, 150-6012, Japan
+- name: Twilio
+  type: business
+  url: https://www.twilio.com/
+  twitter_handle: twilio
+  locations:
+  - address: Melbourne, Victoria, Australia
+- name: Up
+  type: business
+  url: https://up.com.au/
+  twitter_handle:
+  locations:
+  - address: 232-234 Dorcas St, South Melbourne, Victoria, Australia
 - name: Vanruby
   type: meetup
   url: http://vanruby.org
@@ -468,6 +619,17 @@
   locations:
   - address: SHN, Quadra 01, Conjunto A, Bloco E, CEP 70701 050 – Brasília DF
   - address: Cl 93 19-55, Bogotá
+- name: Zendesk
+  type: business
+  url: https://www.zendesk.com
+  twitter_handle: Zendesk
+  locations:
+  - address: 395 Collins St, Melbourne, Victoria, Australia
+- name: Zepto
+  type: business
+  url: https://www.zepto.com.au
+  locations:
+  - address: 2/66 Centennial Cct, Byron Bay, New South Wales, Australia
 - name: Bookwhen
   type: business
   url: https://bookwhen.com
