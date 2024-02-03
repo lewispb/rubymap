@@ -83,7 +83,7 @@ Rails.application.configure do
   # config.logger = ActiveSupport::TaggedLogging.new(Syslog::Logger.new 'app-name')
 
   $stdout.sync = true
-  config.logger = Logger.new(STDOUT)
+  config.logger = ActiveSupport::TaggedLogging.new(Logger.new($stdout))
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
