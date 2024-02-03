@@ -28,3 +28,8 @@ Add PostGIS to postgres
 rake db:gis:setup
 ```
 
+### Development server
+
+```
+bin/dev
+```
