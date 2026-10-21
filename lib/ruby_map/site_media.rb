@@ -1,4 +1,3 @@
-require "image_processing/vips"
 require "net/http"
 
 module RubyMap
@@ -54,6 +53,8 @@ module RubyMap
     end
 
     def save_first(candidates, page_url, name, kind, min_width)
+      require "image_processing/vips"
+
       candidates.uniq.each do |href|
         file = download(URI.join(page_url, href.strip))
         next unless file

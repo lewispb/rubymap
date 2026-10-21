@@ -1,5 +1,3 @@
-require "image_processing/vips"
-
 module RubyMap
   # Saves organization images into app/assets/images/organizations as WebP:
   # a 600x350 photo for the top of the card and a 96x96 logo.
@@ -7,7 +5,10 @@ module RubyMap
     DIRECTORY = Rails.root.join("app/assets/images/organizations")
     SIZES = {photo: [600, 350], logo: [96, 96]}
 
+    # image_processing is only installed in development, where this runs.
     def self.save(source, name:, kind:)
+      require "image_processing/vips"
+
       filename = "#{name.parameterize}#{"-logo" if kind == :logo}.webp"
       width, height = SIZES.fetch(kind)
 
