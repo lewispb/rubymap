@@ -3,6 +3,11 @@ require "rails_helper"
 RSpec.describe "data/seeds/organizations.yml" do
   organizations = YAML.load_file(Rails.root.join("data/seeds/organizations.yml"))
 
+  it "is sorted by name, ignoring case" do
+    names = organizations.map { |organization| organization["name"] }
+    expect(names).to eq(names.sort_by(&:downcase)), "Run bin/sort-orgs to sort data/seeds/organizations.yml"
+  end
+
   it "has unique names" do
     names = organizations.map { |organization| organization["name"] }
     expect(names.tally.select { |_, count| count > 1 }.keys).to be_empty

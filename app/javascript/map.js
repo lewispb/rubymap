@@ -216,10 +216,19 @@ function renderList() {
     places = places.filter((feature) => bounds.contains(feature.geometry.coordinates))
   }
 
+  places.sort(comparePlaces)
+
   listHeading.textContent = places.length === 1 ? "1 place" : `${places.length} places`
   emptyMessage.hidden = places.length > 0
   emptyMessage.textContent = inView.checked ? "Nothing here matches. Zoom out or move the map to see more." : "Nothing matches. Try another name or place."
   list.replaceChildren(...places.map(renderPlace))
+}
+
+// Alphabetical by name, ignoring case and accents, then by address.
+const collator = new Intl.Collator(undefined, { sensitivity: "base", numeric: true })
+
+function comparePlaces(a, b) {
+  return collator.compare(a.properties.name, b.properties.name) || collator.compare(a.properties.address, b.properties.address)
 }
 
 function renderPlace(feature) {
