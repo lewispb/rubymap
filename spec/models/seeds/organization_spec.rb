@@ -1,14 +1,37 @@
-require 'rails_helper'
+require "rails_helper"
 
 RSpec.describe Seeds::Organization do
   before do
-    allow(Geocoder).to receive(:search).and_return([double(coordinates: [0, 0])])
+    allow(Geocoder).to receive(:search).and_return([double(coordinates: [0, 0], cache_hit: true)])
   end
 
-  describe '.import' do
+  describe ".sync" do
     it "imports organizations" do
-      Seeds::Organization.import
+      Seeds::Organization.sync
+
       expect(Organization.all).to include an_object_having_attributes(name: "Cookpad", twitter_handle: "cookpad_dev")
+      expect(Location.count).to eq(Seeds::Organization.all.sum { |org| org.locations.size })
+    end
+
+    it "keeps the coordinates of existing locations and geocodes only new ones" do
+      Seeds::Organization.sync
+      location = Location.first
+      location.update_columns(coords: "SRID=4326;POINT(10 20)")
+
+      Seeds::Organization.sync
+
+      expect(location.reload.coords.coordinates).to eq([10, 20])
+      expect(Geocoder).to have_received(:search).exactly(Location.count).times
+    end
+
+    it "removes organizations and locations that are no longer listed" do
+      stale = create(:organization, name: "Gone")
+      create(:location, organization: stale)
+
+      Seeds::Organization.sync
+
+      expect(Organization.exists?(name: "Gone")).to be(false)
+      expect(Location.where(organization_id: stale.id)).to be_empty
     end
   end
 end

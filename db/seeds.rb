@@ -1,4 +1,1 @@
-Location.destroy_all
-Organization.destroy_all
-
-Seeds::Organization.import
+Seeds::Organization.sync

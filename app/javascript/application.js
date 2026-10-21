@@ -1,3 +1,2 @@
-import MicroModal from "micromodal"
-
-MicroModal.init();
+import "theme"
+import "map"

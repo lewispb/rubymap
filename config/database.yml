@@ -1,13 +1,10 @@
-# SQLite version 3.x
-#   gem install sqlite3
-#
-#   Ensure the SQLite 3 gem is defined in your Gemfile
-#   gem 'sqlite3'
-#
 default: &default
   adapter: postgis
-  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-  timeout: 5000
+  encoding: unicode
+  host: <%= ENV.fetch("PGHOST", "localhost") %>
+  username: <%= ENV.fetch("PGUSER", "postgres") %>
+  password: <%= ENV["PGPASSWORD"] %>
+  max_connections: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
 
 development:
   <<: *default
@@ -16,7 +13,6 @@ development:
 test:
   <<: *default
   database: rubymap_test
-  user: <%= ENV.fetch("PGUSER") { "" } %>
 
 production:
-  url: <%= ENV['DATABASE_URL']&.sub(/^postgres/, "postgis") %>
+  url: <%= ENV["DATABASE_URL"]&.sub(/^postgres/, "postgis") %>

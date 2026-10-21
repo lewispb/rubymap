@@ -1,48 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>Ruby Map</title>
+    <title><%= content_for(:title) || "Ruby Map" %></title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+    <meta name="description" content="Ruby companies, meetups and events around the world, on one map.">
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" content="#fbf8f6" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#151214" media="(prefers-color-scheme: dark)">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <%= stylesheet_link_tag "application" %>
-    <%= javascript_include_tag "map" %>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=<%= ENV["GOOGLE_MAPS_API_KEY"] %>&callback=initMap"></script>
 
+    <script>
+      try {
+        const theme = localStorage.getItem("theme")
+        if (theme === "light" || theme === "dark") document.documentElement.dataset.theme = theme
+      } catch {}
+    </script>
+
+    <link rel="icon" href="/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+    <%= stylesheet_link_tag "maplibre-gl", "application" %>
     <%= javascript_importmap_tags %>
   </head>
 
   <body>
-    <div class="navigation">
-      <div class="logo">
-        <%= image_tag "logo.png" %>
-        <%= link_to "What's this all about?", "#about", id: "about", data: { micromodal_trigger: "modal-1" } %>
-      </div>
-    </div>
-
     <%= yield %>
-
-    <div class="modal micromodal-slide" id="modal-1" aria-hidden="true">
-      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
-        <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
-          <header class="modal__header">
-            <h2 class="modal__title" id="modal-1-title">
-              About Ruby Map
-            </h2>
-            <button class="modal__close" aria-label="Close modal" data-micromodal-close></button>
-          </header>
-          <main class="modal__content" id="modal-1-content">
-            <p>Whilst travelling to other cities I've often wondered: "What's going on in the local <a href="https://www.ruby-lang.org/en/" target="_blank">Ruby</a> community?"</p>
-            <p>To answer this question, hopefully fellow Rubyists will <a href="https://github.com/lewispb/rubymap/blob/master/data/seeds/organizations.yml" target="_blank">share their organization / meetup / events</a> and anyone interested will be able to discover the Ruby world around them!</p>
-            <p>Sometimes folks are interesting in finding a new gig, in a new location. Ruby Map might be useful for that too, if companies share if they are hiring.</p>
-            <p>Any questions? Contact me, <a href="https://twitter.com/lewispb" target="_blank">Lewis</a>.</p>
-          </main>
-          <footer class="modal__footer">
-            <button class="modal__btn" data-micromodal-close aria-label="Close this dialog window">Close</button>
-          </footer>
-        </div>
-      </div>
-    </div>
-
   </body>
 </html>
