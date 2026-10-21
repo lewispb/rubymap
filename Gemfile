@@ -23,6 +23,8 @@ group :development, :test do
   gem "bundler-audit", require: false
   gem "debug", platforms: %i[mri windows], require: "debug/prelude"
   gem "dotenv-rails"
+  gem "image_processing", require: false
+  gem "ruby-vips", require: false
   gem "factory_bot_rails"
   gem "rspec-rails"
   gem "standard"
@@ -30,8 +32,4 @@ end
 
 group :development do
   gem "web-console"
-end
-
-group :test do
-  gem "rspec_junit_formatter"
 end

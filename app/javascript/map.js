@@ -36,17 +36,23 @@ const map = new Map({
   attributionControl: { compact: true }
 })
 
-// On wide screens the panel covers the left of the map, so centre the map in
-// the area beside it.
+// The panel covers the left of the map on wide screens and the top on phones,
+// so centre the map in the area it leaves visible.
 const wideScreen = matchMedia("(min-width: 721px)")
 
 function fitPadding() {
-  const left = wideScreen.matches ? panel.getBoundingClientRect().right : 0
-  map.setPadding({ left, top: 0, right: 0, bottom: 0 })
+  if (panel.classList.contains("is-expanded")) return
+
+  const bounds = panel.getBoundingClientRect()
+  const padding = wideScreen.matches ? { left: Math.round(bounds.right), top: 0, right: 0, bottom: 0 } : { left: 0, top: Math.round(bounds.bottom), right: 0, bottom: 0 }
+  const current = map.getPadding()
+
+  // Setting the padding stops any camera animation, so only set it when it changes.
+  if (padding.left !== current.left || padding.top !== current.top) map.setPadding(padding)
 }
 
 fitPadding()
-wideScreen.addEventListener("change", fitPadding)
+new ResizeObserver(fitPadding).observe(panel)
 
 map.addControl(new NavigationControl({ visualizePitch: true }), "bottom-right")
 map.addControl(new GeolocateControl({ positionOptions: { enableHighAccuracy: false }, fitBoundsOptions: { maxZoom: 10 } }), "bottom-right")
@@ -179,7 +185,7 @@ function visibleFeatures() {
   return features.filter(({ properties }) => {
     if (type !== "all" && properties.type !== type) return false
     if (!query) return true
-    return normalize(`${properties.name} ${properties.address}`).includes(query)
+    return normalize(`${properties.name} ${properties.address} ${properties.description || ""}`).includes(query)
   })
 }
 
@@ -224,18 +230,46 @@ function renderPlace(feature) {
   button.dataset.id = feature.id
   if (feature.id === selectedId) button.setAttribute("aria-current", "true")
 
-  const dot = element("span", "place__dot")
-  dot.title = TYPE_LABELS[type]
-
-  button.append(dot, element("span", "place__name", name), element("span", "place__address", address))
+  const text = element("span", "place__text")
+  text.append(element("span", "place__name", name), element("span", "place__address", address))
+  button.append(renderMark(feature.properties, "place__mark"), text)
   button.addEventListener("click", () => {
-    select(feature, { fly: true })
     collapsePanel()
+    fitPadding()
+    select(feature, { fly: true })
   })
 
   item.append(button)
   return item
 }
+
+// A logo on a light tile, or the initials on the type colour when there is no logo.
+function renderMark({ name, type, logo }, className) {
+  const mark = element("span", `mark mark--${type} ${className}`)
+  mark.title = TYPE_LABELS[type]
+
+  if (logo) {
+    const image = element("img")
+    image.src = logo
+    image.alt = ""
+    image.loading = "lazy"
+    image.decoding = "async"
+    mark.append(image)
+  } else {
+    mark.classList.add("mark--initials")
+    mark.textContent = initials(name)
+  }
+
+  return mark
+}
+
+function initials(name) {
+  const words = name.replace(/\.rb\b/gi, "").replace(/[^\p{L}\p{N}\s]/gu, " ").split(/\s+/)
+    .filter((word) => word && !/^(ruby|rails|on|the|of|and|meetup|user|users|group|rug)$/i.test(word))
+  const letters = words.length > 1 ? words.slice(0, 2).map((word) => [...word][0]) : [...(words[0] || name)].slice(0, 2)
+  return letters.join("").toUpperCase()
+}
+
 
 panelToggle.addEventListener("click", () => {
   const expanded = panel.classList.toggle("is-expanded")
@@ -253,10 +287,13 @@ function select(feature, { fly = false } = {}) {
   selectedId = feature.id
   const coordinates = feature.geometry.coordinates
 
-  if (fly) map.flyTo({ center: coordinates, zoom: Math.max(map.getZoom(), CLUSTER_MAX_ZOOM + 2), essential: true })
+  // Put the place below the centre so the card above it fits on screen.
+  const offset = [0, feature.properties.photo ? 190 : 110]
+  if (fly) map.flyTo({ center: coordinates, offset, zoom: Math.max(map.getZoom(), CLUSTER_MAX_ZOOM + 2), essential: true })
+  else map.easeTo({ center: coordinates, offset })
 
   popup?.remove()
-  popup = new Popup({ offset: 12, maxWidth: "300px", focusAfterOpen: false })
+  popup = new Popup({ anchor: "bottom", offset: 12, maxWidth: "320px", focusAfterOpen: false })
     .setLngLat(coordinates)
     .setDOMContent(renderPopup(feature.properties))
     .addTo(map)
@@ -276,30 +313,51 @@ function markSelected() {
   }
 }
 
-function renderPopup({ name, address, type, url, twitter_handle }) {
-  const popup = element("div", `popup popup--${type}`)
-  const heading = element("h3", "popup__name")
+function renderPopup(properties) {
+  const { name, address, type, url, twitter_handle, description, photo, source } = properties
+  const popup = element("article", `popup popup--${type}${photo ? " popup--photo" : ""}`)
   const website = safeUrl(url)
 
+  if (photo) {
+    const image = element("img", "popup__photo")
+    image.src = photo
+    image.alt = ""
+    image.width = 600
+    image.height = 350
+    image.decoding = "async"
+    popup.append(image)
+  }
+
+  const body = element("div", "popup__body")
+  const heading = element("h3", "popup__name")
   if (website) {
-    const link = element("a", null, name)
-    link.href = website.href
-    link.target = "_blank"
-    link.rel = "noopener"
-    heading.append(link)
+    heading.append(externalLink(website.href, name))
   } else {
     heading.textContent = name
   }
 
-  popup.append(element("span", "popup__type", TYPE_LABELS[type]), heading, element("p", "popup__address", address))
+  const head = element("div", "popup__head")
+  head.append(renderMark(properties, "popup__mark"), element("span", "popup__type", TYPE_LABELS[type]))
+  body.append(head, heading)
+  if (description) body.append(element("p", "popup__description", description))
+  body.append(element("p", "popup__address", address))
 
   const links = element("div", "popup__links")
   if (website) links.append(externalLink(website.href, website.hostname.replace(/^www\./, "")))
   if (twitter_handle) links.append(externalLink(`https://x.com/${encodeURIComponent(twitter_handle)}`, `@${twitter_handle}`))
-  if (links.childElementCount) popup.append(links)
+  if (links.childElementCount) body.append(links)
 
+  const rubyEvents = source?.match(/^rubyevents:(.+)$/)
+  if (rubyEvents) {
+    const credit = element("p", "popup__credit", "Listed on ")
+    credit.append(externalLink(`https://www.rubyevents.org/events/${encodeURIComponent(rubyEvents[1])}`, "RubyEvents.org"))
+    body.append(credit)
+  }
+
+  popup.append(body)
   return popup
 }
+
 
 function externalLink(href, text) {
   const link = element("a", null, text)

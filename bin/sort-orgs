@@ -40,7 +40,7 @@ def main
     # sorted_orgs.pop
 
     test(orgs, sorted_orgs)
-    File.write(orgs_filespec, sorted_orgs.to_yaml)
+    File.write(orgs_filespec, sorted_orgs.to_yaml(line_width: -1))
     puts "Organizations file sort successful."
   end
 end

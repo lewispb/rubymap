@@ -2,208 +2,560 @@
 - name: "#pivorak"
   type: meetup
   url: https://pivorak.com
+  description: "#pivorak is a meetup for Ruby developers based in Lviv, Ukraine."
   locations:
   - address: Lviv, Ukraine
 - name: 2N IT sp. z o.o.
   type: business
   url: https://www.2n.pl
+  description: 2N is a software house in Białystok, Poland, that specialises in Ruby on Rails and builds web applications for startups and enterprises.
   locations:
   - address: ul. Szmaragdowa 4, 15-157 Białystok, Poland
 - name: 3Play Media
   type: business
   url: https://www.3playmedia.com/
+  description: 3Play Media is a Boston company that provides captioning, dubbing, subtitling and audio description, combining AI with human review.
+  photo: 3play-media.webp
+  logo: 3play-media-logo.webp
   locations:
   - address: 34 Farnsworth St, Boston, MA 02210, United States
 - name: Adelaide.rb
   type: meetup
   url: https://www.meetup.com/adelaiderb/
   twitter_handle: adelaiderb
+  description: A meetup for Ruby and Rails developers in Adelaide, Australia, known for its regular Ruby Burgers social catch-ups.
+  photo: adelaide-rb.webp
+  logo: adelaide-rb-logo.webp
+  source: rubyevents:adelaide-rb
   locations:
   - address: Adelaide, South Australia, Australia
+- name: adigi GmbH
+  type: business
+  url: https://www.adigi.ai/
+  twitter_handle: adigi_ai
+  description: adigi GmbH is a company with an office in Parkstein, Germany.
+  locations:
+  - address: Schulstraße 5, 92711 Parkstein, Germany
+- name: AKASHI.rb
+  type: meetup
+  url: https://akashi-rb.connpass.com
+  description: A Ruby community in and around Akashi, Japan, that holds study sessions and events for beginners and experienced developers.
+  photo: akashi-rb.webp
+  logo: akashi-rb-logo.webp
+  source: rubyevents:akashi-rb
+  locations:
+  - address: Akashi, Japan
+    latitude: 34.6482884
+    longitude: 134.993215
 - name: Alembic
   type: business
   url: https://alembic.com.au/
   twitter_handle: teamalembic
+  description: Alembic is a software delivery company based in Surry Hills, New South Wales, Australia.
+  photo: alembic.webp
   locations:
   - address: Level 6, 241 Commonwealth St, Surry Hills, New South Wales, Australia
+- name: Amsterdam.rb
+  type: meetup
+  url: https://www.amsrb.org
+  twitter_handle: amsrb
+  description: Amsterdam.rb is a Ruby meetup group in Amsterdam, the Netherlands, that holds regular events and livestreams them.
+  photo: amsterdam-rb.webp
+  logo: amsterdam-rb-logo.webp
+  source: rubyevents:amsterdam-rb
+  locations:
+  - address: Amsterdam, Netherlands
+    latitude: 52.3675734
+    longitude: 4.9041389
 - name: ApplyBoard
   type: business
   url: https://www.applyboard.com/
+  description: ApplyBoard is a study abroad application platform for applying to universities and colleges worldwide, based in Kitchener, Ontario, Canada.
+  photo: applyboard.webp
+  logo: applyboard-logo.webp
   locations:
   - address: 101 Frederick St,Kitchener, Ontario, Canada
+- name: Arlington Ruby
+  type: meetup
+  url: https://www.meetup.com/Arlington-Ruby/
+  description: Arlington Ruby is a meetup for Ruby developers in Arlington, Virginia, United States.
+  locations:
+  - address: 2300 Wilson Blvd, Arlington, VA, USA
+- name: Artificial Ruby
+  type: meetup
+  url: https://www.artificialruby.ai
+  twitter_handle: artificialruby
+  description: A community of Rubyists in New York City that meets monthly for workshops and talks on building AI applications with Ruby.
+  photo: artificial-ruby.webp
+  logo: artificial-ruby-logo.webp
+  source: rubyevents:artificialruby
+  locations:
+  - address: New York, NY, United States
+    latitude: 40.7127753
+    longitude: -74.0059728
 - name: Asakusa.rb
   type: meetup
   url: http://asakusa.rubyist.net/
+  description: Asakusa.rb is a regional Ruby group in Tokyo, Japan, that meets every Tuesday evening in the Asakusa area.
+  photo: asakusa-rb.webp
+  logo: asakusa-rb-logo.webp
+  source: rubyevents:asakusarb
   locations:
   - address: Asakusa, Tokyo, Japan
 - name: Assembly Four
   type: business
   url: https://assemblyfour.com/
   twitter_handle: AssemblyFour
+  description: Assembly Four is a collective of sex workers and technologists in Melbourne, Australia, that builds technology with and for sex workers.
   locations:
   - address: Spencer St, Melbourne, Victoria, Australia
+- name: Auckland Ruby
+  type: meetup
+  url: https://www.meetup.com/aucklandruby/
+  description: Ruby Nights is the Auckland Ruby group in New Zealand, meeting monthly on the second-to-last Monday, except in December and January.
+  source: rubyevents:auckland-ruby
+  locations:
+  - address: Auckland, New Zealand
+    latitude: -36.8509
+    longitude: 174.7645
+- name: austin.rb
+  type: meetup
+  url: https://austinrb.org/
+  twitter_handle: austinrb
+  description: austin.rb is a meetup for Ruby developers in Austin, Texas, United States.
+  photo: austin-rb.webp
+  logo: austin-rb-logo.webp
+  source: rubyevents:austinrb
+  locations:
+  - address: Austin, TX, United States
+    latitude: 30.267153
+    longitude: -97.7430608
 - name: B'more (Baltimore) on Rails
   type: meetup
   url: https://www.meetup.com/bmore-on-rails/
+  description: B'more on Rails is a meetup for Ruby and Rails developers in Baltimore, Maryland, United States.
   locations:
   - address: Baltimore, MD, USA
+- name: B'more on Rails
+  type: meetup
+  url: https://luma.com/bmore-on-rails
+  description: B'more on Rails is a Ruby and Rails meetup in Baltimore, Maryland, United States. No experience is required to attend.
+  photo: b-more-on-rails.webp
+  logo: b-more-on-rails-logo.webp
+  source: rubyevents:bmore-on-rails
+  locations:
+  - address: Baltimore, MD, United States
+    latitude: 39.299236
+    longitude: -76.609383
+- name: Balkan Ruby
+  type: event
+  url: https://balkanruby.com
+  twitter_handle: balkanruby
+  description: Balkan Ruby is a Ruby programming conference held in Sofia, Bulgaria.
+  photo: balkan-ruby.webp
+  logo: balkan-ruby-logo.webp
+  source: rubyevents:balkanruby
+  locations:
+  - address: Blvd. Cherni Vrah 4, 1421 Sofia, Bulgaria
+    latitude: 42.6799413
+    longitude: 23.3206872
+- name: Baltic Ruby
+  type: event
+  url: https://balticruby.org
+  twitter_handle: balticruby
+  description: Baltic Ruby is a Ruby programming event held in Hamburg, Germany.
+  photo: baltic-ruby.webp
+  logo: baltic-ruby-logo.webp
+  source: rubyevents:balticruby
+  locations:
+  - address: Hamburg, Germany
+    latitude: 53.5488282
+    longitude: 9.987170299999999
 - name: Bangkok.rb
   type: meetup
   url: https://www.meetup.com/bangkok-rb/
+  description: Bangkok.rb runs Ruby Tuesday, a Ruby meetup in Bangkok, Thailand, held on the last Tuesday of every month.
+  photo: bangkok-rb.webp
+  logo: bangkok-rb-logo.webp
+  source: rubyevents:bangkok-rb
   locations:
-  - address: 399 Interchange Tower 21 Sukhumvit Rd, Khlong Toei Nuea, Watthana, Bangkok
-      10110, Thailand
+  - address: 399 Interchange Tower 21 Sukhumvit Rd, Khlong Toei Nuea, Watthana, Bangkok 10110, Thailand
+- name: Barcelona.rb
+  type: meetup
+  url: https://www.meetup.com/barcelona-rb
+  twitter_handle: bcnrails
+  description: Barcelona.rb is the Ruby user group for developers in Barcelona, Spain.
+  photo: barcelona-rb.webp
+  logo: barcelona-rb-logo.webp
+  source: rubyevents:barcelona-rb
+  locations:
+  - address: Barcelona, Spain
+    latitude: 41.3874374
+    longitude: 2.1686496
 - name: Basecamp
   type: business
   url: https://basecamp.com/about/office
+  description: Basecamp is a company based in Chicago. Its website describes how Basecamp was created out of the team's own need when working with clients.
+  photo: basecamp.webp
+  logo: basecamp-logo.webp
   locations:
   - address: Chicago
 - name: Bath Ruby
   type: meetup
-  url: https://bathruby.uk
+  description: Bath Ruby is a meetup for Ruby developers in Bath, United Kingdom.
   locations:
   - address: Bath, UK
+- name: Belfast Ruby
+  type: meetup
+  url: https://lu.ma/BelfastRuby
+  description: Belfast Ruby is a Ruby user group in Belfast, UK. It has also run a Ruby conference with workshops, talks, live music and games built with Ruby.
+  photo: belfast-ruby.webp
+  logo: belfast-ruby-logo.webp
+  source: rubyevents:belfastruby
+  locations:
+  - address: 22-26 Ormeau Ave, Belfast BT2 8HS, UK
+    latitude: 54.5930246
+    longitude: -5.9307359
+- name: Berlin.rb
+  type: meetup
+  url: https://berlinrb.org
+  twitter_handle: berlinrb_org
+  description: Berlin.rb is a regular Ruby meetup in Berlin, Germany, with talks, project show-and-tells and casual get-togethers. It is free and open to everyone.
+  photo: berlin-rb.webp
+  logo: berlin-rb-logo.webp
+  source: rubyevents:berlinrb
+  locations:
+  - address: Berlin, Germany
+    latitude: 52.52
+    longitude: 13.405
 - name: Białystok Ruby Users Group
   type: meetup
   url: https://www.facebook.com/groups/BRUGroup/
+  description: Białystok Ruby Users Group is a community for Ruby developers in Białystok, Poland.
   locations:
   - address: ul. Sienkiewicza 110, Białystok, Poland
+- name: Bigger Pockets
+  type: business
+  url: https://www.biggerpockets.com
+  twitter_handle: biggerpockets
+  description: BiggerPockets is an online community with tools and advice for real estate investors, based in Denver, Colorado, United States.
+  locations:
+  - address: 3344 Walnut St, Denver, CO 80205, USA
+- name: Blastoff Rails
+  type: event
+  url: https://blastoffrails.com
+  twitter_handle: blastoffrails
+  description: Blastoff Rails is a Rails conference held in Albuquerque, New Mexico, United States.
+  photo: blastoff-rails.webp
+  logo: blastoff-rails-logo.webp
+  source: rubyevents:blastoffrails
+  locations:
+  - address: 2000 Mountain Rd NW, Albuquerque, NM 87104
+    latitude: 35.097735421515075
+    longitude: -106.6682148179672
+- name: Blue Ridge Ruby
+  type: event
+  url: https://blueridgeruby.com
+  twitter_handle: blueridgeruby
+  description: Blue Ridge Ruby is a regional Ruby conference in Asheville, in the mountains of western North Carolina, United States.
+  photo: blue-ridge-ruby.webp
+  logo: blue-ridge-ruby-logo.webp
+  source: rubyevents:blue-ridge-ruby
+  locations:
+  - address: Asheville, NC, United States
+    latitude: 35.595363
+    longitude: -82.5508407
+- name: Bluegrass Ruby Users Group
+  type: meetup
+  url: https://bluegrassruby.club
+  description: A Ruby user group in Lexington, Kentucky, for beginners and experienced developers. It meets monthly to explore a topic or read a book about Ruby.
+  photo: bluegrass-ruby-users-group.webp
+  logo: bluegrass-ruby-users-group-logo.webp
+  source: rubyevents:bluegrass-ruby
+  locations:
+  - address: Lexington, KY, United States
+    latitude: 38.0389091
+    longitude: -84.5152662
 - name: Bold Penguin
   type: business
   url: https://www.boldpenguin.com/
+  description: Bold Penguin is a commercial insurance technology company in Columbus, Ohio. Its DeX ai product reads, prices and matches insurance submissions.
+  photo: bold-penguin.webp
+  logo: bold-penguin-logo.webp
   locations:
   - address: 100 E Broad St, 15th Floor, Columbus, OH, 43215, US
+- name: Bookwhen
+  type: business
+  url: https://bookwhen.com
+  description: Bookwhen is an online booking system for classes, courses, workshops, activities and events, based in Oxford, UK.
+  logo: bookwhen-logo.webp
+  locations:
+  - address: Belsyre Court, 57 Woodstock Road, Oxford, OX2 6HJ
+- name: Brighton Ruby
+  type: event
+  url: https://brightonruby.com
+  twitter_handle: BrightonRuby
+  description: Brighton Ruby is a Ruby conference held at the Brighton Dome in Brighton, UK.
+  photo: brighton-ruby.webp
+  logo: brighton-ruby-logo.webp
+  source: rubyevents:brightonruby
+  locations:
+  - address: Church St, Brighton and Hove, Brighton BN1 1UE, UK
+    latitude: 50.8236999
+    longitude: -0.1380842
 - name: BrisRuby
   type: meetup
   url: https://www.meetup.com/BrisRuby
   twitter_handle: brisruby
+  description: BrisRuby is Brisbane's Ruby and Rails community and the oldest Ruby meetup group in Australia, running since 2006.
+  photo: brisruby.webp
+  logo: brisruby-logo.webp
+  source: rubyevents:brisrails
   locations:
   - address: Brisbane, Queensland, Australia
 - name: Buildkite
   type: business
   url: https://buildkite.com/
   twitter_handle: buildkite
+  description: Buildkite is a continuous integration (CI) and orchestration platform for software teams, based in Fitzroy, Victoria, Australia.
+  photo: buildkite.webp
+  logo: buildkite-logo.webp
   locations:
   - address: 149A Brunswick St, Fitzroy, Victoria, Australia
 - name: Cadena
   type: business
   url: https://cadena.com.br
+  description: Cadena is a company in Americana, São Paulo, Brazil, that makes systems for managing and automating radio stations.
+  photo: cadena.webp
+  logo: cadena-logo.webp
   locations:
   - address: Rua Operario Osvaldo dos Santos, 58 Americana, SP, Brazil
 - name: Cahootify
   type: business
   url: https://cahootify.com
+  description: Cahootify runs a project-centred professional network for producers, filmmakers and actors, based in Bath, UK.
+  logo: cahootify-logo.webp
   locations:
   - address: The Guild, High Street, Bath, UK
 - name: Calibre
   type: business
   url: https://calibreapp.com/
   twitter_handle: calibreapp
+  description: Calibre is a web performance monitoring service that combines real user monitoring, Google CrUX data and synthetic tests, based in Melbourne, Australia.
+  photo: calibre.webp
+  logo: calibre-logo.webp
   locations:
   - address: 149A Brunswick Street, Melbourne, Victoria, Australia
 - name: cardiffrb
   type: meetup
   url: https://www.cardiffrb.com
+  description: cardiffrb is a group for Ruby and Ruby on Rails developers in Cardiff, Wales, UK.
   locations:
   - address: Cardiff, UK
 - name: carwow
   type: business
   url: https://www.carwow.co.uk
+  description: carwow is an online service for buying and selling cars through offers from partner dealers, based in London, UK.
+  photo: carwow.webp
+  logo: carwow-logo.webp
   locations:
   - address: 10 Bressenden Place, Westminster, London SW1E 5DH
 - name: Catawiki
   type: business
   url: https://catawiki.com
+  description: Catawiki is a company with offices in Amsterdam and Assen, the Netherlands.
   locations:
   - address: Trompenburgstraat 2, 1079 TX Amsterdam, The Netherlands
   - address: Overcingellaan 5, 9401 LA Assen, The Netherlands
 - name: Charanga
   type: business
   url: https://charanga.com
+  description: Charanga is an online music teaching and learning platform for children, young people and music teachers, based in Brighton, UK.
+  photo: charanga.webp
   locations:
   - address: 5th floor, Olivier House, 18 Marine Parade, Brighton, BN2 1TL, UK
 - name: Chargefox
   type: business
   url: https://www.chargefox.com
   twitter_handle: Chargefox
+  description: Chargefox is an electric vehicle charging platform in Australia that helps organisations host and manage chargers, based in Melbourne.
+  photo: chargefox.webp
+  logo: chargefox-logo.webp
   locations:
   - address: Level 1, 673 Bourke Street, Melbourne, Victoria, Australia
 - name: Charlotte Ruby
   type: meetup
-  url: http://charlotteruby.org
+  url: https://www.meetup.com/charlotte-rb/
+  description: Charlotte Ruby is a meetup for Ruby developers in Charlotte, North Carolina, United States.
   locations:
   - address: Charlotte, NC
+- name: ChicagoRuby
+  type: meetup
+  url: https://chicagoruby.org
+  twitter_handle: chicagoruby
+  description: ChicagoRuby is a group of developers and designers in Chicago who use Ruby, Rails and related technologies.
+  photo: chicagoruby.webp
+  logo: chicagoruby-logo.webp
+  source: rubyevents:chicagoruby
+  locations:
+  - address: Chicago, IL, United States
+    latitude: 41.88325
+    longitude: -87.6323879
+- name: Christchurch Ruby
+  type: meetup
+  url: https://christchurch.ruby.nz
+  description: The Christchurch Ruby group in New Zealand holds monthly meetups at 7:30pm on the third Thursday of the month.
+  source: rubyevents:christchurch-ruby
+  locations:
+  - address: Christchurch, New Zealand
+    latitude: -43.5321
+    longitude: 172.6362
 - name: Cincinnati Ruby Brigade
   type: meetup
   url: http://cincyrb.com/
+  description: Cincinnati Ruby Brigade is a meetup for Ruby developers in Cincinnati, Ohio, United States.
+  logo: cincinnati-ruby-brigade-logo.webp
   locations:
   - address: 708 Walnut Street, Cincinnati, OH, 45202, US
 - name: Cleveland Ruby Brigade
   type: meetup
   url: https://www.meetup.com/ClevelandRuby/
+  description: Cleveland Ruby Brigade is a meetup for Ruby developers in Highland Hills, near Cleveland, Ohio, United States.
   locations:
   - address: 22901 Millcreek Blvd, Highland Hills, OH, US
 - name: Cloud Five
   type: business
   url: https://www.cloudfive.app
+  description: Cloud Five provides white-labelled apps as a service and is based in Madison, Wisconsin, United States.
   locations:
   - address: 4513 Vernon Blvd, Madison, WI 53715, USA
+- name: cologne.rb - Cologne Ruby User Group
+  type: meetup
+  url: https://www.meetup.com/cologne-rb/
+  description: cologne.rb is the Ruby user group for developers in Cologne, Germany.
+  locations:
+  - address: Cologne, Germany
 - name: Columbus Ruby Brigade
   type: meetup
   url: http://www.columbusrb.com/
+  description: Columbus Ruby Brigade is a meetup for Ruby developers in Columbus, Ohio, United States.
+  photo: columbus-ruby-brigade.webp
   locations:
   - address: 2 Miranova Pl, Columbus, OH, 43215, US
 - name: Cookpad
   type: business
   url: https://www.cookpadteam.com
   twitter_handle: cookpad_dev
+  description: Cookpad is a company with offices in Bristol, UK, Tokyo, Japan, and Jakarta, Indonesia.
   locations:
   - address: Broad Plain, Bristol
   - address: Ebisu Garden Place Tower, 12/F, 4-20-3 Ebisu, Tokyo, 150-6012, Japan
-  - address: Jl. Pramuka Sari II No.24, RT.5/RW.6, Kenari, Senen, Kota Jakarta Pusat,
-      Daerah Khusus Ibukota Jakarta 10430
+  - address: Jl. Pramuka Sari II No.24, RT.5/RW.6, Kenari, Senen, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10430
 - name: CreditDigital
   type: business
-  url: https://creditdigital.co.uk
+  description: CreditDigital is a company based in Islington, London, United Kingdom.
   locations:
   - address: 40 Islington High St, The Angel, London N1 8EQ
 - name: Culture Amp
   type: business
   url: https://www.cultureamp.com/
   twitter_handle: CultureAmp
+  description: Culture Amp is an employee experience platform with performance, development and engagement tools, based in Richmond, Victoria, Australia.
+  photo: culture-amp.webp
+  logo: culture-amp-logo.webp
   locations:
   - address: Level 2, 29 Stewart St, Richmond, Victoria, Australia
 - name: DCRUG (Washington DC Ruby User Group)
   type: meetup
   url: https://www.meetup.com/dcruby/
+  description: DCRUG is the Ruby user group for developers in Washington, DC, United States.
   locations:
-    - address: Washington, DC, USA
+  - address: Washington, DC, USA
+- name: Deccan Queen on Rails
+  type: event
+  url: https://deccanqueenonrails.com/
+  twitter_handle: hideccanqueen
+  description: Deccan Queen on Rails is a Rails conference in Pune, India, that brings together Rails developers from India and invited speakers from abroad.
+  photo: deccan-queen-on-rails.webp
+  logo: deccan-queen-on-rails-logo.webp
+  source: rubyevents:deccan-queen-on-rails
+  locations:
+  - address: Weikfield IT Park, Nagar Road, Pune - 411014, Maharashtra, India
+    latitude: 18.5599118
+    longitude: 73.9123629
+- name: DenHaag.rb
+  type: meetup
+  url: https://www.meetup.com/denhaagrb/
+  description: DenHaag.rb is a group of Ruby users in and around The Hague, Netherlands, who build a local network, share knowledge and promote Ruby.
+  photo: denhaag-rb.webp
+  logo: denhaag-rb-logo.webp
+  source: rubyevents:denhaag-rb
+  locations:
+  - address: The Hague, Netherlands
+    latitude: 52.0799838
+    longitude: 4.3113461
 - name: Department for Environment Food & Rural Affairs
   type: business
   url: https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs
+  description: Defra is the UK government department responsible for the environment, food, farming, fishing and rural communities, with an office in Bristol.
+  photo: department-for-environment-food-rural-affairs.webp
+  logo: department-for-environment-food-rural-affairs-logo.webp
   locations:
   - address: Horizon House, Deanery Rd, Bristol BS1 5TL
 - name: Dexem
   type: business
   url: https://www.dexem.com/en/
+  description: Dexem makes a call management platform for business telephony and is based in Cesson-Sévigné, France.
+  logo: dexem-logo.webp
   locations:
   - address: 4 Avenue des Peupliers, Cesson-Sévigné, France
+- name: Dresden.rb
+  type: meetup
+  url: https://dresdenrb.onruby.de/
+  description: Dresden.rb is a Ruby user group for developers in Dresden, Germany.
+  photo: dresden-rb.webp
+  logo: dresden-rb-logo.webp
+  source: rubyevents:dresden-rb
+  locations:
+  - address: Dresden, Germany
+    latitude: 51.0504088
+    longitude: 13.7372621
 - name: Envato
   type: business
   url: https://www.envato.com/
   twitter_handle: envato
+  description: Envato provides AI tools and a library of creative assets for professional and commercial use, based in Carlton, Victoria, Australia.
+  photo: envato.webp
+  logo: envato-logo.webp
   locations:
   - address: Level 3, 551 Swanston Street, Carlton, Victoria, Australia
 - name: epiGenesys
   type: business
   url: https://www.epigenesys.org.uk/
   twitter_handle: epigenesys
+  description: epiGenesys is a software development company in Sheffield, UK, that builds information management systems for health research and higher education.
+  logo: epigenesys-logo.webp
   locations:
   - address: Floor C, Cathedral Court, 1 Vicar Lane, Sheffield, S1 2LT
+- name: EuRuKo
+  type: event
+  url: https://euruko.org
+  twitter_handle: euruko
+  description: EuRuKo is the annual European Ruby Conference, held in a different European city each year, with talks and time to meet developers from around the world.
+  photo: euruko.webp
+  logo: euruko-logo.webp
+  source: rubyevents:euruko
+  locations:
+  - address: Modena, Italy
+    latitude: 44.5384728
+    longitude: 10.9359609
 - name: Evil Martians
   type: business
   url: https://evilmartians.com
   twitter_handle: evilmartians
+  description: Evil Martians is a product development consultancy for developer tools, with offices in Brooklyn, San Francisco and Moscow.
+  photo: evil-martians.webp
+  logo: evil-martians-logo.webp
   locations:
   - address: 195 Montague St, Brooklyn, NY, 11201, US
   - address: 156 2nd St, San Francisco, CA, 94105, US
@@ -211,59 +563,117 @@
 - name: Faveod
   type: business
   url: https://faveod.com/
+  description: Faveod is a Paris company that makes an industrial software development tool that also serves as a requirements repository.
   locations:
   - address: 3 avenue Victor Hugo, 75116 Paris XVIe, France
 - name: Fera.ai
   type: business
   url: https://www.fera.ai/
+  description: Fera is a product and store reviews app for Shopify, based in Kitchener, Ontario, Canada.
+  photo: fera-ai.webp
+  logo: fera-ai-logo.webp
   locations:
   - address: 151 Charles St West, Kitchener, Ontario, Canada
 - name: Finalsite
   type: business
   url: https://finalsite.dev/jobs
+  description: Finalsite is a company in Glastonbury, Connecticut, United States, whose work serves independent and international schools.
+  photo: finalsite.webp
   locations:
   - address: Glastonbury, Connecticut
 - name: Flipp
   type: business
   url: https://www.flipp.com/
+  description: Flipp is a digital platform for browsing store flyers and weekly ads and making shopping lists, based in Etobicoke, Ontario, Canada.
   locations:
   - address: 3250 Bloor St W \#12, Etobicoke, ON, Canada M8X 2X9
 - name: Flood
   type: business
   url: https://www.flood.io/
   twitter_handle: flood_io
+  description: Flood is a company based in Surry Hills, New South Wales, Australia.
+  logo: flood-logo.webp
   locations:
   - address: Level 3, Suite 4, 2-12 Foveaux St, Surry Hills, New South Wales, Australia
 - name: FreeAgent
   type: business
   url: https://www.freeagent.com
+  description: FreeAgent makes accounting software for small businesses and is based in Edinburgh, Scotland, UK.
+  photo: freeagent.webp
+  logo: freeagent-logo.webp
   locations:
   - address: 133 Fountainbridge, Edinburgh, Scotland, UK
+- name: Friendly.rb
+  type: event
+  url: https://friendlyrb.com/
+  twitter_handle: friendlyrb
+  description: Friendly.rb is a two-day, single-track European Ruby conference in Bucharest, Romania, with talks and mountain trips.
+  photo: friendly-rb.webp
+  logo: friendly-rb-logo.webp
+  source: rubyevents:friendly-rb
+  locations:
+  - address: Palatul Universul, Corp B, subsol, Strada Ion Brezoianu 23-25, București 030167, Romania
+    latitude: 44.4356575
+    longitude: 26.094038
+- name: Fukuoka RubyistKaigi
+  type: event
+  url: https://x.com/Fukuoka_RK
+  twitter_handle: Fukuoka_RK
+  description: Fukuoka RubyistKaigi is a regional Ruby conference held in Fukuoka, Japan.
+  photo: fukuoka-rubyistkaigi.webp
+  logo: fukuoka-rubyistkaigi-logo.webp
+  source: rubyevents:fukuoka-rubyistkaigi
+  locations:
+  - address: '会場: リファレンス駅東ビル３階 会議室H-2'
+    latitude: 33.59105484945821
+    longitude: 130.42480689237757
 - name: General Products Ltd – Consonance
   type: business
   url: https://www.consonance.app
+  description: Consonance is title management and ONIX metadata software for book publishers, made by General Products Ltd in Thame, UK.
   locations:
   - address: 55 High St, Thame, OX9 3BH, UK
+- name: Geneva.rb
+  type: meetup
+  url: https://www.meetup.com/geneva-rb
+  description: Geneva.rb is a meetup for Ruby and Ruby on Rails developers in Geneva, Switzerland.
+  photo: geneva-rb.webp
+  logo: geneva-rb-logo.webp
+  source: rubyevents:geneva-rb
+  locations:
+  - address: Geneva, Switzerland
+    latitude: 46.2043907
+    longitude: 6.1431577
 - name: Ginza.rb
   type: meetup
   url: https://ginzarb.github.io/
   twitter_handle: ginzarb2
+  description: Ginza.rb is a regional community where Ruby engineers in and around Ginza, Tokyo, meet to work on Ruby-related activities.
+  photo: ginza-rb.webp
+  logo: ginza-rb-logo.webp
+  source: rubyevents:ginzarb
   locations:
   - address: Ginza, Tokyo, Japan
+- name: GitHub
+  type: business
+  url: https://github.com/about
+  description: GitHub is a platform where people build software, discover projects, and fork and contribute to them, based in San Francisco.
+  logo: github-logo.webp
+  locations:
+  - address: San Francisco
 - name: Government Digital Service
   type: business
   url: https://www.gov.uk/government/organisations/government-digital-service
   twitter_handle: GDSTeam
+  description: The Government Digital Service is the digital centre of the UK government, serving the public and the public sector, based in London.
+  photo: government-digital-service.webp
+  logo: government-digital-service-logo.webp
   locations:
   - address: The White Chapel Building, 10 Whitechapel High Street, London, E1 8QS, UK
-- name: GitHub
-  type: business
-  url: https://github.com/about
-  locations:
-  - address: San Francisco
 - name: Great Lakes Bioenergy Research Center
   type: business
   url: https://www.glbrc.org
+  description: A research center led by the University of Wisconsin–Madison that develops sustainable biofuels and bioproducts, with sites in Madison and East Lansing.
   locations:
   - address: 1552 University Ave, Madison, WI 53726, USA
   - address: 1129 Farm Ln, East Lansing, MI 48824, USA
@@ -271,308 +681,1653 @@
   type: business
   url: https://greensync.com/
   twitter_handle: greensync
+  description: GreenSync is a Melbourne company that works on digital systems for flexible, distributed renewable energy.
+  logo: greensync-logo.webp
   locations:
   - address: Suite 3515, Level 35, 477 Collins St, Melbourne, Victoria, Australia
+- name: Groningen.rb
+  type: meetup
+  url: https://www.meetup.com/groningen-rb/
+  twitter_handle: groningenrb
+  description: Groningen.rb is a regular Ruby meetup in Groningen, Netherlands, with talks and occasional code hacking evenings. Drinks and snacks are provided.
+  photo: groningen-rb.webp
+  logo: groningen-rb-logo.webp
+  source: rubyevents:groningen-rb
+  locations:
+  - address: Groningen, Netherlands
+    latitude: 53.2190652
+    longitude: 6.5680077
+- name: Guava
+  type: business
+  url: https://guava.software
+  description: Guava is a former web application development company in Recife, Brazil, that operated from 2011 to 2021 and is now part of VTEX.
+  photo: guava.webp
+  logo: guava-logo.webp
+  locations:
+  - address: R. Alfredo Coutinho, 74 - Poço da Panela, Recife, Pernambuco, Brasil
+- name: GURU SP
+  type: meetup
+  url: https://www.gurusp.org/
+  twitter_handle: guru_sp
+  description: GURU SP is the Ruby user group of São Paulo, Brazil, which holds in-person meetings several times a year to share knowledge about Ruby.
+  photo: guru-sp.webp
+  logo: guru-sp-logo.webp
+  source: rubyevents:guru-sp
+  locations:
+  - address: São Paulo, Brazil
+    latitude: -23.5503
+    longitude: -46.6361
+- name: Haggis Ruby
+  type: event
+  url: https://haggisruby.co.uk
+  description: Haggis Ruby is a single-track, two-day Ruby conference in Glasgow, Scotland, that brings together the Scottish, British and European Ruby communities.
+  photo: haggis-ruby.webp
+  logo: haggis-ruby-logo.webp
+  source: rubyevents:haggis-ruby
+  locations:
+  - address: 67 Hope St, Glasgow G2 6AE, UK
+    latitude: 55.8597616
+    longitude: -4.2592386
+- name: Hamada.rb
+  type: meetup
+  url: https://hamada-rb.github.io/hamadarb/
+  description: Hamada.rb is a regional Ruby group for developers in Hamada, Shimane, Japan.
+  locations:
+  - address: Hamada, Shimane, Japan
 - name: Helsinki Ruby Brigade
   type: meetup
   url: https://www.meetup.com/rubybrigade
+  description: Helsinki Ruby Brigade is a meetup for Ruby developers in Helsinki, Finland.
+  photo: helsinki-ruby-brigade.webp
+  logo: helsinki-ruby-brigade-logo.webp
+  source: rubyevents:helsinki-ruby
   locations:
   - address: Helsinki
+- name: Helvetic Ruby
+  type: event
+  url: https://helvetic-ruby.ch
+  twitter_handle: helvetic_ruby
+  description: Helvetic Ruby is a single-track conference in Zürich, Switzerland, for Ruby developers from Switzerland and abroad.
+  photo: helvetic-ruby.webp
+  logo: helvetic-ruby-logo.webp
+  source: rubyevents:helveticruby
+  locations:
+  - address: Technoparkstrasse 1, 8005 Zürich, Switzerland
+    latitude: 47.3893338
+    longitude: 8.5157189
+- name: Hirakata.rb
+  type: meetup
+  url: https://hirakatarb.connpass.com
+  description: A Ruby community in and around Hirakata, Osaka, Japan, with many participants joining online. Events are held on an irregular basis.
+  photo: hirakata-rb.webp
+  logo: hirakata-rb-logo.webp
+  source: rubyevents:hirakatarb
+  locations:
+  - address: Hirakata, Japan
+    latitude: 34.8144363
+    longitude: 135.6507278
 - name: Hiroshima.rb
   type: meetup
   url: https://hiroshimarb.connpass.com/
+  description: Hiroshima.rb is a meetup for Ruby developers in Hiroshima, Japan.
   locations:
   - address: Hiroshima
+- name: Hokuriku RubyKaigi
+  type: event
+  url: https://regional.rubykaigi.org/hokuriku01/
+  description: A regional Ruby conference in Fukui, Japan, organised by the Toyama.rb, Kanazawa.rb and fukui.rb communities to show practical uses of Ruby.
+  photo: hokuriku-rubykaigi.webp
+  logo: hokuriku-rubykaigi-logo.webp
+  source: rubyevents:hokuriku-rubykaigi
+  locations:
+  - address: 51-11 Terao, Muraoka-cho, Katsuyama-shi, Fukui 911-8601, Japan
+    latitude: 36.0823
+    longitude: 136.5066
 - name: HotDoc
   type: business
   url: https://www.hotdoc.com.au/
   twitter_handle: HotDocOnline
+  description: HotDoc is an online service for booking appointments with doctors, dentists and other healthcare providers in Australia, based in Melbourne.
+  logo: hotdoc-logo.webp
   locations:
   - address: Level 7, 276 Flinders St, Melbourne, Victoria, Australia
+- name: Ideamotive - Ruby on Rails development
+  type: business
+  url: https://ideamotive.co
+  description: Ideamotive is an IT services company in Warsaw, Poland, that helps companies hire IT staff and provides staff leasing services.
+  locations:
+  - address: ul. Bohomolca 15, 01-613 Warsaw
 - name: indy.rb - Indianapolis Ruby Brigade
   type: meetup
   url: http://www.indyrb.org
+  description: indy.rb is the Indianapolis Ruby Brigade, a group in Indianapolis, Indiana, where local Rubyists meet for food, drinks and conversation.
   locations:
   - address: Indianapolis, IN, US
+- name: Izumo RubyKaigi
+  type: event
+  url: https://regional.rubykaigi.org/izumo01/
+  description: A regional RubyKaigi conference about the Ruby programming language, held in Izumo, Japan.
+  source: rubyevents:izumo-rubykaigi
+  locations:
+  - address: Izumo, Japan
+    latitude: 35.3668891
+    longitude: 132.7548827
+- name: K-Ruby
+  type: meetup
+  url: https://k-ruby.com
+  description: A Ruby community in Kagoshima, Japan, for developers, hackers and programming enthusiasts.
+  photo: k-ruby.webp
+  logo: k-ruby-logo.webp
+  source: rubyevents:k-ruby
+  locations:
+  - address: Kagoshima, Japan
+    latitude: 31.521587
+    longitude: 130.5474077
+- name: Kaigi on Rails
+  type: event
+  url: https://kaigionrails.org
+  twitter_handle: kaigionrails
+  description: A conference in Tokyo, Japan, about web development centered on Ruby on Rails, designed to make it easier for people to take part in conferences.
+  photo: kaigi-on-rails.webp
+  logo: kaigi-on-rails-logo.webp
+  source: rubyevents:kaigi-on-rails
+  locations:
+  - address: 3-11-1 Ariake, Koto City, Tokyo 135-0063, Japan
+    latitude: 35.6320533
+    longitude: 139.7978048
+- name: Kanazawa.rb
+  type: meetup
+  url: https://meetup.kzrb.org
+  description: A small regional Ruby community for people in and around Kanazawa, Japan, and for anyone interested in Ruby and other technologies.
+  photo: kanazawa-rb.webp
+  logo: kanazawa-rb-logo.webp
+  source: rubyevents:kanazawarb
+  locations:
+  - address: Kanazawa, Japan
+    latitude: 36.561627
+    longitude: 136.6568822
+- name: Kansai RubyKaigi
+  type: event
+  url: https://regional.rubykaigi.org/kansai09/
+  twitter_handle: rubykansai
+  description: A regional conference about the Ruby programming language, held regularly in the Kansai region of Japan, where Rubyists share knowledge and meet each other.
+  photo: kansai-rubykaigi.webp
+  logo: kansai-rubykaigi-logo.webp
+  source: rubyevents:kansai-rubykaigi
+  locations:
+  - address: 大津市園城寺町246-24
+    latitude: 35.01446057375976
+    longitude: 135.85252085110668
+- name: Kashiwa.rb
+  type: meetup
+  url: https://kashiwarb.connpass.com
+  twitter_handle: kashiwarb
+  description: A Ruby community that meets about monthly near JR Kashiwa Station in Kashiwa, Japan, with lightning talks and coding sessions for all levels.
+  photo: kashiwa-rb.webp
+  logo: kashiwa-rb-logo.webp
+  source: rubyevents:kashiwarb
+  locations:
+  - address: Kashiwa, Japan
+    latitude: 35.8675958
+    longitude: 139.9757575
 - name: KL Ruby Brigade
   type: meetup
   url: https://www.meetup.com/ruby-malaysia/
+  description: A Ruby meetup group for developers in Kuala Lumpur, Malaysia.
   locations:
   - address: Kuala Lumpur, Malaysia
+- name: KOBE.rb
+  type: meetup
+  url: https://koberb.connpass.com
+  description: A meetup for Rubyists in and around Kobe, Japan, that aims to meet monthly to learn, solve problems and talk about Ruby and Rails.
+  photo: kobe-rb.webp
+  logo: kobe-rb-logo.webp
+  source: rubyevents:koberb
+  locations:
+  - address: Kobe, Japan
+    latitude: 34.6932379
+    longitude: 135.1943764
 - name: Krakow Ruby Users Group
   type: meetup
   url: https://krug.org.pl
+  description: A community for Ruby developers and enthusiasts in Kraków, Poland, with meetups of talks followed by networking. A member of Ruby Europe.
+  photo: krakow-ruby-users-group.webp
+  logo: krakow-ruby-users-group-logo.webp
+  source: rubyevents:krug
   locations:
   - address: ul. Ślusarska 9, Kraków, Poland
 - name: KWRuby
   type: meetup
   url: http://kwruby.ca/
+  description: A meetup group for Ruby developers in Kitchener, Ontario, Canada.
   locations:
   - address: Kitchener, Ontario, Canada
+- name: Kyobashi.rb
+  type: meetup
+  url: https://kyobashirb.connpass.com
+  description: An in-person Ruby community for engineers around Kyobashi, Osaka, Japan, open to people who do not live or work in Kyobashi.
+  photo: kyobashi-rb.webp
+  logo: kyobashi-rb-logo.webp
+  source: rubyevents:kyobashirb
+  locations:
+  - address: Osaka, Japan
+    latitude: 34.6960819
+    longitude: 135.5342674
+- name: Kyoto.rb
+  type: meetup
+  url: https://kyotorb.connpass.com
+  description: A community for Ruby engineers in and around Kyoto, Japan, who meet to hack, give presentations and talk. People from outside Kyoto are welcome.
+  photo: kyoto-rb.webp
+  logo: kyoto-rb-logo.webp
+  source: rubyevents:kyotorb
+  locations:
+  - address: Kyoto, Japan
+    latitude: 35.0115754
+    longitude: 135.7681441
+- name: Latvian Ruby Community
+  type: meetup
+  url: https://lu.ma/latviarb
+  description: A meetup group in Riga, Latvia, centered on the Ruby programming language.
+  photo: latvian-ruby-community.webp
+  logo: latvian-ruby-community-logo.webp
+  source: rubyevents:latvian-ruby-community
+  locations:
+  - address: Riga, Latvia
+    latitude: 56.9676941
+    longitude: 24.1056221
 - name: LocalMotion, Boise Ruby User Group
   type: meetup
   url: https://www.meetup.com/LocalMotion/
+  description: LocalMotion is a Ruby user group that holds its meetups in Boise, Idaho, USA.
   locations:
   - address: 2404 Bank Dr, Boise, ID 83705
+- name: London Ruby User Group
+  type: meetup
+  url: https://lrug.org
+  twitter_handle: lrug
+  description: A Ruby user group in London, UK, open to anyone interested in Ruby, especially beginners. It meets on the second Monday of each month.
+  photo: london-ruby-user-group.webp
+  logo: london-ruby-user-group-logo.webp
+  source: rubyevents:lrug
+  locations:
+  - address: London, UK
+    latitude: 51.5072178
+    longitude: -0.1275862
 - name: Lookahead Search
   type: business
   url: https://lookahead.com.au/
   twitter_handle: LookaheadSearch
+  description: A tech recruitment agency in Sydney, Australia, that places software engineers, AI and data specialists and other technical professionals.
+  logo: lookahead-search-logo.webp
   locations:
   - address: Level 5, 63 York Street, Sydney, New South Wales, Australia
 - name: Luca Labs
   type: business
-  url: www.lucalabs.com
+  url: https://www.lucalabs.com
+  description: Luca Labs makes Luca Regnskap, accounting software for small businesses in Norway that handles invoicing and reporting to Altinn. Based in Oslo.
+  photo: luca-labs.webp
+  logo: luca-labs-logo.webp
   locations:
   - address: Tordenskiolds gate 3, 0160 Oslo, Norway
+- name: Lyon.rb Meetup
+  type: meetup
+  url: https://www.meetup.com/LyonRB
+  twitter_handle: lyonrb
+  description: A Ruby meetup in Lyon, France, where community members give talks that are recorded and published as videos.
+  photo: lyon-rb-meetup.webp
+  logo: lyon-rb-meetup-logo.webp
+  source: rubyevents:lyon-rb
+  locations:
+  - address: Lyon, France
+    latitude: 45.764043
+    longitude: 4.835659
 - name: Mad-Railers
   type: meetup
   url: https://www.meetup.com/Mad-Railers/
+  description: A meetup group for Ruby on Rails developers in Madison, Wisconsin, USA.
   locations:
   - address: Madison, WI
+- name: Madison+ Ruby
+  type: event
+  url: https://madisonruby.com
+  twitter_handle: madisonruby
+  description: A community conference in Madison, Wisconsin, USA, with talks about Ruby and about topics beyond technology.
+  photo: madison-ruby.webp
+  logo: madison-ruby-logo.webp
+  source: rubyevents:madison-ruby
+  locations:
+  - address: 201 State St, Madison, WI 53703, USA
+    latitude: 43.0741048
+    longitude: -89.38828459999999
+- name: Madrid.rb
+  type: meetup
+  url: https://www.madridrb.com
+  description: The Ruby user group of Madrid, Spain, a meetup for Ruby developers in the city.
+  photo: madrid-rb.webp
+  logo: madrid-rb-logo.webp
+  source: rubyevents:madrid-rb
+  locations:
+  - address: Madrid, Spain
+    latitude: 40.41672790000001
+    longitude: -3.7032905
+- name: makandra GmbH
+  type: business
+  url: https://makandra.com
+  description: makandra builds web applications and AI solutions for business-critical processes. The company is based in Augsburg, Germany.
+  photo: makandra-gmbh.webp
+  logo: makandra-gmbh-logo.webp
+  locations:
+  - address: Werner-von-Siemens-Str. 6, 86159 Augsburg, Germany
+- name: Matsue RubyKaigi
+  type: event
+  url: https://matsue.rubyist.net/
+  twitter_handle: matsuerb
+  description: A regional Ruby event in Matsue, Shimane, Japan, connected with the Matsue.rb Ruby community.
+  photo: matsue-rubykaigi.webp
+  logo: matsue-rubykaigi-logo.webp
+  source: rubyevents:matsue-rubykaigi
+  locations:
+  - address: 1-59 Tonomachi, Matsue, Shimane 690-0887, Japan
+    latitude: 35.473575
+    longitude: 133.0504452
+- name: Matsue.rb
+  type: meetup
+  url: https://matsue-rb.doorkeeper.jp
+  description: A community for the Ruby programming language, active in and around Matsue, Shimane, Japan.
+  photo: matsue-rb.webp
+  logo: matsue-rb-logo.webp
+  source: rubyevents:matsuerb
+  locations:
+  - address: Matsue, Shimane, Japan
+    latitude: 35.4644
+    longitude: 133.0626
 - name: Melbourne Ruby
   type: meetup
   url: https://www.meetup.com/en-AU/ruby-on-rails-oceania-melbourne/
   twitter_handle: roromelb
+  description: A community of Rubyists and Rails developers in Melbourne, Australia, with monthly meetups of technical talks and experience reports.
+  photo: melbourne-ruby.webp
+  logo: melbourne-ruby-logo.webp
+  source: rubyevents:ruby-melbourne
   locations:
   - address: Melbourne, Victoria, Australia
+- name: MerseyRails
+  type: meetup
+  url: https://merseyrails.com
+  twitter_handle: therubyhound
+  description: A community of full stack Ruby on Rails developers in Liverpool, UK, focused on building web software with Rails and few dependencies.
+  photo: merseyrails.webp
+  logo: merseyrails-logo.webp
+  source: rubyevents:merseyrails
+  locations:
+  - address: Liverpool, UK
+    latitude: 53.4083714
+    longitude: -2.9915726
+- name: Minho.rb
+  type: meetup
+  url: https://www.meetup.com/bragarb/
+  description: A Ruby user group in Braga, in the Minho region of Portugal, later organized as Braga.rb.
+  photo: minho-rb.webp
+  logo: minho-rb-logo.webp
+  source: rubyevents:minhorb
+  locations:
+  - address: Braga, Portugal
+    latitude: 41.5454486
+    longitude: -8.426507
 - name: minsk.rb
   type: meetup
   url: https://www.facebook.com/minskruby/
+  description: A meetup group for Ruby developers in the city of Minsk, Belarus.
   locations:
   - address: Minsk, Belarus
+- name: mitaka.rb
+  type: meetup
+  url: https://mitakarb.doorkeeper.jp
+  description: A Ruby community for developers in the city of Mitaka, Tokyo, Japan.
+  photo: mitaka-rb.webp
+  logo: mitaka-rb-logo.webp
+  source: rubyevents:mitakarb
+  locations:
+  - address: Mitaka, Tokyo, Japan
+    latitude: 35.6833926
+    longitude: 139.5592421
 - name: Mobile Doorman
   type: business
   url: https://www.mobiledoorman.com
+  description: Zego Mobile Doorman makes an app for residents that automates common on-site operations workflows, with offices in Madison and Chicago.
+  photo: mobile-doorman.webp
+  logo: mobile-doorman-logo.webp
   locations:
   - address: 4513 Vernon Blvd, Madison, WI 53715, USA
   - address: 4224 N Desplaines St, Suite 400, Chicago, IL 60661, USA
 - name: Monde
   type: business
-  url: https://vagas.monde.com.br
+  url: https://monde.com.br
+  description: Monde makes management software for travel agencies that covers sales, quotes and finance. The company is based in Americana, São Paulo, Brazil.
+  photo: monde.webp
+  logo: monde-logo.webp
   locations:
   - address: Rua Pernambuco, 1466 Americana, SP, Brazil
+- name: Montreal.rb
+  type: meetup
+  url: https://www.meetup.com/montrealrb
+  description: A Ruby meetup in Montréal, Canada, where members give talks about Ruby.
+  photo: montreal-rb.webp
+  logo: montreal-rb-logo.webp
+  source: rubyevents:montreal-rb
+  locations:
+  - address: Montréal, Canada
+    latitude: 45.5018869
+    longitude: -73.56739189999999
+- name: Munich Rubyshift
+  type: meetup
+  url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/
+  description: Munich Rubyshift is a Ruby user group that holds meetups in Munich, Germany.
+  photo: munich-rubyshift.webp
+  logo: munich-rubyshift-logo.webp
+  source: rubyevents:munich-rubyshift
+  locations:
+  - address: Munich, Germany
+    latitude: 48.1351253
+    longitude: 11.5819806
 - name: Mystery Applicant
   type: business
-  url: https://www.mysteryapplicant.com/
+  description: A company with an office on Gay Street in Bath, United Kingdom.
   locations:
   - address: 35 Gay Street, Bath, BA1 2NT, United Kingdom
+- name: Nagara RubyKaigi
+  type: event
+  url: https://regional.rubykaigi.org/nagara01/
+  description: A regional RubyKaigi conference about the Ruby programming language, held in Gifu, Japan.
+  photo: nagara-rubykaigi.webp
+  source: rubyevents:nagara-rubykaigi
+  locations:
+  - address: Gifu, Japan
+    latitude: 35.4230949
+    longitude: 136.7627526
+- name: Nagoya RubyKaigi
+  type: event
+  url: https://regional.rubykaigi.org/nagoya05/
+  description: A regional Ruby conference in Nagoya, Japan, where attendees talk about Ruby and related technologies.
+  photo: nagoya-rubykaigi.webp
+  logo: nagoya-rubykaigi-logo.webp
+  source: rubyevents:nagoya-rubykaigi
+  locations:
+  - address: "〒460-0011 愛知県名古屋市中区大須2丁目19-39"
+    latitude: 35.159806
+    longitude: 136.900778
+- name: Nairuby
+  type: meetup
+  url: http://nairuby.org
+  twitter_handle: nairubyke
+  description: A Ruby community in Nairobi, Kenya, part of the African Ruby Community, whose members are developers, entrepreneurs, designers and freelancers.
+  source: rubyevents:nairuby
+  locations:
+  - address: Nairobi, Kenya
+    latitude: -1.2920659
+    longitude: 36.8219462
+- name: naniwa.rb
+  type: meetup
+  url: https://github.com/naniwarb
+  description: naniwa.rb is a meetup group for Ruby developers in Osaka, Japan.
+  photo: naniwa-rb.webp
+  logo: naniwa-rb-logo.webp
+  source: rubyevents:naniwarb
+  locations:
+  - address: Osaka, Japan
+    latitude: 34.6937569
+    longitude: 135.5014539
+- name: Nantes.rb Meetup
+  type: meetup
+  url: https://rubynantes.org/
+  description: A monthly meetup for Ruby developers in Nantes, France, to discuss Ruby, Rails and related technologies.
+  photo: nantes-rb-meetup.webp
+  logo: nantes-rb-meetup-logo.webp
+  source: rubyevents:nantes-rb
+  locations:
+  - address: Nantes, France
+    latitude: 47.2186371
+    longitude: -1.5541362
+- name: Nepal Ruby Community
+  type: meetup
+  url: https://rubynepal.org
+  twitter_handle: ruby_nepal
+  description: A Ruby community in Kathmandu, Nepal, where Rubyists meet to chat, share tips and hold discussions.
+  photo: nepal-ruby-community.webp
+  logo: nepal-ruby-community-logo.webp
+  source: rubyevents:nepal-ruby
+  locations:
+  - address: Kathmandu, Nepal
+    latitude: 27.7103145
+    longitude: 85.3221634
+- name: Nishinippori.rb
+  type: meetup
+  url: https://nishinipporirb.doorkeeper.jp
+  description: A Ruby meetup for people who live in the Nishinippori area of Arakawa, Tokyo, Japan.
+  photo: nishinippori-rb.webp
+  logo: nishinippori-rb-logo.webp
+  source: rubyevents:nishinipporirb
+  locations:
+  - address: Arakawa, Tokyo, Japan
+    latitude: 35.737529
+    longitude: 139.78131
 - name: North West Ruby User Group
   type: meetup
   url: https://nwrug.org/
+  description: A Ruby user group in Manchester, UK, that runs events open to anyone interested in Ruby. It meets on the third Thursday of each month.
+  photo: north-west-ruby-user-group.webp
+  logo: north-west-ruby-user-group-logo.webp
+  source: rubyevents:nwrug
   locations:
   - address: Manchester, UK
 - name: NYC.rb
   type: meetup
   url: https://www.meetup.com/NYC-rb/
+  description: NYC.rb is a meetup group for Ruby developers in New York City, USA.
   locations:
   - address: New York, NY, USA
+- name: Oedo RubyKaigi
+  type: event
+  url: https://regional.rubykaigi.org/oedo11/
+  description: A regional Ruby conference in Tokyo, Japan, organized by the Asakusa.rb Ruby community.
+  photo: oedo-rubykaigi.webp
+  logo: oedo-rubykaigi-logo.webp
+  source: rubyevents:oedo-rubykaigi
+  locations:
+  - address: 1-4-1 Senju, Adachi City, Tokyo 120-0034, Japan
+    latitude: 35.7469502
+    longitude: 139.800519
+- name: Okinawa RubyKaigi
+  type: event
+  url: https://ruby.okinawa/okrk03/
+  description: A regional RubyKaigi conference about the Ruby programming language, held in Naha, Okinawa, Japan.
+  photo: okinawa-rubykaigi.webp
+  logo: okinawa-rubykaigi-logo.webp
+  source: rubyevents:okinawa-rubykaigi
+  locations:
+  - address: Naha, Okinawa, Japan
+    latitude: 26.2122345
+    longitude: 127.6791452
+- name: Osaka RubyKaigi
+  type: event
+  url: https://regional.rubykaigi.org/osaka04/
+  twitter_handle: rubykansai
+  description: A regional conference about the Ruby programming language, held regularly in Osaka, Japan, where Rubyists share knowledge and meet each other.
+  photo: osaka-rubykaigi.webp
+  source: rubyevents:osaka-rubykaigi
+  locations:
+  - address: Osaka, Japan
+    latitude: 34.6937249
+    longitude: 135.5022535
+- name: OxRUG
+  type: meetup
+  url: https://www.meetup.com/Oxford-Ruby-Users-Group-OxRUG
+  description: The Oxford Ruby Users Group, a Ruby meetup that meets in Oxford, UK.
+  locations:
+  - address: 40 Holywell St, Oxford, OX1 3SP
 - name: Paris.rb
   type: meetup
   url: https://rubyparis.org/
+  description: Paris.rb is a meetup group for Ruby developers in Paris, France.
+  photo: paris-rb.webp
+  logo: paris-rb-logo.webp
+  source: rubyevents:paris-rb
   locations:
   - address: Paris
 - name: PatientsLikeMe
   type: business
   url: https://www.patientslikeme.com/
+  description: A company based in Cambridge, Massachusetts, in the United States.
   locations:
   - address: 160 Second St, Cambridge, MA 02142, United States
 - name: Perth Ruby
   type: meetup
   url: https://www.meetup.com/ruby-on-rails-oceania-perth/
+  description: The Ruby community in Perth, Australia, with monthly meetups of talks about Ruby and software development.
+  photo: perth-ruby.webp
+  logo: perth-ruby-logo.webp
+  source: rubyevents:ruby-perth
   locations:
   - address: Perth, Australia
+- name: Philippine Ruby Users Group
+  type: meetup
+  url: https://web.archive.org/web/20180320054823/http://pinoyrb.org/
+  description: A Ruby user group in Manila, Philippines, for professionals and hobbyists who program with Ruby and Ruby on Rails.
+  photo: philippine-ruby-users-group.webp
+  logo: philippine-ruby-users-group-logo.webp
+  source: rubyevents:ruby-phil
+  locations:
+  - address: Manila, Philippines
+    latitude: 14.5995133
+    longitude: 120.984234
 - name: Philly RB
+  type: meetup
   url: https://www.meetup.com/Phillyrb/
+  description: A Ruby user group in Philadelphia, Pennsylvania, USA, where Ruby enthusiasts learn, network and socialize.
+  photo: philly-rb.webp
+  logo: philly-rb-logo.webp
+  source: rubyevents:philly-rb
   locations:
   - address: Philadelphia, PA, USA
+- name: PicoRubyKaigi
+  type: event
+  url: https://picorubykaigi.org
+  description: A single-track conference in Tokyo, Japan, about running Ruby on microcontrollers and in small environments, covering PicoRuby, mruby and mruby/c.
+  photo: picorubykaigi.webp
+  logo: picorubykaigi-logo.webp
+  source: rubyevents:picorubykaigi
+  locations:
+  - address: 1-22-16 Asakusabashi, Taito City, Tokyo 111-0053, Japan
+    latitude: 35.6979
+    longitude: 139.784
 - name: Pin Payments
   type: business
   url: https://pinpayments.com
   twitter_handle: PinPayments
+  description: An online payment gateway in Melbourne, Australia, that lets small businesses and platforms take card payments without a merchant account.
+  photo: pin-payments.webp
+  logo: pin-payments-logo.webp
   locations:
   - address: Level 4, 356 Collins St, Melbourne, Victoria, Australia
+- name: Polish Ruby User Group (PLRUG)
+  type: meetup
+  url: https://www.meetup.com/polishrubyusergroup
+  twitter_handle: visualitypl
+  description: The Polish Ruby User Group, a Ruby meetup based in Warsaw, Poland.
+  photo: polish-ruby-user-group-plrug.webp
+  logo: polish-ruby-user-group-plrug-logo.webp
+  source: rubyevents:polishrubyusergroup
+  locations:
+  - address: Warsaw, Poland
+    latitude: 52.2296756
+    longitude: 21.0122287
 - name: Polydice
   type: business
   url: https://polydice.github.io
+  description: Polydice, Inc. is a technology company based in Taipei, Taiwan.
   locations:
   - address: No. 9, Section 2, Roosevelt Road, Taipei, Taiwan
-- name: Rails Camp AU
-  type: event
-  url: https://railscamp.com.au/
-  twitter_handle: railscamp_au
+- name: Poznań Ruby User Group (PRUG)
+  type: meetup
+  url: https://luma.com/prug
+  description: A community of web developers and Ruby programming enthusiasts in Poznań, Poland.
+  photo: poznan-ruby-user-group-prug.webp
+  logo: poznan-ruby-user-group-prug-logo.webp
+  source: rubyevents:poznanrubyusergroup
   locations:
-  - address: Australia
+  - address: Poznań, Poland
+    latitude: 52.40567859999999
+    longitude: 16.9312766
+- name: Radius Networks
+  type: business
+  url: https://www.radiusnetworks.com
+  description: Radius Networks makes Flybuy, a location technology platform for customer experience, and is based in Washington, DC, USA.
+  photo: radius-networks.webp
+  logo: radius-networks-logo.webp
+  locations:
+  - address: 3255 Grace St NW, Washington, DC, 20007, USA
+- name: Rails at Scale Summit
+  type: event
+  url: https://rubyonrails.org/foundation
+  twitter_handle: rails
+  description: A gathering in Austin, Texas, USA, for engineers who work on large-scale problems with Ruby on Rails.
+  photo: rails-at-scale-summit.webp
+  logo: rails-at-scale-summit-logo.webp
+  source: rubyevents:rails-at-scale-summit
+  locations:
+  - address: 221 W 6th St, Austin, TX 78701, United States
+    latitude: 30.2682267
+    longitude: -97.7446902
+- name: Rails Camp West
+  type: event
+  url: https://west.railscamp.us/2022
+  twitter_handle: railscamp_usa
+  description: A Rails Camp event at Camp Westwind in Otis, Oregon, USA, where attendees stay for several days at an outdoor venue.
+  photo: rails-camp-west.webp
+  logo: rails-camp-west-logo.webp
+  source: rubyevents:rails-camp-west
+  locations:
+  - address: Camp Westwind, 7500 N Fraser Road, Otis, OR 97368, USA
+    latitude: 45.038393945169204
+    longitude: -124.00299449821313
 - name: Rails Girls AU
   type: event
   url: https://ruby.org.au/rails-girls
   twitter_handle: RailsGirls_AU
+  description: Rails Girls workshops in Melbourne and Sydney, Australia, supported by Ruby Australia, which also supports RubyConf AU and local meetups.
+  photo: rails-girls-au.webp
+  logo: rails-girls-au-logo.webp
   locations:
   - address: Melbourne, Victoria, Australia
   - address: Sydney, New South Wales, Australia
+- name: Rails Girls São Paulo
+  type: event
+  url: https://railsgirls.com.br
+  twitter_handle: railsgirlssp
+  description: A non-profit Rails Girls event in São Paulo, Brazil, that introduces women of all experience levels to programming with Ruby on Rails.
+  photo: rails-girls-sao-paulo.webp
+  logo: rails-girls-sao-paulo-logo.webp
+  source: rubyevents:rails-girls-sao-paulo
+  locations:
+  - address: Av. Rebouças, 3515, São Paulo, São Paulo, 05401-400, Brazil
+    latitude: -23.5728
+    longitude: -46.6935
+- name: Rails World
+  type: event
+  url: https://rubyonrails.org/world
+  twitter_handle: rails
+  description: An annual two-day Rails community conference in Lisbon, Portugal, with technical talks, workshops, demos and keynotes about Rails development.
+  photo: rails-world.webp
+  logo: rails-world-logo.webp
+  source: rubyevents:rails-world
+  locations:
+  - address: Lisbon, Portugal
+    latitude: 38.7077507
+    longitude: -9.1365919
+- name: RailsConf
+  type: event
+  url: https://railsconf.org/
+  twitter_handle: railsconf
+  description: A conference for Rails developers about building, managing and testing Rails applications, for new users through to advanced developers. Held in Philadelphia.
+  photo: railsconf.webp
+  logo: railsconf-logo.webp
+  source: rubyevents:railsconf
+  locations:
+  - address: 201 N 17th St, Philadelphia, PA 19103, United States
+    latitude: 39.957582
+    longitude: -75.166872
+- name: RailsTokyo
+  type: meetup
+  url: https://railstokyo.connpass.com/
+  description: A Tokyo meetup for Ruby on Rails developers, with talks in Japanese on practical, modern Rails tools and techniques for early- to mid-career developers.
+  source: rubyevents:rails-tokyo
+  locations:
+  - address: Tokyo, Japan
+    latitude: 35.6972
+    longitude: 139.7864
+- name: RBQ Conf
+  type: event
+  url: https://rbqconf.com
+  description: A regional Ruby conference in Austin, Texas, USA, with talks and time for attendees to meet each other.
+  photo: rbq-conf.webp
+  logo: rbq-conf-logo.webp
+  source: rubyevents:rbqconf
+  locations:
+  - address: Austin, TX, United States
+    latitude: 30.268889
+    longitude: -97.740556
+- name: Red Dot Ruby Conference
+  type: event
+  url: https://reddotrubyconf.com
+  twitter_handle: reddotrubyconf
+  description: A two-day, single-track Ruby conference in Singapore, and the only Ruby conference in the country.
+  photo: red-dot-ruby-conference.webp
+  logo: red-dot-ruby-conference-logo.webp
+  source: rubyevents:red-dot-ruby-conference
+  locations:
+  - address: 10 Eunos Rd 8, Singapore 408600
+    latitude: 1.318903
+    longitude: 103.894049
 - name: Redbubble
   type: business
   url: https://www.redbubble.com/
   twitter_handle: redbubble
+  description: An online marketplace in Docklands, Victoria, Australia, where independent artists sell their designs on products such as shirts, stickers and phone cases.
+  photo: redbubble.webp
+  logo: redbubble-logo.webp
   locations:
   - address: Level 12, 697 Collins Street, Docklands, Victoria, Australia
 - name: Renuo
   type: business
   url: https://www.renuo.ch/
+  description: Renuo builds custom web and mobile applications in Wallisellen, near Zurich, Switzerland, specializing in Ruby on Rails, React and open source technologies.
+  photo: renuo.webp
+  logo: renuo-logo.webp
   locations:
   - address: Industriestrasse 44, Wallisellen, Switzerland
+- name: Rocky Mountain Ruby
+  type: event
+  url: http://rockymtnruby.dev
+  twitter_handle: rmrubyconf
+  description: A two-day, single-track Ruby conference in Boulder, Colorado, USA, with technical talks, community events and outdoor activities.
+  photo: rocky-mountain-ruby.webp
+  logo: rocky-mountain-ruby-logo.webp
+  source: rubyevents:rocky-mountain-ruby
+  locations:
+  - address: 1535 Spruce St, Boulder, CO 80302, USA
+    latitude: 40.0201669
+    longitude: -105.275401
 - name: RORO Sydney
   type: meetup
   url: https://www.meetup.com/en-AU/ruby-on-rails-oceania-sydney/
   twitter_handle: rorosyd
+  description: The Ruby community in Sydney, Australia, formerly Ruby on Rails Oceania, with talks on Ruby and software development on the second Tuesday of each month.
+  photo: roro-sydney.webp
+  logo: roro-sydney-logo.webp
+  source: rubyevents:ruby-sydney
   locations:
   - address: Sydney, New South Wales, Australia
+- name: Rotterdam.rb
+  type: meetup
+  url: https://www.meetup.com/rotterdam-rb/
+  twitter_handle: rotterdamrb
+  description: A Ruby meetup in Rotterdam, Netherlands, with Ruby talks every two to three months and occasional workshops. Open to everyone, with no experience needed.
+  photo: rotterdam-rb.webp
+  logo: rotterdam-rb-logo.webp
+  source: rubyevents:rotterdam-rb
+  locations:
+  - address: Rotterdam, Netherlands
+    latitude: 51.9244424
+    longitude: 4.47775
+- name: Ruby a la Cluj
+  type: meetup
+  url: https://www.meetup.com/ruby-a-la-cluj/
+  description: Ruby a la Cluj is a meetup group for Ruby developers in Cluj-Napoca, Romania.
+  locations:
+  - address: Cluj-Napoca, Romania
+- name: Ruby Argentina
+  type: meetup
+  url: https://ruby.com.ar
+  description: The Ruby community in Buenos Aires, Argentina, part of RubySur, which publishes recordings of its past talks.
+  photo: ruby-argentina.webp
+  logo: ruby-argentina-logo.webp
+  source: rubyevents:ruby-argentina
+  locations:
+  - address: Buenos Aires, Argentina
+    latitude: -34.6036739
+    longitude: -58.3821215
+- name: Ruby Banitsa
+  type: meetup
+  url: https://rubybanitsa.com
+  twitter_handle: rubybanitsa
+  description: A casual meetup in Sofia, Bulgaria, where attendees eat banitsa pastry and talk about Ruby and technology.
+  photo: ruby-banitsa.webp
+  logo: ruby-banitsa-logo.webp
+  source: rubyevents:ruby-banitsa
+  locations:
+  - address: Sofia, Bulgaria
+    latitude: 42.6977082
+    longitude: 23.3218675
+- name: Ruby Banitsa Conf
+  type: event
+  url: https://conf.rubybanitsa.com
+  twitter_handle: rubybanitsa
+  description: A single-day Ruby conference in Sofia, Bulgaria, in a relaxed setting, run by the organizers of the Ruby Banitsa meetup.
+  photo: ruby-banitsa-conf.webp
+  logo: ruby-banitsa-conf-logo.webp
+  source: rubyevents:ruby-banitsa-conf
+  locations:
+  - address: bul. Cherni Vrah 47, Rooftop, Промишлена зона Хладилника, Blvd. "Cherni vrah" 47, 1407 Sofia, Bulgaria
+    latitude: 42.6615715
+    longitude: 23.3179759
 - name: Ruby Belgium
   type: meetup
   url: https://rubybelgium.be
+  description: A Ruby community in Brussels, Belgium, that helps people learn Ruby, find Ruby jobs, build things and share knowledge.
+  photo: ruby-belgium.webp
+  logo: ruby-belgium-logo.webp
+  source: rubyevents:rubybelgium
   locations:
   - address: Brussels, Belgium
-- name: RubyConf AU
+- name: Ruby Community Conference
   type: event
-  url: https://www.rubyconf.org.au
-  twitter_handle: rubyconf_au
+  url: https://www.rubycommunityconference.com
+  twitter_handle: visualitypl
+  description: A one-day conference in Berlin, Germany, with talks and workshops for the Ruby community.
+  photo: ruby-community-conference.webp
+  logo: ruby-community-conference-logo.webp
+  source: rubyevents:ruby-community-conference
   locations:
-  - address: Australia
+  - address: Am Flutgraben 2, 12435 Berlin
+    latitude: 52.4968232
+    longitude: 13.4515556
+- name: Ruby CWB
+  type: meetup
+  url: https://rubycwb.com.br
+  description: A community for Ruby developers in Curitiba, Brazil, and the surrounding region, which runs Ruby meetups.
+  photo: ruby-cwb.webp
+  logo: ruby-cwb-logo.webp
+  source: rubyevents:ruby-cwb
+  locations:
+  - address: Curitiba, Brazil
+    latitude: -25.4268985
+    longitude: -49.2651984
+- name: Ruby devroom at FOSDEM
+  type: event
+  url: http://fosdem-ruby.github.io/
+  twitter_handle: ruby_fosdem
+  description: A devroom dedicated to the Ruby programming language at FOSDEM in Brussels, Belgium.
+  source: rubyevents:fosdem
+  locations:
+  - address: Brussels, Belgium
+    latitude: 50.8260453
+    longitude: 4.3802052
+- name: Ruby DF
+  type: meetup
+  url: https://rubydf.com
+  description: A Ruby meetup in Brasília, Distrito Federal, Brazil, where Ruby developers and enthusiasts share knowledge and experiences and network.
+  photo: ruby-df.webp
+  logo: ruby-df-logo.webp
+  source: rubyevents:ruby-df
+  locations:
+  - address: Brasília, Brazil
+    latitude: -15.7942287
+    longitude: -47.8821658
+- name: Ruby Europe
+  type: meetup
+  url: https://rubyeurope.com
+  twitter_handle: RubyEurope
+  description: A non-profit network that connects the organizers, speakers and developers of local Ruby communities across Europe, and runs Ruby and AI meetups.
+  photo: ruby-europe.webp
+  logo: ruby-europe-logo.webp
+  source: rubyevents:rubyeurope
+  locations:
+  - address: Europe
+    latitude: 54.5259614
+    longitude: 15.2551187
+- name: Ruby for Good
+  type: event
+  url: https://rubyforgood.org
+  description: An annual event in the Washington, DC area where programmers spend a long weekend building open source projects for nonprofits and community groups.
+  photo: ruby-for-good.webp
+  logo: ruby-for-good-logo.webp
+  source: rubyevents:ruby-for-good
+  locations:
+  - address: 4400 University Drive, Fairfax, VA, 22030, USA
+- name: Ruby Frankfurt
+  type: meetup
+  url: https://www.meetup.com/frankfurt-ruby-meetup
+  twitter_handle: ruby_frankfurt
+  description: A meetup in Frankfurt, Germany, for Ruby and Ruby on Rails developers, from beginners to professionals, to talk about current Ruby topics.
+  photo: ruby-frankfurt.webp
+  logo: ruby-frankfurt-logo.webp
+  source: rubyevents:ruby-frankfurt
+  locations:
+  - address: Frankfurt, Germany
+    latitude: 50.1109221
+    longitude: 8.6821267
+- name: Ruby in Common
+  type: event
+  url: https://rubyincommon.org/
+  description: Ruby in Common is a Ruby event held in Sydney, New South Wales, Australia.
+  source: rubyevents:ruby-in-common
+  locations:
+  - address: lvl 10/11 York St, Sydney NSW 2000, Australia
+    latitude: -33.8655116
+    longitude: 151.2053768
+- name: Ruby in London
+  type: meetup
+  url: https://www.meetup.com/ruby-in-london
+  description: A meetup group for Ruby developers in London, United Kingdom.
+  photo: ruby-in-london.webp
+  logo: ruby-in-london-logo.webp
+  source: rubyevents:ruby-in-london
+  locations:
+  - address: London, UK
+    latitude: 51.5072178
+    longitude: -0.1275862
+- name: Ruby India
+  type: meetup
+  url: https://lu.ma/user/rubyindia
+  twitter_handle: ruby_ind
+  description: A Ruby community in Pune, Maharashtra, India, that organizes events listed on Luma.
+  photo: ruby-india.webp
+  logo: ruby-india-logo.webp
+  source: rubyevents:ruby-india
+  locations:
+  - address: Pune, Maharashtra, India
+    latitude: 18.5246091
+    longitude: 73.8786239
 - name: Ruby Meetup Oslo
   type: meetup
   url: https://www.meetup.com/Ruby-Meetup-Oslo/
+  description: Ruby Meetup Oslo is a meetup group for Ruby developers in Oslo, Norway.
   locations:
   - address: Oslo, Norway
 - name: Ruby Monstas Zurich
   type: meetup
   url: https://rubymonstas.ch/
+  description: Ruby Monstas Zürich, a Ruby meetup group based in Zurich, Switzerland.
   locations:
   - address: Zurich, Switzerland
+- name: Ruby Montevideo
+  type: meetup
+  url: https://www.meetup.com/ruby-montevideo
+  twitter_handle: rubymontevideo
+  description: Ruby Montevideo is a meetup group for Ruby developers in Montevideo, Uruguay.
+  photo: ruby-montevideo.webp
+  logo: ruby-montevideo-logo.webp
+  source: rubyevents:ruby-montevideo
+  locations:
+  - address: Montevideo, Uruguay
+    latitude: -34.9055016
+    longitude: -56.1851147
+- name: Ruby on Rails Switzerland
+  type: meetup
+  url: https://www.meetup.com/rubyonrails-ch
+  description: A meetup group for Ruby on Rails developers in Zurich, Switzerland.
+  photo: ruby-on-rails-switzerland.webp
+  logo: ruby-on-rails-switzerland-logo.webp
+  source: rubyevents:ruby-on-rails-switzerland
+  locations:
+  - address: Zurich, Switzerland
+    latitude: 47.3768866
+    longitude: 8.541694
+- name: Ruby on Waves
+  type: meetup
+  url: https://rubyonwaves.com
+  description: A small Ruby and Rails meetup in Ericeira, near Lisbon, Portugal, where Rubyists who build startups cowork and share ideas a few times a year.
+  photo: ruby-on-waves.webp
+  logo: ruby-on-waves-logo.webp
+  source: rubyevents:ruby-on-waves
+  locations:
+  - address: Ericeira, Portugal
+    latitude: 38.968128
+    longitude: -9.4073
+- name: Ruby Retreat AU
+  type: event
+  url: https://retreat.ruby.org.au
+  description: A long-weekend retreat for Rubyists and others interested in programming, with hacking, learning and socialising at Chowder Bay on Sydney Harbour.
+  photo: ruby-retreat-au.webp
+  logo: ruby-retreat-au-logo.webp
+  source: rubyevents:ruby-retreat-au
+  locations:
+  - address: Sydney Harbour, NSW
+    latitude: -33.8560452
+    longitude: 151.2428673
+- name: Ruby Retreat NZ
+  type: event
+  url: https://ruby.nz
+  twitter_handle: RubyNewZealand
+  description: A Ruby retreat held at Shakespear Regional Park in Whangaparaoa, near Auckland, New Zealand.
+  photo: ruby-retreat-nz.webp
+  logo: ruby-retreat-nz-logo.webp
+  source: rubyevents:ruby-retreat-nz
+  locations:
+  - address: 1503 Whangaparaoa Road, Shakespear Regional Park, Whangaparaoa, Auckland, New Zealand
+    latitude: -36.61280051278539
+    longitude: 174.81887537984366
+- name: Ruby Romania
+  type: meetup
+  description: A meetup for Ruby developers and people interested in Ruby in Romania.
+  photo: ruby-romania.webp
+  logo: ruby-romania-logo.webp
+  source: rubyevents:ruby-romania
+  locations:
+  - address: Romania
+    latitude: 45.943161
+    longitude: 24.96676
 - name: Ruby Taiwan
   type: meetup
   url: https://ruby.tw
+  description: A community in Taipei for exchange and knowledge sharing about the Ruby programming language and software development in Taiwan.
+  photo: ruby-taiwan.webp
   locations:
   - address: Taipei, Taiwan
+- name: Ruby Tuesday
+  type: meetup
+  url: https://ruby-tuesday.doorkeeper.jp
+  description: A weekly gathering in Osaka, Japan, for focused hacking, lightning talks and casual drinks around Ruby.
+  photo: ruby-tuesday.webp
+  logo: ruby-tuesday-logo.webp
+  source: rubyevents:ruby-tuesday
+  locations:
+  - address: Osaka, Japan
+    latitude: 34.6937569
+    longitude: 135.5014539
+- name: Ruby Unconf
+  type: event
+  url: https://rubyunconf.eu
+  twitter_handle: rubyunconfeu
+  description: Ruby Unconf, an unconference about the Ruby programming language in Hamburg, Germany.
+  photo: ruby-unconf.webp
+  logo: ruby-unconf-logo.webp
+  source: rubyevents:rubyunconf
+  locations:
+  - address: Finkenau 35, 22081 Hamburg, Germany
+    latitude: 53.5688823
+    longitude: 10.0330191
 - name: Ruby Underground Israel
   type: meetup
   url: https://www.meetup.com/IsraelRubyUnderground/
+  description: A meetup for Ruby developers and people interested in Ruby in Tel Aviv, Israel.
   locations:
   - address: Tel Aviv, Israel
+- name: Ruby Usergroup Hamburg
+  type: meetup
+  url: https://hamburg.onruby.de/
+  description: Hamburg on Ruby, the Ruby and Rails user group for the Ruby community in Hamburg, Germany.
+  photo: ruby-usergroup-hamburg.webp
+  logo: ruby-usergroup-hamburg-logo.webp
+  source: rubyevents:rughh
+  locations:
+  - address: Hamburg, Germany
+- name: Ruby Wellington
+  type: meetup
+  url: https://wellington.ruby.nz
+  description: A meetup for Ruby and Rails developers in Wellington, New Zealand, formerly known as Wellrailed. It meets about every two months and records most talks.
+  photo: ruby-wellington.webp
+  source: rubyevents:ruby-wellington
+  locations:
+  - address: Wellington, New Zealand
+    latitude: -41.2924
+    longitude: 174.7787
+- name: Ruby::AZ
+  type: meetup
+  url: https://rubyaz.org/
+  twitter_handle: Ruby_AZ
+  description: The Arizona Ruby Users Group, which meets in Phoenix for discussions, presentations and networking about Ruby and its ecosystem.
+  photo: ruby-az.webp
+  logo: ruby-az-logo.webp
+  source: rubyevents:rubyaz
+  locations:
+  - address: Phoenix, AZ, United States
+    latitude: 33.4484367
+    longitude: -112.074141
+- name: Rubycon
+  type: event
+  url: https://www.rubycon.it/
+  twitter_handle: https://x.com/rubycon2026
+  description: RubyCon, a conference about the Ruby programming language in Italy, held in Rimini.
+  photo: rubycon.webp
+  logo: rubycon-logo.webp
+  source: rubyevents:rubycon
+  locations:
+  - address: Viale Amerigo Vespucci 22, 47921 Rimini, Italy
+    latitude: 44.068849
+    longitude: 12.580334
+- name: RubyConf
+  type: event
+  url: https://rubyconf.org/
+  twitter_handle: rubyconf
+  description: A conference for Ruby developers in the United States, with Ruby talks, live coding and community events.
+  photo: rubyconf.webp
+  logo: rubyconf-logo.webp
+  source: rubyevents:rubyconf
+  locations:
+  - address: Portland, OR, United States
+    latitude: 45.5202471
+    longitude: -122.674194
+- name: RubyConf Africa
+  type: event
+  url: https://rubyconf.africa/
+  twitter_handle: ruby_african
+  description: Ruby Conference Africa, a conference for Ruby developers held in Nairobi, Kenya, with talks on Ruby development.
+  photo: rubyconf-africa.webp
+  logo: rubyconf-africa-logo.webp
+  source: rubyevents:rubyconf-africa
+  locations:
+  - address: Sarit Expo Centre, Lower Kabete Road, Westlands, Nairobi, Kenya
+    latitude: -1.2603157
+    longitude: 36.8020203
+- name: RubyConf AU
+  type: event
+  url: https://www.rubyconf.org.au
+  twitter_handle: rubyconf_au
+  description: RubyConf Australia, a conference for the Ruby community in Australia.
+  photo: rubyconf-au.webp
+  logo: rubyconf-au-logo.webp
+  source: rubyevents:rubyconf-au
+  locations:
+  - address: Australia
+- name: RubyConf Austria
+  type: event
+  url: https://rubyconf.at
+  description: RubyConf Austria, the Austrian Ruby conference, held in Vienna.
+  photo: rubyconf-austria.webp
+  logo: rubyconf-austria-logo.webp
+  source: rubyevents:rubyconf-austria
+  locations:
+  - address: Am Augartenspitz 1, 1020 Wien, Austria
+    latitude: 48.2200194
+    longitude: 16.3800359
+- name: RubyConf China
+  type: event
+  url: http://rubyconfchina.org
+  description: A conference about the Ruby programming language held in Guangzhou, China.
+  source: rubyevents:rubyconf-china
+  locations:
+  - address: Guangzhou, China
+    latitude: 23.1290799
+    longitude: 113.26436
+- name: RubyConf India
+  type: event
+  url: https://rubyconf.in
+  twitter_handle: rubyconfindia
+  description: RubyConf India, a Ruby and Rails conference in Hyderabad, India, with talks and networking for the Ruby community.
+  photo: rubyconf-india.webp
+  logo: rubyconf-india-logo.webp
+  source: rubyevents:rubyconf-india
+  locations:
+  - address: Novotel Hyderabad Airport, Terminal 2 Departure Road, Kohinoor Avion City, Mamidipally, Balapur mandal, Ranga Reddy, Telangana, India
+    latitude: 17.2424408
+    longitude: 78.4545943
+- name: RubyConf Taiwan
+  type: event
+  url: https://rubyconf.tw
+  twitter_handle: rubyconftw
+  description: A conference about the Ruby programming language held in Taipei, Taiwan.
+  photo: rubyconf-taiwan.webp
+  logo: rubyconf-taiwan-logo.webp
+  source: rubyevents:rubyconf-taiwan
+  locations:
+  - address: No. 43, Section 4, Keelung Rd, Da'an District, Taipei City, Taiwan 106
+    latitude: 25.0132583
+    longitude: 121.5405609
+- name: RubyConf TH
+  type: event
+  url: https://rubyconfth.com
+  twitter_handle: rubyconfth
+  description: RubyConf Thailand, a conference about the Ruby programming language held in Bangkok.
+  photo: rubyconf-th.webp
+  logo: rubyconf-th-logo.webp
+  source: rubyevents:rubyconfth
+  locations:
+  - address: Novotel Bangkok Sukhumvit 20, Benjasari Ballroom
+    latitude: 13.731772641321976
+    longitude: 100.56438420036864
+- name: rubyday
+  type: event
+  url: https://rubyday.it
+  twitter_handle: rubydayit
+  description: The Italian Ruby conference, held in Verona. It is an international event where Rubyists meet, share experience and network.
+  photo: rubyday.webp
+  logo: rubyday-logo.webp
+  source: rubyevents:rubyday
+  locations:
+  - address: Via Baldassarre Longhena, 42, 37138 Verona VR, Italy
+    latitude: 45.43999609999999
+    longitude: 10.9719328
+- name: RubyFloripa
+  type: meetup
+  url: https://ruby.floripa.br
+  twitter_handle: https://x.com/rubyfloripa
+  description: The community of Ruby and Rails users in Florianópolis, Santa Catarina, Brazil, and the surrounding region, which runs meetups and publishes articles.
+  photo: rubyfloripa.webp
+  logo: rubyfloripa-logo.webp
+  source: rubyevents:ruby-floripa
+  locations:
+  - address: Florianópolis, Brazil
+    latitude: -27.5712064
+    longitude: -48.7999333
+- name: Rubyfuza
+  type: event
+  url: http://www.rubyfuza.org/2014/
+  twitter_handle: rubyfuza
+  description: A conference about the Ruby programming language held in Cape Town, South Africa.
+  source: rubyevents:rubyfuza
+  locations:
+  - address: Cape Town, South Africa
+    latitude: -33.922087
+    longitude: 18.4231418
 - name: RubyJax
   type: meetup
   url: https://www.meetup.com/RubyJax/
+  description: A meetup for Ruby developers and people interested in Ruby in Jacksonville, Florida, United States.
   locations:
   - address: Jacksonville, FL
+- name: RubyKaigi
+  type: event
+  url: https://rubykaigi.org
+  twitter_handle: RubyKaigi
+  description: RubyKaigi, a conference about the Ruby programming language held in Japan.
+  photo: rubykaigi.webp
+  logo: rubykaigi-logo.webp
+  source: rubyevents:rubykaigi
+  locations:
+  - address: 3-chōme-210 Funatsuka, Miyazaki, 880-0031, Japan
+    latitude: 31.9330547
+    longitude: 131.4200011
 - name: RubyMN
   type: meetup
   url: http://meetu.ps/c/2CVY4/tfF9t/a
+  description: A meetup for Ruby developers and people interested in Ruby in Minneapolis, Minnesota, United States.
   locations:
   - address: Minneapolis, MN
+- name: RubyMX Meetup
+  type: meetup
+  url: https://comunidadruby.mx/
+  twitter_handle: comunidadrubymx
+  description: A monthly meetup of the Ruby MX community in Guadalajara, Jalisco, for Rubyists in Mexico and Spanish speakers, with talks on Ruby and its ecosystem.
+  photo: rubymx-meetup.webp
+  logo: rubymx-meetup-logo.webp
+  source: rubyevents:rubymx
+  locations:
+  - address: Mexico
+    latitude: 23.634501
+    longitude: -102.552784
+- name: RubyOnRio
+  type: meetup
+  url: https://rubyonrio.com.br
+  description: The Ruby user group of Rio de Janeiro, Brazil, for developers and anyone interested in the Ruby programming language.
+  source: rubyevents:ruby-on-rio
+  locations:
+  - address: Rio de Janeiro, Brazil
+    latitude: -22.91
+    longitude: -43.2
+- name: RubyRussia
+  type: event
+  url: https://rubyrussia.club/en
+  twitter_handle: railsclub_ru
+  description: A conference about the Ruby programming language held in Moscow, Russia.
+  source: rubyevents:rubyrussia
+  locations:
+  - address: Moscow, Russia
+    latitude: 55.7568721
+    longitude: 37.6150527
 - name: Rubyside
   type: meetup
   url: https://www.meetup.com/Rubyside-Meetup/
+  description: A Ruby meetup in Liverpool, United Kingdom, held at the Cotton Exchange.
   locations:
-  - address: Yozu, Cunard Two Suite, The Cotton Exchange, Bixteth Street, Liverpool,
-      L3 9LQ
+  - address: Yozu, Cunard Two Suite, The Cotton Exchange, Bixteth Street, Liverpool, L3 9LQ
+- name: RubyWorld Conference
+  type: event
+  url: https://2024.rubyworld-conf.org/en/
+  twitter_handle: rubyworldconf
+  description: RubyWorld Conference, a Ruby conference held in Matsue, Shimane, Japan.
+  photo: rubyworld-conference.webp
+  logo: rubyworld-conference-logo.webp
+  source: rubyevents:rubyworld
+  locations:
+  - address: 1-2-1 Gakuenminami, Matsue, Shimane 690-0826, Japan
+    latitude: 35.4700991
+    longitude: 133.0673056
+- name: RubyZG
+  type: meetup
+  url: https://www.meetup.com/rubyzg/
+  description: A meetup for Ruby developers and people interested in Ruby in Zagreb, Croatia.
+  locations:
+  - address: Zagreb, Croatia
+- name: Ruby舞鶴
+  type: meetup
+  url: https://ruby-maizuru.connpass.com
+  description: A study group for Rubyists in Maizuru, northern Kyoto, and nearby areas, with study sessions and presentations on Ruby and Rails for all levels.
+  photo: ruby.webp
+  logo: ruby-logo.webp
+  source: rubyevents:ruby-maizuru
+  locations:
+  - address: Maizuru, Japan
+    latitude: 35.4747274
+    longitude: 135.3860338
+- name: Ruby関西
+  type: meetup
+  url: https://github.com/rubykansai/workshops/wiki
+  description: Ruby Kansai, a community in Osaka that organises Ruby events across the Kansai region of Japan, including study sessions, KansaiRubyKaigi and Rails meetups.
+  photo: ruby.webp
+  logo: ruby-logo.webp
+  source: rubyevents:rubykansai
+  locations:
+  - address: Osaka, Japan
+    latitude: 34.6937569
+    longitude: 135.5014539
+- name: RUG::B - Berlin Ruby User Group
+  type: meetup
+  url: https://www.rug-b.de/
+  description: RUG::B, the Ruby User Group Berlin, a meetup for Ruby developers in Berlin, Germany.
+  locations:
+  - address: Berlin, Germany
+- name: Rzeszów Ruby User Group
+  type: meetup
+  url: http://rrug.pl/
+  description: RRUG, a Ruby user group in Rzeszów, Poland, that holds monthly meetings open to everyone.
+  photo: rzeszow-ruby-user-group.webp
+  locations:
+  - address: Rzeszów, Poland
 - name: Saigon.rb
   type: meetup
   url: https://www.meetup.com/saigon-rb/
+  description: A meetup for Ruby developers and people interested in Ruby in Ho Chi Minh City, Vietnam.
   locations:
   - address: WeWork Lim Tower 3, 29A Nguyen Dinh Chieu, Da Kao Ward, District 1, Ho Chi Minh City, Viet Nam
 - name: Salt Lake City Ruby Brigade (SLC.rb)
   type: meetup
   url: https://urug.org/#slc.rb
+  description: SLC.rb, a Ruby meetup in Sandy, Utah, United States, that is part of the Utah Ruby User Group (URUG).
   locations:
-  - address: SLCC Miller Corporate Partnership Center, 9690 South 300 West, 3rd flr
-      Room 333, Sandy, UT, US
+  - address: SLCC Miller Corporate Partnership Center, 9690 South 300 West, 3rd flr Room 333, Sandy, UT, US
+- name: Sekigahara RubyKaigi
+  type: event
+  url: https://regional.rubykaigi.org/sekigahara01/
+  twitter_handle: https://x.com/sekigahara01
+  description: A regional RubyKaigi conference held in Sekigahara, Gifu, Japan, the site of a historic battle.
+  photo: sekigahara-rubykaigi.webp
+  logo: sekigahara-rubykaigi-logo.webp
+  source: rubyevents:sekigahara-rubykaigi
+  locations:
+  - address: 503-1521岐阜県不破郡関ケ原町大字関ケ原894-29
+    latitude: 35.36684987274667
+    longitude: 136.46685696928364
+- name: Sendagaya.rb
+  type: meetup
+  url: https://sendagayarb.doorkeeper.jp
+  description: A casual Ruby community in Shibuya, Tokyo, open to anyone, that meets every Monday to talk about recent topics, answer questions and work on projects.
+  photo: sendagaya-rb.webp
+  logo: sendagaya-rb-logo.webp
+  source: rubyevents:sendagayarb
+  locations:
+  - address: Shibuya, Tokyo, Japan
+    latitude: 35.6813
+    longitude: 139.7116
+- name: Sendai RubyKaigi
+  type: event
+  url: https://regional.rubykaigi.org/sendai03/
+  twitter_handle: sendairb
+  description: A regional RubyKaigi conference about Ruby held in Sendai, Miyagi, Japan.
+  photo: sendai-rubykaigi.webp
+  logo: sendai-rubykaigi-logo.webp
+  source: rubyevents:sendai-rubykaigi
+  locations:
+  - address: 宮城県仙台市青葉区中央2丁目5-10 3F
+    latitude: 38.2615194
+    longitude: 140.876087
+- name: Sendai.rb
+  type: meetup
+  url: https://sendairb.connpass.com
+  twitter_handle: sendairb
+  description: A community where Rubyists in and around Sendai, Miyagi, Japan, meet and get together.
+  photo: sendai-rb.webp
+  logo: sendai-rb-logo.webp
+  source: rubyevents:sendairb
+  locations:
+  - address: Sendai, Miyagi, Japan
+    latitude: 38.2677554
+    longitude: 140.8691498
 - name: Seocho.rb
   type: meetup
   url: https://www.facebook.com/groups/324999601468189/
+  description: A meetup for Ruby developers and people interested in Ruby in Gangnam-gu, Seoul, South Korea.
   locations:
   - address: 14, Teheran-ro 4-gil, Gangnam-gu, Seoul, Republic of Korea
+- name: SF Bay Area Ruby
+  type: meetup
+  url: https://lu.ma/sfruby
+  twitter_handle: sfruby
+  description: SF Ruby runs monthly Ruby and Rails meetups in San Francisco, plus the annual SF Ruby Startup Conference.
+  photo: sf-bay-area-ruby.webp
+  logo: sf-bay-area-ruby-logo.webp
+  source: rubyevents:sf-bay-area-ruby
+  locations:
+  - address: San Francisco, CA, United States
+    latitude: 37.7749295
+    longitude: -122.4194155
 - name: Sheffield Ruby User Group (ShRUG)
   type: meetup
   url: https://shrug.org/
   twitter_handle: sheffieldruby
+  description: A Ruby user group in Sheffield, UK, that meets on the second Monday of each month to discuss Ruby, Rails and other programming topics.
+  logo: sheffield-ruby-user-group-shrug-logo.webp
+  source: rubyevents:shrug
   locations:
   - address: Union St, 18-20 Union Street, Sheffield, S1 2JP
+- name: Shinosaka.rb
+  type: meetup
+  url: https://shinosakarb.doorkeeper.jp
+  description: A Ruby community around Shin-Osaka, Japan, that runs workshops and meetups about Ruby, Rails and related technologies.
+  photo: shinosaka-rb.webp
+  logo: shinosaka-rb-logo.webp
+  source: rubyevents:shinosakarb
+  locations:
+  - address: Osaka, Japan
+    latitude: 34.7340782
+    longitude: 135.5018726
 - name: Shopify
   type: business
   url: https://www.shopify.com/careers/locations
+  description: A company with offices in Toronto, Montreal, Ottawa and Waterloo, Canada, that also hires for remote roles, including in engineering.
+  photo: shopify.webp
+  logo: shopify-logo.webp
   locations:
   - address: Toronto
   - address: Montreal
   - address: Ottawa
   - address: Waterloo, Ontario, Canada
-- name: SiGHT ViSiT
-  type: business
-  url: https://sight-visit.com/
-  twitter_handle: shikaku_square
-  locations:
-  - address: 〒101-0054 東京都千代田区神田錦町3-1 オームビル2階
 - name: Simply Business
   type: business
   url: https://www.simplybusiness.co.uk/
+  description: An online provider of business insurance for small businesses and landlords in the UK, with offices in London and Boston.
+  photo: simply-business.webp
+  logo: simply-business-logo.webp
   locations:
   - address: 99 Gresham St, London EC2V 7NG
   - address: 1 Beacon St 14th floor, Boston, MA 02108, USA
+- name: Sin City Ruby
+  type: event
+  url: https://sincityruby.com
+  twitter_handle: jasonswett
+  description: A conference about the Ruby programming language held in Las Vegas, Nevada, United States.
+  photo: sin-city-ruby.webp
+  logo: sin-city-ruby-logo.webp
+  source: rubyevents:sin-city-ruby
+  locations:
+  - address: 3799 S Las Vegas Blvd, Las Vegas, NV 89109, USA
+    latitude: 36.1028922
+    longitude: -115.1700325
 - name: SLC Down Ruby Users Group (DRUG)
   type: meetup
   url: https://urug.org/#drug
+  description: DRUG, a Ruby meetup in Salt Lake City, Utah, United States, that is part of the Utah Ruby User Group (URUG).
   locations:
   - address: Church & State, 370 S 300 E, Salt Lake City, UT 84111, US
-- name: sonnen GmbH
-  type: business
-  url: https://sonnengroup.com/
-  locations:
-  - address: Am Riedbach 1, 87499 Wildpoldsried, Germany
 - name: Smile.io
   type: business
   url: https://smile.io/
+  description: A company in Kitchener, Ontario, that makes a loyalty platform for Shopify Plus brands, with points, VIP tiers and referrals.
+  photo: smile-io.webp
+  logo: smile-io-logo.webp
   locations:
   - address: 305 King St W, Kitchener, Ontario, Canada
+- name: sonnen GmbH
+  type: business
+  url: https://sonnengroup.com/
+  description: An energy company in Wildpoldsried, Germany, that focuses on clean and affordable energy.
+  photo: sonnen-gmbh.webp
+  logo: sonnen-gmbh-logo.webp
+  locations:
+  - address: Am Riedbach 1, 87499 Wildpoldsried, Germany
 - name: South West Ruby Meetup
   type: meetup
   url: https://www.meetup.com/south-west-ruby/
   twitter_handle: southwestruby
+  description: A meetup for Ruby developers and people interested in Ruby in Bristol, United Kingdom.
   locations:
   - address: Broad Plain, Bristol
 - name: Square
   type: business
   url: https://squareup.com/au/en
   twitter_handle: SquareAU
+  description: A company that provides businesses with tools to sell, manage staff and take payments, with an office in Melbourne, Australia.
+  photo: square.webp
   locations:
   - address: Level 2, 246 Bourke St, Melbourne, Victoria, Australia
+- name: Stitch Fix
+  type: business
+  url: https://www.stitchfix.com
+  twitter_handle: stitchfix
+  description: A personal styling service for men, women and children that sends selected clothing to customers. Its office is in San Francisco.
+  photo: stitch-fix.webp
+  locations:
+  - address: 1 Montgomery Tower, San Francisco, CA 94104, USA
 - name: Storm Consultancy
   type: business
   url: https://stormconsultancy.co.uk/
+  description: A digital technology agency in Bath, UK, that builds websites, web apps and platforms for startups, scale-ups and large companies.
+  photo: storm-consultancy.webp
+  logo: storm-consultancy-logo.webp
   locations:
   - address: 14 New Bond St, Bath, BA1 1BE, United Kingdom
 - name: Stripe
   type: business
   url: https://stripe.com
   twitter_handle: StripeAustralia
+  description: A financial services platform that businesses use to accept payments, build billing models and manage money movement, with an office in Melbourne.
+  photo: stripe.webp
+  logo: stripe-logo.webp
   locations:
   - address: Level 7, 222 Exhibition Street, Melbourne, Victoria, Australia
+- name: sum.cumo Sapiens
+  type: business
+  url: https://sapiens.com/de/
+  description: A company in Hamburg and Düsseldorf, Germany, that builds digital solutions for insurance companies.
+  photo: sum-cumo-sapiens.webp
+  logo: sum-cumo-sapiens-logo.webp
+  locations:
+  - address: Schäferkampsallee 16, 20357 Hamburg, Germany
+  - address: Speditionstraße 1, 40221 Düsseldorf, Germany
 - name: SUSE Linux GmbH
   type: business
   url: https://www.suse.com/
+  description: A company in Nuremberg, Germany, that makes open source software for enterprise servers and cloud, including SUSE Linux Enterprise.
+  photo: suse-linux-gmbh.webp
   locations:
   - address: Maxfeldstrasse 5, Nuremberg
+- name: SwitchDreams
+  type: business
+  url: https://www.switchdreams.com.br/
+  description: A software development company in Brasília, Brazil, that builds software for clients in a range of fields.
+  photo: switchdreams.webp
+  locations:
+  - address: SHCGN 502 Bloco B - Asa Norte, Brasília - DF, 70720-502
+- name: 'Tech Kafi #ruby'
+  type: meetup
+  url: https://puzzle.ch/events
+  description: A meetup about Ruby held every two months in Bern, Switzerland, organised by Puzzle ITC.
+  photo: tech-kafi-ruby.webp
+  logo: tech-kafi-ruby-logo.webp
+  source: rubyevents:tech-kafi-ruby
+  locations:
+  - address: Bern, Switzerland
+    latitude: 46.9434751
+    longitude: 7.4338408
 - name: Ten Forward Consulting
   type: business
   url: https://www.tenforward.consulting
+  description: A company in Madison, Wisconsin, that provides custom software and mobile app development services.
   locations:
   - address: 4513 Vernon Blvd, Madison, WI 53715, USA
+- name: The Codest
+  type: business
+  url: https://thecodest.co/
+  twitter_handle: Codesthq
+  description: A company in Kraków, Poland, that provides software product development, staff augmentation and AI services.
+  photo: the-codest.webp
+  logo: the-codest-logo.webp
+  locations:
+  - address: Fabryczna Office Park, Aleja Pokoju 18, 31-564 Kraków, Poland
 - name: The Conversation
   type: business
   url: https://theconversation.com
   twitter_handle: ConversationEDU
+  description: A news site with commentary and analysis written by academics and edited by professional editors. It has an office in Carlton, Victoria, Australia.
+  logo: the-conversation-logo.webp
   locations:
   - address: Level 5, 700 Swanston St, Carlton, Victoria, Australia
 - name: thoughtbot
   type: business
   url: https://thoughtbot.com
+  description: A design and development agency for web and mobile applications, with offices in Boston, New York, Austin, Raleigh, San Francisco and London.
+  photo: thoughtbot.webp
+  logo: thoughtbot-logo.webp
   locations:
   - address: 42 Winter St, 7th Floor, Boston, MA, 02108, US
   - address: 2nd Floor, Griffin Court, 15 Long Lane, London, EC1A 9PN, UK
@@ -580,180 +2335,268 @@
   - address: 1384 Broadway, 20th Floor, New York, NY, 10018, US
   - address: 213 Fayetteville St, Raleigh, NC, 27601, US
   - address: 85 2nd St, Suite 700, San Francisco, CA, 94105, US
+- name: Tight Line
+  type: business
+  url: https://tightlinesoftware.com
+  description: A company in Dallas Plantation, Maine, United States, that provides technology solutions and technical staff.
+  photo: tight-line.webp
+  locations:
+  - address: 85 Overlook Road, Dallas Plantation, Maine 04970, USA
+- name: 'tiny ruby #{conf}'
+  type: event
+  url: https://helsinkiruby.fi
+  description: A one-day, single-track Ruby conference in Helsinki, Finland, with low ticket prices.
+  photo: tiny-ruby-conf.webp
+  logo: tiny-ruby-conf-logo.webp
+  source: rubyevents:tiny-ruby-conf
+  locations:
+  - address: Yrjönkatu 3, Helsinki, Finland
+    latitude: 60.1640543
+    longitude: 24.9445715
 - name: TOKYO Rails Meetup
   type: meetup
-  url: http://www.tokyorails.org/
+  url: https://www.meetup.com/tokyo-rails/
   twitter_handle: tokyorails
+  description: A meetup for Ruby on Rails developers in Tokyo, Japan, held in the Ebisu district.
   locations:
   - address: Ebisu Garden Place Tower, 12/F, 4-20-3 Ebisu, Tokyo, 150-6012, Japan
+- name: Tokyo RubyKaigi
+  type: event
+  url: https://regional.rubykaigi.org/tokyo12/
+  twitter_handle: tokyork12
+  description: A regional RubyKaigi conference about Ruby, organised in the Tokyo area of Japan.
+  photo: tokyo-rubykaigi.webp
+  logo: tokyo-rubykaigi-logo.webp
+  source: rubyevents:tokyo-rubykaigi
+  locations:
+  - address: Tokyo, Japan
+    latitude: 35.6768601
+    longitude: 139.7638947
+- name: TokyuRubyKaigi
+  type: event
+  url: https://tokyurubykaigi.github.io/tokyu16/
+  description: A regional RubyKaigi conference about Ruby held in Shibuya, Tokyo, Japan.
+  source: rubyevents:tokyu-rubykaigi
+  locations:
+  - address: Shibuya, Tokyo, Japan
+    latitude: 35.6637109
+    longitude: 139.6976941
+- name: Toronto Ruby Meetup
+  type: meetup
+  url: https://toronto-ruby.com
+  twitter_handle: toronto_ruby
+  description: A meetup for Ruby developers in the Greater Toronto Area, Canada, who meet to talk about programming, the industry and life.
+  photo: toronto-ruby-meetup.webp
+  logo: toronto-ruby-meetup-logo.webp
+  source: rubyevents:toronto-ruby
+  locations:
+  - address: Toronto, Canada
+    latitude: 43.653226
+    longitude: -79.3831843
+- name: Trem on Rails
+  type: meetup
+  url: https://www.rubyevents.org/events/trem-on-rails
+  description: A Ruby on Rails meetup in Belo Horizonte, Minas Gerais, Brazil.
+  photo: trem-on-rails.webp
+  logo: trem-on-rails-logo.webp
+  source: rubyevents:trem-on-rails
+  locations:
+  - address: Belo Horizonte, MG, Brazil
+    latitude: -19.9227318
+    longitude: -43.9450948
+- name: Triangle.rb
+  type: meetup
+  url: https://www.meetup.com/raleighrb/
+  twitter_handle: TriangleRb
+  description: A Ruby meetup in Durham, North Carolina, United States, for people who use Ruby or want to learn it.
+  logo: triangle-rb-logo.webp
+  source: rubyevents:triangle-rb
+  locations:
+  - address: Durham, North Carolina, United States
+    latitude: 35.996561
+    longitude: -78.903541
+- name: Tropical on Rails
+  type: event
+  url: https://www.tropicalonrails.com
+  twitter_handle: tropicalonrails
+  description: A Ruby on Rails conference in São Paulo, Brazil, that brings Latin American Ruby communities together for two days of talks in three languages.
+  photo: tropical-on-rails.webp
+  logo: tropical-on-rails-logo.webp
+  source: rubyevents:tropicalrb
+  locations:
+  - address: R. Olimpíadas, 205 - Vila Olímpia, São Paulo - SP, 04551-000
+    latitude: -23.595833177578946
+    longitude: -46.68451089446699
+- name: Twente.rb
+  type: meetup
+  url: https://www.meetup.com/twenterb/
+  description: A Ruby meetup in Enschede, Netherlands, where people talk about Ruby and meet for drinks.
+  photo: twente-rb.webp
+  logo: twente-rb-logo.webp
+  source: rubyevents:twente-rb
+  locations:
+  - address: Enschede, Netherlands
+    latitude: 52.2233633
+    longitude: 6.8705957
 - name: Twilio
   type: business
   url: https://www.twilio.com/
   twitter_handle: twilio
+  description: A company that provides APIs for SMS, RCS, voice and email, plus conversational AI and identity verification, with an office in Melbourne.
+  photo: twilio.webp
+  logo: twilio-logo.webp
   locations:
   - address: Melbourne, Victoria, Australia
+- name: Umeda.rb
+  type: meetup
+  url: https://umedarb.connpass.com
+  description: A Ruby community centred on Umeda, Osaka, Japan, with in-person meetups for Rubyists and people who want to learn together.
+  photo: umeda-rb.webp
+  logo: umeda-rb-logo.webp
+  source: rubyevents:umedarb
+  locations:
+  - address: Osaka, Japan
+    latitude: 34.7052911
+    longitude: 135.4983887
 - name: Up
   type: business
   url: https://up.com.au/
-  twitter_handle:
+  description: A digital bank in Australia that provides tools for people to manage their money. Its office is in South Melbourne, Victoria.
   locations:
   - address: 232-234 Dorcas St, South Melbourne, Victoria, Australia
+- name: Valencia.rb
+  type: meetup
+  url: https://valenciarb.org
+  twitter_handle: valenciarb
+  description: A Ruby user group in Valencia, Spain, for developers and others interested in Ruby.
+  photo: valencia-rb.webp
+  logo: valencia-rb-logo.webp
+  source: rubyevents:valencia-rb
+  locations:
+  - address: Valencia, Spain
+    latitude: 39.4738338
+    longitude: -0.3756348
 - name: Vanruby
   type: meetup
-  url: http://vanruby.org
+  description: A meetup for Ruby developers and people interested in Ruby in Vancouver, British Columbia, Canada.
   locations:
   - address: Vancouver, BC, Canada
 - name: Vidyard
   type: business
   url: https://www.vidyard.com/
+  description: A company in Kitchener, Ontario, that makes an online video platform for business sales and marketing teams.
+  photo: vidyard.webp
+  logo: vidyard-logo.webp
   locations:
   - address: 8 Queen St N, Kitchener, Ontario, Canada
+- name: Vienna.rb
+  type: meetup
+  url: https://ruby.wien
+  twitter_handle: viennarb
+  description: The Vienna Ruby Meetup, a community for Ruby developers in Vienna, Austria, to meet and share knowledge.
+  photo: vienna-rb.webp
+  logo: vienna-rb-logo.webp
+  source: rubyevents:vienna-rb
+  locations:
+  - address: Vienna, Austria
+    latitude: 48.20806959999999
+    longitude: 16.3713095
+- name: Wakayama.rb
+  type: meetup
+  url: https://wakayama-rb.connpass.com
+  description: A study community in Wakayama, Japan, for people interested in Ruby, Rails and mruby, mainly running self-directed study sessions.
+  photo: wakayama-rb.webp
+  logo: wakayama-rb-logo.webp
+  source: rubyevents:wakayama-rb
+  locations:
+  - address: Wakayama, Japan
+    latitude: 34.2342931
+    longitude: 135.1783549
 - name: Wealthsimple
   type: business
   url: https://www.wealthsimple.com/about/work-with-us
+  description: A company in Toronto, Ontario, Canada, whose careers page describes its work as changing people's financial futures.
+  photo: wealthsimple.webp
+  logo: wealthsimple-logo.webp
   locations:
   - address: Toronto, Ontario, Canada
+- name: WeCode
+  type: business
+  url: https://wecode.io/en
+  twitter_handle: wecodeio
+  description: A network of freelance software professionals based in Ramos Mejía, Buenos Aires, Argentina.
+  logo: wecode-logo.webp
+  locations:
+  - address: Bme. Mitre 87, Ramos Mejía, Buenos Aires, Argentina
+- name: Winnipeg.rb
+  type: meetup
+  url: https://winnipegrb.org/
+  twitter_handle: winnipegrb
+  description: A group of developers in Winnipeg, Manitoba, interested in Ruby, Rails and related technologies. It welcomes both professionals and beginners.
+  photo: winnipeg-rb.webp
+  logo: winnipeg-rb-logo.webp
+  source: rubyevents:winnipeg-rb
+  locations:
+  - address: 167 Lombard Ave suite 500 · Winnipeg, MB
+    latitude: 49.896613120644595
+    longitude: -97.13656209024838
+- name: wroclove.rb
+  type: event
+  url: https://wrocloverb.com
+  twitter_handle: wrocloverb
+  description: A single-track, not-for-profit Ruby conference in Wrocław, Poland, run by the local Ruby community, where in-depth technical topics are encouraged.
+  photo: wroclove-rb.webp
+  logo: wroclove-rb-logo.webp
+  source: rubyevents:wroclove-rb
+  locations:
+  - address: Wrocław, Poland
+    latitude: 51.1140053
+    longitude: 17.034463
+- name: XO Ruby
+  type: event
+  url: https://xoruby.com
+  description: A Ruby event in Montréal, Québec, Canada, that brings Rubyists together.
+  photo: xo-ruby.webp
+  logo: xo-ruby-logo.webp
+  source: rubyevents:xoruby
+  locations:
+  - address: 1210 boul. Saint-Laurent, Montréal, Québec H2X 2S5
+    latitude: 45.5094065
+    longitude: -73.5631662
 - name: Youse
   type: business
   url: https://www.youse.com.br
+  description: An online insurance company that offers car, home and life insurance, with offices in Brasília, Brazil, and Bogotá, Colombia.
+  photo: youse.webp
+  logo: youse-logo.webp
   locations:
   - address: SHN, Quadra 01, Conjunto A, Bloco E, CEP 70701 050 – Brasília DF
+    latitude: -15.7895738
+    longitude: -47.8853684
   - address: Cl 93 19-55, Bogotá
 - name: Zendesk
   type: business
   url: https://www.zendesk.com
   twitter_handle: Zendesk
+  description: A company that makes an AI-powered customer service platform, with an office in Melbourne, Australia.
+  photo: zendesk.webp
+  logo: zendesk-logo.webp
   locations:
   - address: 395 Collins St, Melbourne, Victoria, Australia
 - name: Zepto
   type: business
   url: https://www.zepto.com.au
+  description: A company in Byron Bay, New South Wales, that provides real-time account-to-account and Direct Debit payment solutions.
+  photo: zepto.webp
   locations:
   - address: 2/66 Centennial Cct, Byron Bay, New South Wales, Australia
-- name: Bookwhen
+- name: 資格スクエア (Shikaku Square)
   type: business
-  url: https://bookwhen.com
+  url: https://www.shikaku-square.com/
+  twitter_handle: shikaku_square
+  description: An online prep school in Shibuya, Tokyo, for difficult professional qualification exams, such as the preliminary bar exam and the patent attorney exam.
+  photo: shikaku-square.webp
   locations:
-  - address: Belsyre Court, 57 Woodstock Road, Oxford, OX2 6HJ
-- name: OxRUG
-  type: meetup
-  url: https://www.meetup.com/Oxford-Ruby-Users-Group-OxRUG
-  locations:
-  - address: 40 Holywell St, Oxford, OX1 3SP
-- name: Arlington Ruby
-  type: meetup
-  url: https://www.meetup.com/Arlington-Ruby/
-  locations:
-  - address: 2300 Wilson Blvd, Arlington, VA, USA
-- name: Ruby for Good
-  type: event
-  url: https://rubyforgood.org
-  locations:
-  - address: 4400 University Drive, Fairfax, VA, 22030, USA
-- name: Radius Networks
-  type: business
-  url: https://www.radiusnetworks.com
-  locations:
-  - address: 3255 Grace St NW, Washington, DC, 20007, USA
-- name: sum.cumo GmbH
-  type: business
-  url: https://www.sumcumo.com
-  locations:
-  - address: Schäferkampsallee 16, 20357 Hamburg, Germany
-  - address: Speditionstraße 1, 40221 Düsseldorf, Germany
-- name: Ruby Usergroup Hamburg
-  type: meetup
-  url: https://hamburg.onruby.de/
-  locations:
-  - address: Hamburg, Germany
-- name: Ideamotive - Ruby on Rails development
-  type: business
-  url: https://ideamotive.co
-  locations:
-  - address: ul. Bohomolca 15, 01-613 Warsaw
-- name: Rzeszów Ruby User Group
-  type: meetup
-  url: http://rrug.pl/
-  locations:
-  - address: Rzeszów, Poland
-- name: Guava
-  type: business
-  url: https://guava.software
-  locations:
-  - address: R. Alfredo Coutinho, 74 - Poço da Panela, Recife, Pernambuco, Brasil
-- name: RUG::B - Berlin Ruby User Group
-  type: meetup
-  url: https://www.rug-b.de/
-  locations:
-  - address: Berlin, Germany
-- name: cologne.rb - Cologne Ruby User Group
-  type: meetup
-  url: https://cologne.onruby.de/
-  locations:
-  - address: Cologne, Germany
-- name: RubyZG
-  type: meetup
-  url: https://www.meetup.com/rubyzg/
-  locations:
-  - address: Zagreb, Croatia
-- name: Ruby Meetup Frankfurt
-  type: meetup
-  url: https://www.ruby-frankfurt.de
-  locations:
-  - address: Frankfurt, Germany
-- name: makandra GmbH
-  type: business
-  url: https://makandra.com
-  locations:
-  - address: Werner-von-Siemens-Str. 6, 86159 Augsburg, Germany
-- name: Ruby a la Cluj
-  type: meetup
-  url: https://www.meetup.com/en/Ruby-a-la-Cluj/
-  locations:
-  - address: Cluj-Napoca, Romania
-- name: Codest
-  type: business
-  url: https://codesthq.com
-  twitter_handle: Codesthq
-  locations:
-  - address: ul. Fabryczna 20A, 31-553 Kraków, Poland
-- name: Stitch Fix
-  type: business
-  url: https://www.stitchfix.com
-  twitter_handle: stitchfix
-  locations:
-  - address: 1 Montgomery Tower, San Francisco, CA 94104, USA
-- name: Bigger Pockets
-  type: business
-  url: https://www.biggerpockets.com
-  twitter_handle: biggerpockets
-  locations:
-  - address: 3344 Walnut St, Denver, CO 80205, USA
-- name: Rapid River Software
-  type: business
-  url: https://www.rrsoft.co
-  twitter_handle: rapidriversw
-  locations:
-  - address: 25-02 Tower A, Vertical Business Suites, Avenue 3 Bangsar South City, 59200 Kuala Lumpur, Malaysia
-- name: WeCode
-  type: business
-  url: https://wecode.io/en
-  twitter_handle: wecodeio
-  locations:
-  - address: Bme. Mitre 87, Ramos Mejía, Buenos Aires, Argentina
-- name: Hamada.rb
-  type: meetup
-  url: https://hamada-rb.github.io/hamadarb/
-  locations:
-  - address: Hamada, Shimane, Japan
-- name: SwitchDreams
-  type: business
-  url: https://www.switchdreams.com.br/
-  locations:
-  - address: SHCGN 502 Bloco B - Asa Norte, Brasília - DF, 70720-502
-- name: adigi GmbH
-  type: business
-  url: https://www.adigi.ai/
-  twitter_handle: adigi_ai
-  locations:
-  - address: Schulstraße 5, 92711 Parkstein, Germany
+  - address: "〒150-0001 東京都渋谷区神宮前6-27-8 京セラ原宿ビル2階"
+    latitude: 35.6661069
+    longitude: 139.7041199
