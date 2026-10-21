@@ -23,7 +23,7 @@ end
 
 
 def sort_orgs_case_insensitively(orgs)
-  orgs.sort { |org1, org2| org1['name'].casecmp(org2['name']) }
+  orgs.sort_by { |org| org['name'].downcase }
 end
 
 
