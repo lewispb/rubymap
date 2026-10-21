@@ -1,9 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title><%= content_for(:title) || "Ruby Map" %></title>
+    <% title = "Ruby Map: the Ruby world, on one map" %>
+    <% description = "Find Ruby companies, meetups and events near you, wherever you are." %>
+    <% image_alt = "A globe with Ruby companies, meetups and events marked across North America, South America and Europe, next to the words: The Ruby world, on one map." %>
+
+    <title><%= content_for(:title) || title %></title>
     <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-    <meta name="description" content="Ruby companies, meetups and events around the world, on one map.">
+    <meta name="description" content="<%= description %>">
+    <link rel="canonical" href="<%= root_url %>">
+
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Ruby Map">
+    <meta property="og:url" content="<%= root_url %>">
+    <meta property="og:title" content="<%= title %>">
+    <meta property="og:description" content="<%= description %>">
+    <meta property="og:image" content="<%= image_url("og-image.png") %>">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="<%= image_alt %>">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:creator" content="@lewispb">
+    <meta name="twitter:title" content="<%= title %>">
+    <meta name="twitter:description" content="<%= description %>">
+    <meta name="twitter:image" content="<%= image_url("og-image.png") %>">
+    <meta name="twitter:image:alt" content="<%= image_alt %>">
     <meta name="color-scheme" content="light dark">
     <meta name="theme-color" content="#fbf8f6" media="(prefers-color-scheme: light)">
     <meta name="theme-color" content="#151214" media="(prefers-color-scheme: dark)">

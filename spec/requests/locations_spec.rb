@@ -12,6 +12,14 @@ RSpec.describe "Locations" do
     expect(response.body).to include('id="map"')
   end
 
+  it "includes Open Graph and Twitter card tags with an absolute image URL" do
+    get "/"
+
+    expect(response.body).to include(%(<meta property="og:title" content="Ruby Map: the Ruby world, on one map">))
+    expect(response.body).to match(%r{<meta property="og:image" content="http://www.example.com/assets/og-image-\w+.png">})
+    expect(response.body).to include(%(<meta name="twitter:card" content="summary_large_image">))
+  end
+
   it "returns locations as GeoJSON" do
     create(:location, address: "Bristol, UK")
 
