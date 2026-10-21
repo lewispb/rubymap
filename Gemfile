@@ -1,42 +1,37 @@
 source "https://rubygems.org"
-git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby "3.1.3"
+ruby file: ".ruby-version"
 
-gem "rails", "~> 7"
+gem "rails", "~> 8.1.4"
 
 gem "active_hash"
 gem "activerecord-postgis-adapter"
+gem "bootsnap", require: false
 gem "geocoder"
+gem "importmap-rails"
 gem "jbuilder"
 gem "pg"
+gem "propshaft"
 gem "puma"
 gem "redis"
-gem "sentry-raven"
-gem "turbolinks", "~> 5"
+gem "sentry-rails"
+gem "sentry-ruby"
 gem "yamllint"
 
-gem "importmap-rails"
-gem "cssbundling-rails"
-gem "sprockets-rails"
-
 group :development, :test do
-  gem "byebug", platforms: [:mri, :mingw, :x64_mingw]
+  gem "brakeman", require: false
+  gem "bundler-audit", require: false
+  gem "debug", platforms: %i[mri windows], require: "debug/prelude"
   gem "dotenv-rails"
   gem "factory_bot_rails"
   gem "rspec-rails"
   gem "standard"
-  gem "listen"
 end
 
 group :development do
-  gem "web-console", ">= 3.3.0"
+  gem "web-console"
 end
 
 group :test do
-  gem "capybara", ">= 2.15"
-  gem "launchy"
-  gem "rails-controller-testing"
   gem "rspec_junit_formatter"
-  gem "utensils", github: "balvig/utensils"
 end
