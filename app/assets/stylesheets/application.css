@@ -365,8 +365,9 @@ button, input { font: inherit; color: inherit; }
 
 .place {
   display: grid;
-  grid-template-columns: var(--s-3) 1fr;
+  grid-template-columns: 32px 1fr;
   column-gap: var(--s-3);
+  align-items: center;
   width: calc(100% + 2 * var(--s-3));
   margin-inline: calc(-1 * var(--s-3));
   padding: var(--s-2) var(--s-3);
@@ -381,14 +382,7 @@ button, input { font: inherit; color: inherit; }
 .place:hover, .place[aria-current="true"] { background: var(--field); }
 .place[aria-current="true"] { box-shadow: inset 2px 0 0 var(--accent); }
 
-.place__dot {
-  width: 8px;
-  height: 8px;
-  margin-top: 7px;
-  border-radius: 50%;
-  background: var(--dot);
-  justify-self: center;
-}
+.place__text { display: grid; min-width: 0; }
 
 .place__name {
   font-weight: 600;
@@ -396,15 +390,59 @@ button, input { font: inherit; color: inherit; }
 }
 
 .place__address {
-  grid-column: 2;
   font-size: 13px;
   color: var(--ink-muted);
   overflow-wrap: anywhere;
 }
 
-.place--business { --dot: var(--type-business); }
-.place--meetup { --dot: var(--type-meetup); }
-.place--event { --dot: var(--type-event); }
+/* Logo tile: logos sit on white in both themes, because many are dark on a
+   transparent background. A dot in the corner shows the type. */
+
+.mark {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  background: #ffffff;
+  box-shadow: inset 0 0 0 1px rgb(0 0 0 / 0.08);
+}
+
+.mark img {
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+  object-fit: contain;
+}
+
+.mark::after {
+  content: "";
+  position: absolute;
+  right: -3px;
+  bottom: -3px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--dot);
+  box-shadow: 0 0 0 2px var(--surface-solid);
+}
+
+.mark--initials {
+  background: var(--dot);
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  box-shadow: none;
+}
+
+.mark--initials::after { display: none; }
+
+.mark--business { --dot: var(--type-business); }
+.mark--meetup { --dot: var(--type-meetup); }
+.mark--event { --dot: var(--type-event); }
+
 
 .places:empty { display: none; }
 
@@ -418,7 +456,7 @@ button, input { font: inherit; color: inherit; }
 /* Popup */
 
 .maplibregl-popup-content {
-  padding: var(--s-4) var(--s-5) var(--s-4) var(--s-4);
+  padding: 0;
   border-radius: var(--radius);
   background: var(--surface-solid);
   color: var(--ink);
@@ -448,12 +486,52 @@ button, input { font: inherit; color: inherit; }
 
 .maplibregl-popup-close-button:hover { background: var(--field); color: var(--ink); }
 
-.popup { display: grid; gap: var(--s-1); max-width: 260px; }
+.maplibregl-popup-content:has(.popup--photo) .maplibregl-popup-close-button {
+  z-index: 1;
+  background: rgb(0 0 0 / 0.5);
+  color: #ffffff;
+}
+
+.maplibregl-popup-content:has(.popup--photo) .maplibregl-popup-close-button:hover { background: rgb(0 0 0 / 0.7); }
+
+.popup { width: 288px; }
+
+.popup__photo {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 12 / 7;
+  object-fit: cover;
+  border-radius: var(--radius) var(--radius) 0 0;
+  background: var(--field);
+}
+
+.popup__body {
+  display: grid;
+  gap: var(--s-1);
+  padding: var(--s-4);
+}
+
+.popup__head {
+  display: flex;
+  align-items: center;
+  gap: var(--s-2);
+  margin-bottom: var(--s-1);
+}
+
+.popup__mark { width: 40px; height: 40px; border-radius: 10px; }
+.popup__mark.mark--initials { font-size: 14px; }
+
+/* With a photo, the logo overlaps the photo edge. */
+.popup--photo .popup__mark {
+  margin-top: calc(-1 * var(--s-4) - 20px);
+  box-shadow: 0 0 0 3px var(--surface-solid), 0 2px 8px rgb(0 0 0 / 0.2);
+}
+
+.popup--photo .popup__mark::after { box-shadow: 0 0 0 2px var(--surface-solid); }
+.popup--photo .popup__type { align-self: flex-end; }
 
 .popup__type {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
   font-size: 12px;
   font-weight: 650;
   letter-spacing: 0.06em;
@@ -461,24 +539,27 @@ button, input { font: inherit; color: inherit; }
   color: var(--dot);
 }
 
-.popup__type::before {
-  content: "";
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: var(--dot);
-}
-
 .popup__name {
   margin: 0;
-  padding-right: var(--s-4);
   font-size: 17px;
   font-weight: 700;
   line-height: 1.25;
   letter-spacing: -0.01em;
 }
 
-.popup__address { margin: 0; color: var(--ink-muted); }
+.popup__name a { color: inherit; text-decoration: none; }
+.popup__name a:hover { color: var(--accent); }
+
+.popup__description {
+  margin: 0;
+  color: var(--ink);
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  overflow: hidden;
+}
+
+.popup__address { margin: 0; color: var(--ink-muted); font-size: 13px; }
 
 .popup__links {
   display: flex;
@@ -488,9 +569,20 @@ button, input { font: inherit; color: inherit; }
   font-weight: 550;
 }
 
+.popup__credit {
+  margin: var(--s-2) 0 0;
+  padding-top: var(--s-2);
+  border-top: 1px solid var(--rule);
+  font-size: 12px;
+  color: var(--ink-muted);
+}
+
+.popup__credit a { color: inherit; }
+
 .popup--business { --dot: var(--type-business); }
 .popup--meetup { --dot: var(--type-meetup); }
 .popup--event { --dot: var(--type-event); }
+
 
 /* Map controls */
 

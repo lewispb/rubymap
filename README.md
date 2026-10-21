@@ -13,6 +13,34 @@ An example PR can be found [here](https://github.com/lewispb/rubymap/pull/1).
 
 Please try to maintain the order-by-name of the yaml file, to prevent merge conflicts.
 
+Each entry can also have a `description` of one or two sentences, and a `photo`
+(600×350) and a `logo` (96×96) stored in `app/assets/images/organizations`.
+
+## Data sources
+
+Most meetups and events, with their photos and logos, come from
+[RubyEvents.org](https://www.rubyevents.org)
+([github.com/rubyevents/rubyevents](https://github.com/rubyevents/rubyevents)).
+The card for each of these entries links back to RubyEvents. To update them,
+clone that repository and run:
+
+```bash
+bin/rails "rubyevents:import[path/to/rubyevents]"
+```
+
+The importer adds any series that is missing, at the place of its next or latest
+edition. It skips conferences with no edition since 2024. Entries that already
+exist keep their details. To stop a series from being added again, list its id
+in `data/seeds/rubyevents_ignored.yml`.
+
+For other entries, `bin/rails organizations:media` downloads the share image
+(`og:image`) and the icon from the organization's website. It identifies itself
+as RubyMap, follows robots.txt and skips meetup.com. To have an image removed or
+replaced, open an issue or a pull request.
+
+The descriptions were drafted by an AI model from each organization's website
+and its RubyEvents text. Corrections are welcome.
+
 ## Development
 
 Ruby Map is a Rails app backed by PostgreSQL with PostGIS. The map is drawn with

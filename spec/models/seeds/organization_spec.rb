@@ -6,6 +6,13 @@ RSpec.describe Seeds::Organization do
   end
 
   describe ".sync" do
+    it "uses coordinates from the YAML instead of geocoding" do
+      Seeds::Organization.sync
+
+      retreat = Organization.find_by!(name: "Ruby Retreat AU").locations.sole
+      expect(retreat.coords.coordinates).to eq([151.2428673, -33.8560452])
+    end
+
     it "imports organizations" do
       Seeds::Organization.sync
 
@@ -21,7 +28,7 @@ RSpec.describe Seeds::Organization do
       Seeds::Organization.sync
 
       expect(location.reload.coords.coordinates).to eq([10, 20])
-      expect(Geocoder).to have_received(:search).exactly(Location.count).times
+      expect(Geocoder).to have_received(:search).exactly(Seeds::Organization.all.sum { |org| org.locations.count { |location| location["latitude"].nil? } }).times
     end
 
     it "removes organizations and locations that are no longer listed" do
