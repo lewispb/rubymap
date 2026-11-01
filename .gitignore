@@ -24,3 +24,7 @@
 
 .env*
 
+
+# Deploy config lives in the private lewispb/infra repository.
+/config/deploy*.yml
+/.kamal/

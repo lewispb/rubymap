@@ -1,0 +1,10 @@
+/.git/
+/.github/
+/log/*
+/tmp/*
+/storage/*
+/node_modules/
+/.kamal/secrets*
+/config/master.key
+/config/credentials/*.key
+/spec/
