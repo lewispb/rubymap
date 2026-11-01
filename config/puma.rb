@@ -34,6 +34,15 @@ port ENV.fetch("PORT", 3000)
 # Allow puma to be restarted by `bin/rails restart` command.
 plugin :tmp_restart
 
+# Request and Puma metrics for Prometheus at http://0.0.0.0:9394/metrics
+# (Yabeda), for a Prometheus scraper on the same Docker network. Expose the
+# port to Docker networks only, never publicly.
+if ENV["RAILS_ENV"] == "production"
+  activate_control_app
+  plugin :yabeda
+  plugin :yabeda_prometheus
+end
+
 # Specify the PID file. Defaults to tmp/pids/server.pid in development.
 # In other environments, only set the PID file if requested.
 pidfile ENV["PIDFILE"] if ENV["PIDFILE"]

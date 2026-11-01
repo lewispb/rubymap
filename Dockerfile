@@ -4,7 +4,7 @@
 # Production image for Kamal. Build and run by hand with:
 #   docker build -t rubymap . && docker run -p 80:3000 -e RAILS_MASTER_KEY=... rubymap
 
-ARG RUBY_VERSION=4.0.7
+ARG RUBY_VERSION=4.0.9
 FROM docker.io/library/ruby:$RUBY_VERSION-slim AS base
 
 WORKDIR /rails
@@ -46,5 +46,5 @@ COPY --chown=rails:rails --from=build /rails /rails
 
 ENTRYPOINT ["/rails/bin/docker-entrypoint"]
 
-EXPOSE 3000
+EXPOSE 3000 9394
 CMD ["./bin/rails", "server", "-b", "0.0.0.0", "-p", "3000"]

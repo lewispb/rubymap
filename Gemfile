@@ -33,3 +33,8 @@ end
 group :development do
   gem "web-console"
 end
+
+# Request and Puma metrics for Prometheus (config/puma.rb)
+gem "yabeda-rails"
+gem "yabeda-puma-plugin"
+gem "yabeda-prometheus"
