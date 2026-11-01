@@ -48,14 +48,14 @@ Ruby Map is a Rails app backed by PostgreSQL with PostGIS. The map is drawn with
 tiles of [OpenStreetMap](https://www.openstreetmap.org) data, and addresses are
 geocoded with [Nominatim](https://nominatim.org). None of these need an API key.
 
-You need Ruby (see `.ruby-version`) and Docker. Start PostGIS, then set up the app:
+You need Ruby (see `.ruby-version`) and Docker. Set up the app with:
 
 ```bash
-docker compose up -d
 bin/setup
 ```
 
-`bin/setup` creates the database and starts the server at http://localhost:3000.
+`bin/setup` starts PostGIS on 127.0.0.1:35432 with Docker Compose, creates the
+database and starts the server at http://localhost:3000.
 To load the organizations, run:
 
 ```bash

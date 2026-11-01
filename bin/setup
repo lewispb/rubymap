@@ -12,7 +12,17 @@ FileUtils.chdir APP_ROOT do
   # This script is idempotent, so that you can run it at any time and get an expectable outcome.
   # Add necessary setup steps to this file.
 
-  puts "== Installing dependencies =="
+  puts "== Starting PostGIS =="
+  docker_dev = File.expand_path("~/Work/lewispb/docker-dev")
+  if Dir.exist?(docker_dev) || system("gh", "repo", "clone", "lewispb/docker-dev", docker_dev, out: File::NULL, err: File::NULL)
+    system! "git", "-C", docker_dev, "pull", "--quiet"
+    system! File.join(docker_dev, "setup"), "--wait", "postgres17"
+  else
+    # lewispb/docker-dev is private; compose.yml serves the same PostGIS.
+    system! "docker compose up --detach --wait"
+  end
+
+  puts "\n== Installing dependencies =="
   system("bundle check") || system!("bundle install")
 
   # puts "\n== Copying sample files =="
